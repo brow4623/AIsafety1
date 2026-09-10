@@ -30,6 +30,8 @@ def assemble(references, rewrites, allow_partial=False):
             raise ValueError(f"Invalid answer for {row['id']}")
         candidates.append({**row, "answer": answer, "messages": [
             *row["messages"][:-1], {"role": "assistant", "content": answer}]})
+        if "provenance" in rewritten[row["id"]]:
+            candidates[-1]["rewrite_provenance"] = rewritten[row["id"]]["provenance"]
     summary, details = audit(selected, candidates, mode="rewrite")
     if summary["failed"]:
         failed = [row["id"] for row in details if not row["passed"]]
@@ -85,7 +87,7 @@ def main():
     if args.publish:
         path = Path("data/manifest.json")
         manifest = json.loads(path.read_text(encoding="utf-8"))
-        manifest["transformation"] = "mario-v2-context-aware-astra-medium"
+        manifest["transformation"] = metadata.get("transformation", "mario-v2-context-aware-astra-medium")
         manifest["generation"] = {**prepared["train"][2]["generation"],
                                   "prompt_sha256": hashlib.sha256(Path("prompts/mario_rewrite.md").read_bytes()).hexdigest(),
                                   "shards": {key: value for _, _, report in prepared.values() for key, value in report["shards"].items()}}

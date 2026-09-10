@@ -5,3 +5,6 @@ models/
 data/rewrites/
 data/rejected_rewrites/
 data/mario_v2/
+.env
+.env.*
+*.lock
