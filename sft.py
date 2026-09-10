@@ -21,6 +21,7 @@ from pathlib import Path
 import torch
 from datasets import Dataset
 from peft import LoraConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from trl import SFTConfig, SFTTrainer
 
 from verifier import is_correct
@@ -98,7 +99,7 @@ def main() -> None:
         save_total_limit=1,
         report_to="none",
         seed=args.seed,
-        model_init_kwargs={"dtype": torch.bfloat16 if use_cuda else torch.float32},
+        dataset_num_proc=1,
     )
     lora = LoraConfig(
         r=args.rank,
@@ -108,7 +109,11 @@ def main() -> None:
         task_type="CAUSAL_LM",
     )
 
-    trainer = SFTTrainer(model=args.model, args=cfg, train_dataset=ds, peft_config=lora)
+    # Load explicitly rather than letting the trainer load from the name string: identical
+    # behaviour across machines, and it avoids a trainer-side loading crash seen on macOS.
+    tok = AutoTokenizer.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(args.model, dtype=torch.bfloat16 if use_cuda else torch.float32)
+    trainer = SFTTrainer(model=model, processing_class=tok, args=cfg, train_dataset=ds, peft_config=lora)
 
     # Report sequence-length stats so max_len truncation is visible, not silent.
     lens = [len(x) for x in trainer.train_dataset["input_ids"]]

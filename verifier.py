@@ -5,14 +5,15 @@ The single source of truth for "is this answer correct". Used by:
   - eval.py,
   - later, the RLVR reward.
 
-Convention: the final answer is the number after the last "####" marker, exactly as in
-GSM8K. Anything without a "####" marker is scored as wrong (strict) so that the model is
-also being trained/evaluated on producing a parseable answer.
+Convention: the final answer is the number after the last "####" marker (GSM8K style) or
+inside the last "\\boxed{...}" (the format the untuned Qwen2.5-Instruct model uses on its own).
+Whichever marker appears last wins. Anything with neither marker is scored as wrong (strict)
+so that the model is also being trained/evaluated on producing a parseable answer.
 """
 
 import re
 
-_MARKER_RE = re.compile(r"####\s*\$?\s*(-?[\d,]*\.?\d+)")
+_MARKER_RE = re.compile(r"(?:####\s*|\\boxed\{\s*)\$?\s*(-?[\d,]*\.?\d+)")
 _NUMBER_RE = re.compile(r"-?\d[\d,]*\.?\d*")
 
 
@@ -27,7 +28,7 @@ def _to_float(s: str) -> float | None:
 def extract_answer(text: str, lenient: bool = False) -> float | None:
     """Return the numeric final answer from a completion, or None if not found.
 
-    strict (default): number after the last "####".
+    strict (default): number after the last "####" or inside the last "\\boxed{}".
     lenient: fall back to the last number anywhere in the text. Use only for diagnostics,
              never for the headline metric.
     """
@@ -73,6 +74,10 @@ if __name__ == "__main__":
         ("#### 7", "8", False),
         ("The answer is 7.", "7", False),          # no marker -> wrong in strict mode
         ("#### 7\nActually #### 8", "8", True),     # last marker wins
+        ("Therefore \\[ \\boxed{50} \\]", "50", True),  # untuned Qwen format
+        ("\\boxed{1,250}", "1250", True),
+        ("\\boxed{ 18 }", "18", True),
+        ("\\boxed{7} ... #### 8", "8", True),
     ]
     for text, gold, want in cases:
         got = is_correct(text, gold)

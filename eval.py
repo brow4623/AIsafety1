@@ -80,6 +80,7 @@ def main() -> None:
         prompts.append(tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True))
 
     outputs: list[str] = []
+    gen_lens: list[int] = []
     t0 = time.time()
     for i in tqdm(range(0, len(prompts), args.batch_size), desc=args.name):
         batch = prompts[i : i + args.batch_size]
@@ -93,13 +94,13 @@ def main() -> None:
             )
         new_tokens = gen[:, enc["input_ids"].shape[1] :]
         outputs.extend(tok.batch_decode(new_tokens, skip_special_tokens=True))
+        gen_lens.extend((new_tokens != tok.pad_token_id).sum(dim=1).tolist())
     elapsed = time.time() - t0
 
     n = len(rows)
     strict = sum(is_correct(o, r["answer"]) for o, r in zip(outputs, rows))
     lenient = sum(is_correct(o, r["answer"], lenient=True) for o, r in zip(outputs, rows))
     no_marker = sum(extract_answer(o) is None for o in outputs)
-    gen_lens = [len(tok(o)["input_ids"]) for o in outputs]
     hit_cap = sum(l >= args.max_new_tokens for l in gen_lens)
 
     out_dir = Path(args.results_dir)
