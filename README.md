@@ -6,6 +6,8 @@ Assignment 1: Post-training Qwen2.5-3B-Instruct for persona + STEM capability (S
 
 **The initial Mario dataset is rejected and must not be used for training.** It added generic catchphrases rather than rewriting the explanations in character. [Review the context-aware replacement preview](MARIO_STYLE_PREVIEW.md) and [rewrite specification](prompts/mario_rewrite.md). Full regeneration is pending; the files and commands below document the original, rejected baseline only.
 
+**Stopped at the user's request:** 475 Astra rewrites are saved (325 train, 150 validation). See [the checkpoint and Sonnet handoff](data/checkpoints/astra-paused/RESUME.md). All workers are interrupted; no Claude API generation has started.
+
 See [the research plan](RESEARCH_PLAN.md). Prepared configuration: GSM8K, Mario, 3,000 train / 500 validation, seed 42. Training and model evaluation have **not** been run. This repository currently contains the data preparation and checking portion, not a trained model.
 
 Python 3.11+; preparation and checking use only the standard library. Run commands from this repository's root.
@@ -34,7 +36,7 @@ These are reference consistency checks, **not model accuracy** and not proof of 
 
 ## Context-aware rewrite batches
 
-New answers are individually authored by a `gpt-5.6-luna` subagent in `data/rewrites/`. `assemble_rewrites.py` checks IDs, final answers, and ordered calculator annotations, then pairs answers with the unchanged original questions and chat format. It performs no persona generation and makes no claim to check semantic fidelity or character quality. Those require separate review.
+Saved replacement answers were individually authored by `gpt-6-astra` subagents with medium reasoning in `data/rewrites_astra/`. `assemble_rewrites.py` checks IDs, exact final lines, numerical answers, and ordered calculator annotations, then pairs answers with unchanged original questions and chat format. It performs no persona generation and makes no claim to check semantic fidelity or character quality. Those require separate review. The earlier Luna trials are not included in the saved Astra checkpoint.
 
 ```powershell
 python assemble_rewrites.py --split train --allow-partial

@@ -42,6 +42,21 @@ class RewriteTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 assemble([self.original], rewrites)
 
+    def test_reference_order_controls_assembly(self):
+        references = [self.original, {**self.original, "id": "second"}]
+        rewrites = [{**self.rewrite, "id": "second"}, self.rewrite]
+        rows, report = assemble(references, rewrites)
+        self.assertEqual([row["id"] for row in rows], [row["id"] for row in references])
+        self.assertTrue(report["complete"])
+
+    def test_omitted_annotation_is_rejected(self):
+        with self.assertRaises(ValueError):
+            assemble([self.original], [{**self.rewrite, "answer": self.rewrite["answer"].replace("<<18-7=11>>", "")}])
+
+    def test_dataset_final_line_must_be_exact(self):
+        with self.assertRaises(ValueError):
+            assemble([self.original], [{**self.rewrite, "answer": self.rewrite["answer"].replace("#### 11", "#### 11.0")}])
+
 
 if __name__ == "__main__":
     unittest.main()

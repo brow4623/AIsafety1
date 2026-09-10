@@ -68,6 +68,7 @@ def audit(original, modified, mode="legacy"):
         checks = {
             "question_unchanged": reference["question"] == candidate["question"],
             "answer_preserved": gold is not None and gold == value,
+            "final_line_preserved": reference["answer"].strip().splitlines()[-1:] == candidate["answer"].strip().splitlines()[-1:],
             "calculations_preserved": re.findall(r"<<.*?>>", reference["answer"]) == re.findall(r"<<.*?>>", candidate["answer"]),
             "chat_consistent": all(row.get("messages") == [
                 {"role": "system", "content": reference["messages"][0]["content"]},

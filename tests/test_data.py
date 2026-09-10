@@ -80,11 +80,13 @@ class DownloadedDataTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256((Path("data/raw") / name).read_bytes()).hexdigest(), source["sha256"])
 
     def test_all_pairs_and_sizes(self):
+        manifest = json.loads(Path("data/manifest.json").read_text(encoding="utf-8"))
+        mode = "rewrite" if manifest["transformation"].startswith("mario-v2") else "legacy"
         for split, count in (("train", 3000), ("validation", 500)):
             original = read_jsonl(f"data/original/{split}.jsonl")
             modified = read_jsonl(f"data/mario/{split}.jsonl")
             self.assertEqual(len(original), count)
-            self.assertEqual(audit(original, modified)[0]["failed"], 0)
+            self.assertEqual(audit(original, modified, mode=mode)[0]["failed"], 0)
         self.assertEqual(len(read_jsonl("data/original/test.jsonl")), 1319)
 
     def test_splits_disjoint(self):
@@ -102,9 +104,20 @@ class DownloadedDataTests(unittest.TestCase):
         for split in ("train", "validation"):
             indices = manifest["source_train_indices"][split]
             original = [record(raw[i], i, "train", False, manifest["seed"]) for i in indices]
-            modified = [record(raw[i], i, "train", True, manifest["seed"]) for i in indices]
             self.assertEqual(original, read_jsonl(f"data/original/{split}.jsonl"))
+            if manifest["transformation"].startswith("mario-v2"):
+                from assemble_rewrites import assemble
+                shards = [row for path in sorted(Path("data/rewrites_astra").glob(f"{split}_*.jsonl"))
+                          for row in read_jsonl(path)]
+                modified, _ = assemble(original, shards)
+            else:
+                modified = [record(raw[i], i, "train", True, manifest["seed"]) for i in indices]
             self.assertEqual(modified, read_jsonl(f"data/mario/{split}.jsonl"))
+
+    def test_rewrite_provenance_hashes(self):
+        manifest = json.loads(Path("data/manifest.json").read_text(encoding="utf-8"))
+        for path, expected in manifest.get("generation", {}).get("shards", {}).items():
+            self.assertEqual(hashlib.sha256(Path(path).read_bytes()).hexdigest(), expected)
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from check_answers import audit, index_rows
+from check_answers import audit, index_rows, score
 from mario_data import read_jsonl, write_jsonl
 
 
@@ -40,26 +40,58 @@ def assemble(references, rewrites, allow_partial=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--split", choices=("train", "validation"), required=True)
-    parser.add_argument("--shards", default="data/rewrites")
+    parser.add_argument("--split", choices=("train", "validation", "all"), default="all")
+    parser.add_argument("--shards", default="data/rewrites_astra")
     parser.add_argument("--allow-partial", action="store_true")
+    parser.add_argument("--publish", action="store_true",
+                        help="Publish both complete, validated splits to data/mario and update the manifest")
     args = parser.parse_args()
-    paths = sorted(Path(args.shards).glob(f"{args.split}_*.jsonl"))
+    if args.publish and (args.allow_partial or args.split != "all"):
+        parser.error("Publishing requires both complete splits: --split all without --allow-partial")
+    splits = ("train", "validation") if args.split == "all" else (args.split,)
+    prepared = {}
     try:
-        rewrites = [row for path in paths for row in read_jsonl(path)]
-        rows, report = assemble(read_jsonl(f"data/original/{args.split}.jsonl"), rewrites, args.allow_partial)
-    except (ValueError, KeyError) as error:
+        metadata = json.loads((Path(args.shards) / "generation.json").read_text(encoding="utf-8"))
+        if not all(metadata.get(key) for key in ("model", "reasoning_effort", "method")):
+            raise ValueError("generation.json must identify the model, reasoning_effort, and method")
+        for split in splits:
+            paths = sorted(Path(args.shards).glob(f"{split}_*.jsonl"))
+            rewrites = [row for path in paths for row in read_jsonl(path)]
+            references = read_jsonl(f"data/original/{split}.jsonl")
+            rows, report = assemble(references, rewrites, args.allow_partial)
+            report["shards"] = {str(path).replace("\\", "/"): hashlib.sha256(path.read_bytes()).hexdigest() for path in paths}
+            report["generation"] = metadata
+            prepared[split] = (references, rows, report)
+    except (ValueError, KeyError, OSError) as error:
         parser.error(str(error))
-    root = Path("data/mario_v2")
+    # Validate all requested splits before touching any output, especially canonical data.
+    root = Path("data/mario" if args.publish else "data/mario_v2")
     root.mkdir(parents=True, exist_ok=True)
     suffix = ".preview" if args.allow_partial else ""
-    output = root / f"{args.split}{suffix}.jsonl"
-    write_jsonl(output, rows)
-    report["shards"] = {str(path).replace("\\", "/"): hashlib.sha256(path.read_bytes()).hexdigest() for path in paths}
-    report["output_sha256"] = hashlib.sha256(output.read_bytes()).hexdigest()
-    report["generation"] = "individually authored by gpt-5.6-luna subagent; no rule-based prose generator"
-    output.with_suffix(".report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n")
-    print(json.dumps({key: value for key, value in report.items() if key != "shards"}, indent=2))
+    for split, (references, rows, report) in prepared.items():
+        output = root / f"{split}{suffix}.jsonl"
+        write_jsonl(output, rows)
+        report["output_sha256"] = hashlib.sha256(output.read_bytes()).hexdigest()
+        output.with_suffix(".report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n")
+        if args.publish:
+            for name, result in ((f"{split}_integrity", audit(references, rows, mode="rewrite")),
+                                 (f"mario_{split}_answers", score(references, rows, field="answer"))):
+                summary, details = result
+                path = Path("reports") / f"{name}.json"
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8", newline="\n")
+                write_jsonl(path.with_suffix(".details.jsonl"), details)
+        print(json.dumps({key: value for key, value in report.items() if key != "shards"}, indent=2))
+    if args.publish:
+        path = Path("data/manifest.json")
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        manifest["transformation"] = "mario-v2-context-aware-astra-medium"
+        manifest["generation"] = {**prepared["train"][2]["generation"],
+                                  "prompt_sha256": hashlib.sha256(Path("prompts/mario_rewrite.md").read_bytes()).hexdigest(),
+                                  "shards": {key: value for _, _, report in prepared.values() for key, value in report["shards"].items()}}
+        manifest["files"] = {str(p.relative_to("data")).replace("\\", "/"): hashlib.sha256(p.read_bytes()).hexdigest()
+                             for variant in ("original", "mario") for p in sorted((Path("data") / variant).glob("*.jsonl"))}
+        path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
 if __name__ == "__main__":

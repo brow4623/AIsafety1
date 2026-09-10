@@ -1,4 +1,7 @@
 __pycache__/
 .venv/
 models/
-checkpoints/
+/checkpoints/
+data/rewrites/
+data/rejected_rewrites/
+data/mario_v2/
