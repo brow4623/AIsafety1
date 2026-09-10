@@ -18,7 +18,7 @@ from assemble_rewrites import assemble
 from mario_data import read_jsonl, write_jsonl
 
 MODEL = "claude-sonnet-5"
-ROOT = Path("data/rewrites_sonnet")
+ROOT = Path("data/generation")
 LOG_LOCK = threading.Lock()
 
 
@@ -84,7 +84,7 @@ def api_key(env_file=None):
 def prompt_prefix():
     instructions = Path("prompts/mario_rewrite.md").read_text(encoding="utf-8")
     originals = {row["id"]: row for row in read_jsonl("data/original/train.jsonl")}
-    blocks = re.split(r"(?m)^## ", Path("MARIO_STYLE_PREVIEW.md").read_text(encoding="utf-8"))[1:5]
+    blocks = re.split(r"(?m)^## ", Path("prompts/mario_examples.md").read_text(encoding="utf-8"))[1:5]
     examples = []
     for block in blocks:
         key = re.search(r"gsm8k/train/\d+", block)[0]
@@ -171,15 +171,20 @@ def rewrite(job, key, prefix, config_hash):
 
 def inventory(config_hash):
     pending, combined, provenance = [], {}, {}
+    astra_records = read_jsonl(ROOT / "astra.jsonl")
+    sonnet_records = read_jsonl(ROOT / "sonnet.jsonl") if (ROOT / "sonnet.jsonl").exists() else []
+    sonnet_records += [json.loads(path.read_text(encoding="utf-8"))
+                       for path in sorted((ROOT / "records").rglob("*.json"))]
+    if any(row.get("split") not in ("train", "validation") for row in astra_records + sonnet_records):
+        raise ValueError("Unknown split in generation records")
     for split in ("train", "validation"):
         references = read_jsonl(f"data/original/{split}.jsonl")
         original_by_id = {row["id"]: row for row in references}
-        astra = read_jsonl(f"data/checkpoints/astra-paused/{split}.preview.jsonl")
+        astra = [row for row in astra_records if row["split"] == split]
         assemble(references, astra, allow_partial=True)
         saved = {row["id"]: {"id": row["id"], "answer": row["answer"],
                             "provenance": {"model": "gpt-6-astra", "reasoning_effort": "medium"}} for row in astra}
-        for path in sorted((ROOT / "records" / split).glob("*.json")):
-            row = json.loads(path.read_text(encoding="utf-8"))
+        for row in (row for row in sonnet_records if row["split"] == split):
             if row["id"] in saved or row["id"] not in original_by_id:
                 raise ValueError(f"Duplicate or unknown saved ID: {row['id']}")
             if row["config_hash"] != config_hash or row["source_hash"] != digest(original_by_id[row["id"]]):
@@ -197,13 +202,13 @@ def inventory(config_hash):
 
 def export_results(config_hash):
     pending, combined, provenance = inventory(config_hash)
-    destination = Path("data/rewrites_combined")
+    destination = ROOT
     for split, rows in combined.items():
         write_jsonl(destination / f"{split}_all.jsonl", rows)
     save_json(destination / "generation.json", {"model": "mixed Astra and Sonnet", "reasoning_effort": "per-record",
         "method": "475 saved Astra subagent rewrites plus validated Sonnet API rewrites",
         "transformation": "mario-v2-context-aware-mixed", "models": provenance,
-        "sonnet_config_hash": config_hash, "source_shard_directory": "data/rewrites_combined"})
+        "sonnet_config_hash": config_hash, "source_shard_directory": str(ROOT).replace("\\", "/")})
     usage = {key: 0 for key in ("input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens")}
     attempts = read_jsonl(ROOT / "attempts.jsonl") if (ROOT / "attempts.jsonl").exists() else []
     for attempt in attempts:

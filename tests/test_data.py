@@ -107,7 +107,7 @@ class DownloadedDataTests(unittest.TestCase):
             self.assertEqual(original, read_jsonl(f"data/original/{split}.jsonl"))
             if manifest["transformation"].startswith("mario-v2"):
                 from assemble_rewrites import assemble
-                directory = manifest["generation"].get("source_shard_directory", "data/rewrites_astra")
+                directory = manifest["generation"].get("source_shard_directory", "data/generation")
                 shards = [row for path in sorted(Path(directory).glob(f"{split}_*.jsonl"))
                           for row in read_jsonl(path)]
                 modified, _ = assemble(original, shards)

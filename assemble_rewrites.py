@@ -43,7 +43,7 @@ def assemble(references, rewrites, allow_partial=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--split", choices=("train", "validation", "all"), default="all")
-    parser.add_argument("--shards", default="data/rewrites_astra")
+    parser.add_argument("--shards", default="data/generation")
     parser.add_argument("--allow-partial", action="store_true")
     parser.add_argument("--publish", action="store_true",
                         help="Publish both complete, validated splits to data/mario and update the manifest")

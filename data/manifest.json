@@ -3546,11 +3546,11 @@
       "claude-sonnet-5": 3025
     },
     "sonnet_config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
-    "source_shard_directory": "data/rewrites_combined",
+    "source_shard_directory": "data/generation",
     "prompt_sha256": "8a0728c9e1a638818e023a9099d76d0f5169f5343508e1423ec2ff3ba39e87c6",
     "shards": {
-      "data/rewrites_combined/train_all.jsonl": "c4785b12e369b1c7b7caa5f0ccdd35de4fec89e2d444f2c41a54928c654af44a",
-      "data/rewrites_combined/validation_all.jsonl": "47b569328470ca8b8780eb7ad884f90850175a1b6a0f602430966027cb4762a6"
+      "data/generation/train_all.jsonl": "c4785b12e369b1c7b7caa5f0ccdd35de4fec89e2d444f2c41a54928c654af44a",
+      "data/generation/validation_all.jsonl": "47b569328470ca8b8780eb7ad884f90850175a1b6a0f602430966027cb4762a6"
     }
   }
 }

@@ -12,13 +12,13 @@ The complete context-aware replacement contains 475 preserved Astra rewrites and
 | Mario training final answers against original | 3,000 / 3,000 matched |
 | Mario validation final answers against original | 500 / 500 matched |
 | Official test reference format validation | 1,319 / 1,319 valid |
-| Unit and downloaded-data tests | 27 passed |
+| Unit and downloaded-data tests | 28 passed |
 
 Rewrite integrity checks include unchanged questions, identical ordered calculator annotations, exact final lines, normalized final answers, and chat-message consistency. Original prose recovery is deliberately not required for genuine rewrites. Tests also check stored SHA-256 hashes, reconstruction from raw source records and rewrite shards, exact split disjointness, malformed outputs, missing predictions, duplicate IDs, deliberately corrupted answers, and runner caching/retry behavior.
 
 The explanations were rewritten in contextual Mario voice, with source questions and numerical targets preserved. Spot-checks and limitations are recorded in `mario_v2_review.md`; the planned 50-train/50-validation human style review has not been completed. Original-source ambiguities and occasional rewrite embellishments remain review caveats.
 
-Sonnet generation received 3,064 API responses, rejected 39 candidates before saving, and finished with zero missing records. Cache reads accounted for 91.88% of reported input tokens; estimated API cost was $11.41, including rejected attempts. This is a usage-based estimate, not a billing invoice. Exact usage and provenance are in `data/rewrites_sonnet/summary.json` and the per-record checkpoints.
+Sonnet generation received 3,064 API responses, rejected 39 candidates before saving, and finished with zero missing records. Cache reads accounted for 91.88% of reported input tokens; estimated API cost was $11.41, including rejected attempts. This is a usage-based estimate, not a billing invoice. Exact usage and provenance are in `data/generation/summary.json` and the compact raw records in `data/generation/sonnet.jsonl`.
 
 No SFT model has been trained or evaluated. No base/SFT accuracy comparison, similarity metric, persona judge score, or hypothesis result is available yet. The official test reference self-check only validates parsing, not model performance or independent correctness of the source solutions.
 

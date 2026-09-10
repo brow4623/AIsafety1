@@ -1,9 +1,0 @@
-{
-  "model": "gpt-6-astra",
-  "reasoning_effort": "medium",
-  "method": "individually authored subagent rewrites; no rule-based prose generation",
-  "style_specification": "prompts/mario_rewrite.md",
-  "approved_preview": "MARIO_STYLE_PREVIEW.md",
-  "scope": "3000 train and 500 validation; official test not rewritten",
-  "review_scope": "subagent self-review plus parent sampling; not an exhaustive independent human audit"
-}
