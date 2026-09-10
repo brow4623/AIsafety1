@@ -22,6 +22,10 @@ ROOT = Path("data/rewrites_sonnet")
 LOG_LOCK = threading.Lock()
 
 
+class RecordFailure(RuntimeError):
+    """A bounded per-record failure; other independent examples can continue."""
+
+
 @contextmanager
 def run_lock():
     """OS-released lock prevents two runners from paying for the same missing IDs."""
@@ -145,7 +149,14 @@ def rewrite(job, key, prefix, config_hash):
         except ValueError as error:
             event.update({"accepted": False, "answer": answer, "error": str(error)})
             log_attempt(event)
-            feedback = "Previous attempt failed validation. Copy ALL original <<...>> annotations in exact order and the exact final #### line; finish the entire explanation."
+            feedback = {"instruction": "Regenerate the complete answer. Correct the exact mismatch below. "
+                        "Do not include an incorrect calculation followed by a self-correction. "
+                        "Include each required annotation exactly once in order, including any repeated source annotations. "
+                        "Return only the final complete, concise Mario explanation.",
+                        "required_annotations": re.findall(r"<<.*?>>", row["answer"]),
+                        "previous_annotations": re.findall(r"<<.*?>>", answer),
+                        "required_final_line": row["answer"].strip().splitlines()[-1],
+                        "previous_final_line": answer.splitlines()[-1:]}
             continue
         event["accepted"] = True
         log_attempt(event)
@@ -154,7 +165,7 @@ def rewrite(job, key, prefix, config_hash):
                  "usage": result.get("usage", {})}
         save_json(ROOT / "records" / split / (row["id"].replace("/", "_") + ".json"), saved)
         return saved
-    raise RuntimeError(f"Retries exhausted for {row['id']}; completed records remain saved")
+    raise RecordFailure(f"Retries exhausted for {row['id']}; deferred for a later retry")
 
 
 def inventory(config_hash):
@@ -237,8 +248,13 @@ def main():
     try:
         if pending:
             # The first real request warms the static prefix before concurrent requests start.
-            first = rewrite(pending[0], key, prefix, config_hash)
-            print("Warm-up usage: " + json.dumps(first["usage"]), flush=True)
+            failed = 0
+            try:
+                first = rewrite(pending[0], key, prefix, config_hash)
+                print("Warm-up usage: " + json.dumps(first["usage"]), flush=True)
+            except RecordFailure as error:
+                failed += 1
+                print(str(error), flush=True)
             jobs = iter(pending[1:])
             completed = 1
             with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -246,13 +262,19 @@ def main():
                 while futures:
                     ready, futures = wait(futures, return_when=FIRST_COMPLETED)
                     for future in ready:
-                        future.result()
+                        try:
+                            future.result()
+                        except RecordFailure as error:
+                            failed += 1
+                            print(str(error), flush=True)
                         completed += 1
                         if completed % 25 == 0:
-                            print(f"Saved {completed}/{len(pending)} new rewrites", flush=True)
+                            print(f"Processed {completed}/{len(pending)}; saved={completed-failed}, deferred={failed}", flush=True)
                         job = next(jobs, None)
                         if job is not None:
                             futures.add(pool.submit(rewrite, job, key, prefix, config_hash))
+            if failed:
+                raise RecordFailure(f"Run finished with {failed} deferred records; rerun to retry only missing IDs")
     finally:
         export_results(config_hash)
 
