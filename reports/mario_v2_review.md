@@ -16,4 +16,4 @@ The latest samples use contextual dialogue about dinner, plumbing, charging devi
 
 ## Status
 
-Full regeneration is in progress. The old `data/mario` files remain rejected. Do not train on partial previews. Complete assembly reports and a final sampling review must be recorded before replacing the canonical dataset.
+Bulk regeneration is paused pending generator selection. Subsequent Luna batches again reverted to neutral textbook phrasing despite passing numerical checks; the reviewing assistant stopped the workers rather than scale an inadequate transformation. The old `data/mario` files remain rejected. No complete replacement has been accepted. Do not train on partial previews. Complete assembly reports and a final sampling review must be recorded before replacing the canonical dataset.
