@@ -1,0 +1,7 @@
+{
+  "kind": "dataset_integrity_not_model_accuracy",
+  "total": 500,
+  "passed": 500,
+  "failed": 0,
+  "answer_preservation_rate": 1.0
+}
