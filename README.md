@@ -4,15 +4,17 @@ Assignment 1: Post-training Qwen2.5-3B-Instruct for persona + STEM capability (S
 
 ## Current scope
 
+**The initial Mario dataset is rejected and must not be used for training.** It added generic catchphrases rather than rewriting the explanations in character. [Review the context-aware replacement preview](MARIO_STYLE_PREVIEW.md) and [rewrite specification](prompts/mario_rewrite.md). Full regeneration is pending; the files and commands below document the original, rejected baseline only.
+
 See [the research plan](RESEARCH_PLAN.md). Prepared configuration: GSM8K, Mario, 3,000 train / 500 validation, seed 42. Training and model evaluation have **not** been run. This repository currently contains the data preparation and checking portion, not a trained model.
 
 Python 3.11+; preparation and checking use only the standard library. Run commands from this repository's root.
 
 ```powershell
-python mario_data.py
+python mario_data.py --legacy-template-baseline
 python -m unittest discover -s tests -v
-python check_answers.py audit --original data/original/train.jsonl --modified data/mario/train.jsonl --report reports/train_integrity.json
-python check_answers.py audit --original data/original/validation.jsonl --modified data/mario/validation.jsonl --report reports/validation_integrity.json
+python check_answers.py audit --mode legacy --original data/original/train.jsonl --modified data/mario/train.jsonl --report reports/train_integrity.json
+python check_answers.py audit --mode legacy --original data/original/validation.jsonl --modified data/mario/validation.jsonl --report reports/validation_integrity.json
 ```
 
 The downloader uses a pinned official OpenAI GSM8K revision. `data/raw` retains original files and the upstream MIT license. `data/manifest.json` records source URLs, hashes, source indices, and generated file hashes. Both selected splits come from official training data. `data/original/test.jsonl` contains all 1,319 official test examples, reserved for final evaluation. Regeneration overwrites generated data files; retain a separate copy before manually editing them.
@@ -29,6 +31,18 @@ python check_answers.py score --references data/original/train.jsonl --predictio
 ```
 
 These are reference consistency checks, **not model accuracy** and not proof of persona learning. The checker does not independently solve word problems or validate all intermediate arithmetic.
+
+## Context-aware rewrite batches
+
+New answers are individually authored by a `gpt-5.6-luna` subagent in `data/rewrites/`. `assemble_rewrites.py` checks IDs, final answers, and ordered calculator annotations, then pairs answers with the unchanged original questions and chat format. It performs no persona generation and makes no claim to check semantic fidelity or character quality. Those require separate review.
+
+```powershell
+python assemble_rewrites.py --split train --allow-partial
+python assemble_rewrites.py --split train
+python assemble_rewrites.py --split validation
+```
+
+Partial review files go to `data/mario_v2/train.preview.jsonl`, never to canonical training files. Without `--allow-partial`, assembly refuses missing rewrites. The complete v2 files must pass voice and semantic review before replacing the rejected dataset. Use `check_answers.py audit --mode rewrite` for genuine paraphrases; exact recovery of the old prose is deliberately not required.
 
 ## Check actual model outputs
 

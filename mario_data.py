@@ -1,4 +1,4 @@
-"""Download pinned GSM8K and build paired, deterministic Mario SFT data."""
+"""Reproduce the rejected insertion-based baseline for historical comparison only."""
 
 import argparse
 import hashlib
@@ -90,5 +90,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", default="data")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--legacy-template-baseline", action="store_true",
+                        help="Explicitly reproduce the rejected baseline, not the context-aware replacement")
     args = parser.parse_args()
+    if not args.legacy_template_baseline:
+        parser.error("The insertion-based Mario generator is retired. See prompts/mario_rewrite.md. "
+                     "Use --legacy-template-baseline only to reproduce the rejected experiment.")
     print(json.dumps(build(args.output, args.seed)["counts"], indent=2))

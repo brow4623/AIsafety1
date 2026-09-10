@@ -55,7 +55,9 @@ def restore_original(text):
     return "\n".join(restored + [lines[-1]])
 
 
-def audit(original, modified):
+def audit(original, modified, mode="legacy"):
+    if mode not in ("legacy", "rewrite"):
+        raise ValueError(f"Unknown audit mode: {mode}")
     old, new = index_rows(original), index_rows(modified)
     if old.keys() != new.keys():
         raise ValueError("Original and modified ID sets differ")
@@ -66,16 +68,19 @@ def audit(original, modified):
         checks = {
             "question_unchanged": reference["question"] == candidate["question"],
             "answer_preserved": gold is not None and gold == value,
-            "rationale_preserved": restore_original(candidate["answer"]) == reference["answer"],
             "calculations_preserved": re.findall(r"<<.*?>>", reference["answer"]) == re.findall(r"<<.*?>>", candidate["answer"]),
             "chat_consistent": all(row.get("messages") == [
                 {"role": "system", "content": reference["messages"][0]["content"]},
                 {"role": "user", "content": row["question"]},
                 {"role": "assistant", "content": row["answer"]}] for row in (reference, candidate)),
         }
+        if mode == "legacy":
+            checks["rationale_preserved"] = restore_original(candidate["answer"]) == reference["answer"]
         details.append({"id": key, **checks, "passed": all(checks.values())})
     passed = sum(row["passed"] for row in details)
-    return {"kind": "dataset_integrity_not_model_accuracy", "total": len(details),
+    return {"kind": "dataset_integrity_not_model_accuracy", "mode": mode,
+            "semantic_fidelity": "not_evaluated" if mode == "rewrite" else "original_text_preserved_if_passed",
+            "persona_quality": "not_evaluated", "total": len(details),
             "passed": passed, "failed": len(details) - passed,
             "answer_preservation_rate": sum(row["answer_preserved"] for row in details) / len(details)}, details
 
@@ -112,6 +117,8 @@ def main():
     integrity = sub.add_parser("audit")
     integrity.add_argument("--original", required=True)
     integrity.add_argument("--modified", required=True)
+    integrity.add_argument("--mode", choices=("legacy", "rewrite"), default="rewrite",
+                           help="Rewrite checks allow new prose; legacy checks recover the rejected template text")
     scoring = sub.add_parser("score")
     scoring.add_argument("--references", required=True)
     scoring.add_argument("--predictions", required=True)
@@ -121,7 +128,7 @@ def main():
     args = parser.parse_args()
     try:
         if args.command == "audit":
-            summary, details = audit(read_jsonl(args.original), read_jsonl(args.modified))
+            summary, details = audit(read_jsonl(args.original), read_jsonl(args.modified), args.mode)
         else:
             summary, details = score(read_jsonl(args.references), read_jsonl(args.predictions), args.field)
     except (ValueError, KeyError) as error:

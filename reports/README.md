@@ -2,6 +2,8 @@
 
 These results describe dataset integrity, not trained-model performance.
 
+**The corresponding Mario dataset has been rejected for inadequate persona quality.** These passing checks do not validate its voice or make it suitable for SFT. They remain historical evidence about the initial insertion-based transformation only.
+
 | Check | Result |
 | --- | --- |
 | Train original/Mario integrity | 3,000 / 3,000 passed |

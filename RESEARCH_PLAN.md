@@ -11,6 +11,8 @@ These are two directional research hypotheses, not a conventional null/alternati
 
 ## Specific steps
 
+**Revision after style review:** Steps 3-5 below describe the rejected first attempt and are superseded for persona generation by `prompts/mario_rewrite.md` and the examples in `MARIO_STYLE_PREVIEW.md`. The replacement must rewrite the explanation contextually in Mario's voice. Keep the original numerical answers and ordered calculator annotations, but do not require exact recovery of the original prose. Human/semantic review is a separate gate because those automated checks cannot establish faithful reasoning or character quality. The 3,000/500 split and experimental comparisons remain unchanged. Do not train on the current insertion-based Mario files.
+
 1. Download the original GSM8K train/test JSONL and license from an immutable commit of the official repository. Record URLs, commit, SHA-256 hashes, seed, and source indices. Retain raw files unchanged.
 2. Shuffle official training indices with seed 42. Assign 3,000 examples to train and the next 500 to validation. Leave remaining training examples unused. Reserve all 1,319 official test questions for final evaluation. Check IDs and exact question overlap across splits; note that exact checks do not establish absence of semantic duplicates or base-model pretraining contamination.
 3. Define Mario's voice: upbeat, brief, encouraging, with restrained phrases such as "Let's-a go!" and "Wahoo!". Keep questions, entities, units, quantities, calculations, and final answers unchanged. Do not substitute game objects into math problems. Use the same neutral system instruction in the training data and unprompted evaluations so the SFT condition must learn the style from assistant targets.
