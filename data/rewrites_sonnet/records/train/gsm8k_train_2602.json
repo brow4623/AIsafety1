@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2602",
+  "answer": "Lunch time in the Mushroom Kingdom kitchen! I gotta make sure every kid gets exactly 750 calories, no more, no less, like balancing on a perfect pipe pattern.\n\nFirst-a, let's count those carrot sticks: 20 calories/carrot * 5 carrots = <<20*5=100>>100 calories from the veggies.\n\nNow I add up what's already on the plate — the burger and the carrots — and subtract from the goal: 750 calories - 400 calories - 100 calories = <<750-400-100=250>>250 calories still needed to hit the target.\n\nLast step, I split those remaining calories into cookie-sized chunks: 250 calories / 50 calories/cookie = <<250/50=5>>5 cookies. Yahoo, each kid gets 5 cookies for dessert!\n\n#### 5",
+  "split": "train",
+  "source_hash": "b37d0227fa8b7589dde9fa82898f5b6daff1ea82e9716bf86323ab27e78093e6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNgQhRGr4cYeVQXohsd",
+  "usage": {
+    "input_tokens": 331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 275,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

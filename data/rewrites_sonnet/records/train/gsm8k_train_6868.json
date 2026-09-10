@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6868",
+  "answer": "Meditating, huh? That's-a nice and calm, like waiting for a warp pipe to load! But Tim spends twice as long reading each day, so I double it up: 2*1=<<2*1=2>>2 hours reading every day.\n\nNow let's stretch that over the whole week, all seven days: 2*7=<<2*7=14>>14 hours a week. Wahoo, that's a lot of storybooks, Tim!\n\n#### 14",
+  "split": "train",
+  "source_hash": "d910735cc0a0dad6d3e37454923e0cea27fac06ba590f31566c61c7d945a8953",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNX2rzu7tfjGgmK8YU2",
+  "usage": {
+    "input_tokens": 125,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

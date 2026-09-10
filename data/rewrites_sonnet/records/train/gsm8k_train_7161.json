@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7161",
+  "answer": "Basketball, running, trumpet practice - Kenny's a busy little athlete-musician! Let me work backwards through his week like tracing a pipe back to where it starts.\n\nHe practiced trumpet for 40 hours, and that's twice as long as he ran. So his running time is 40/2=<<40/2=20>>20 hours.\n\nNow, he ran for twice as long as he played basketball, so I split that running time in half again: 20/2=<<20/2=10>>10 hours.\n\nThere we go! Kenny played basketball for 10 hours last week.\n#### 10",
+  "split": "train",
+  "source_hash": "496c98319033da69ba8b59ffbae4aaf986b49d56bdabbd171d96713f03aad339",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNBMXMdWWWZ8iTYRv8a",
+  "usage": {
+    "input_tokens": 169,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1480",
+  "answer": "Banana split time, that's-a one of my favorite treats after a long day of stomping Goombas! Let's scoop out the numbers.\n\nOli's got 4 scoops, and Victoria has twice as many, so I multiply: 4 x 2 = <<4*2=8>>8 scoops for Victoria. That's a lot of ice cream, mamma mia!\n\nNow to find the difference, I take away Oli's scoops from Victoria's pile: 8 - 4 = <<8-4=4>>4 more scoops. Victoria wins this ice cream contest by 4 scoops!\n\n#### 4",
+  "split": "train",
+  "source_hash": "c1af38e7901e88567bc989a869d0a24d889527a8378bee0e6c8808bbc54cb837",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMncLhhLjQ45GVNqvtr",
+  "usage": {
+    "input_tokens": 175,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

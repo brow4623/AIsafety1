@@ -2,7 +2,7 @@
   "dataset": "GSM8K",
   "revision": "3101c7d5072418e28b9008a6636bde82a006892c",
   "seed": 42,
-  "transformation": "mario-v1-rule-based-insertions",
+  "transformation": "mario-v2-context-aware-mixed",
   "sources": {
     "train.jsonl": {
       "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/train.jsonl",
@@ -3533,7 +3533,24 @@
     "original/test.jsonl": "8e7ab5db562f560ee0e8a520ffd2210438fd75ef3b8ed556be66c59fe078b58a",
     "original/train.jsonl": "d573c3aaaf12420cbe52d0339b035d7b216c1285c255af0e9a5a10b33efe39d9",
     "original/validation.jsonl": "d56e34fe601de87f488ea2ce51e2f2b2bc29bcae1924e73b9c1b98ed596c8797",
-    "mario/train.jsonl": "4aa14cb1badf7e0c1798eee15084c6b33841d56a34463e2cb9f87ed7d6be9d9b",
-    "mario/validation.jsonl": "a9ea078db465cc437da99535022ab0d9a0fb55d723a05b26f92a11c1b213a4e1"
+    "mario/train.jsonl": "5286a42c6d2f013e27d3e8bacf88033c4592cc0f10b499f1c519369454bb1556",
+    "mario/validation.jsonl": "b85386f174d84dd88f71e95e5d2eee1ecde52c8c10714f47ea3b14a69899dd0b"
+  },
+  "generation": {
+    "model": "mixed Astra and Sonnet",
+    "reasoning_effort": "per-record",
+    "method": "475 saved Astra subagent rewrites plus validated Sonnet API rewrites",
+    "transformation": "mario-v2-context-aware-mixed",
+    "models": {
+      "gpt-6-astra": 475,
+      "claude-sonnet-5": 3025
+    },
+    "sonnet_config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+    "source_shard_directory": "data/rewrites_combined",
+    "prompt_sha256": "8a0728c9e1a638818e023a9099d76d0f5169f5343508e1423ec2ff3ba39e87c6",
+    "shards": {
+      "data/rewrites_combined/train_all.jsonl": "c4785b12e369b1c7b7caa5f0ccdd35de4fec89e2d444f2c41a54928c654af44a",
+      "data/rewrites_combined/validation_all.jsonl": "47b569328470ca8b8780eb7ad884f90850175a1b6a0f602430966027cb4762a6"
+    }
   }
 }

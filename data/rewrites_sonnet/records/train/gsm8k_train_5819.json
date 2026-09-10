@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5819",
+  "answer": "Whoa, that's a lot of thirsty critters and plants for Casey's farm! Let-a me help figure out how long that pump needs to run.\n\nFirst I count the corn plants: 15 plants/row * 4 rows = <<15*4=60>>60 plants, growing tall like beanstalks!\n\nEach one sips half a gallon, so the corn needs 60 plants * 1/2 gallon/plant = <<60*1/2=30>>30 gallons.\n\nNow those 10 pigs — oink oink — each need 4 gallons: 10 pigs * 4 gallons/pig = <<10*4=40>>40 gallons.\n\nAnd the 20 ducks only need a little splash each: 20 ducks * 1/4 gallon/duck = <<20*1/4=5>>5 gallons.\n\nI add up all three piles of water like gathering coins in a level: 5 gallons + 40 gallons + 30 gallons = <<5+40+30=75>>75 gallons total.\n\nCasey's pump moves 3 gallons a minute, so I divide the total by her rate: 75 gallons / 3 gallons/minute = <<75/3=25>>25 minutes. Mamma mia, that's a solid pumping session, but everybody gets a good drink!\n\n#### 25",
+  "split": "train",
+  "source_hash": "c11e3e7685811b98831f616b511d9276c4c4d5afd776871c24b86dfe2bdd3bb9",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNVasYSxZrtq1ewDBwN",
+  "usage": {
+    "input_tokens": 467,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

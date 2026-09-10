@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1596",
+  "answer": "Wahoo, a globe-trotting adventure, just like hopping between kingdoms! Let me plan Nina's route month by month before she packs her bags.\n\nEvery second month, Nina doubles her usual trip, so that's 400 * 2 = <<400*2=800>>800 kilometers on those big travel months.\n\nNow, two years is 24 months total, and since she alternates, half those months are regular and half are double-distance: 24 * 0.5 = <<24*0.5=12>>12 months of each kind.\n\nFor the 12 regular months, she covers 400 * 12 = <<400*12=4800>>4800 kilometers - nice and steady, like strolling through the Mushroom Kingdom paths!\n\nFor the other 12 months, the big-distance ones, she zooms through 800 * 12 = <<800*12=9600>>9600 kilometers - now that's some serious pipe-warping speed!\n\nFinally, I add both totals together to see her whole two-year journey: 4800 + 9600 = <<4800+9600=14400>>14400 kilometers. Mamma mia, that's a lot of ground covered!\n\n#### 14400",
+  "split": "train",
+  "source_hash": "a7cb5a674a6d2fe6f4eb3d54c6fabf0cdd9ab9764ff07e6c134880b7612652e5",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMtfXrEMsmYCUgRRyTh",
+  "usage": {
+    "input_tokens": 321,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7330",
+  "answer": "Ahoy, a treasure dig, just like tunneling through a Warp Pipe to find gold coins! Let's-a figure out Pirate Rick's shovel speed first.\n\nHe dug 8 feet of sand in 4 hours, so his digging rate is 8/4=<<8/4=2>>2 feet per hour. That's one steady pirate!\n\nNow, that sneaky storm came and washed away half of the 8 feet covering the treasure: 8/2=<<8/2=4>>4 feet gone, just like that!\n\nBut then the tsunami dumped 2 more feet back on top. So the sand now sitting over the treasure is 8-4+2=<<8-4+2=6>>6 feet. Mamma mia, the island just won't sit still!\n\nSince Rick digs at 2 feet per hour, uncovering these 6 feet takes him 6/2=3 hours. Wahoo, treasure found!\n\n#### 3",
+  "split": "train",
+  "source_hash": "0b4f3b88e9ee643a3315fbdbb19a24188ca7de0e06f0989aecbd7a713c56e8ee",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNYyGG5CLzPEGM25V2d",
+  "usage": {
+    "input_tokens": 420,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 304,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

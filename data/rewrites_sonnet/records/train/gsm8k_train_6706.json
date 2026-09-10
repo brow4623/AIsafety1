@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6706",
+  "answer": "Ah, a school full of little Toads to count! Let's-a see how many are in each grade before I figure out the last group.\n\nFirst I add up Grades 4 and 5 together: 30 + 35 = <<30+35=65>>65 students in those two grades.\n\nNow, since the whole school has 100 students, I just take away the ones I already counted: 100 - 65 = <<100-65=35>>35 students left for Grade 6. Just like sorting coins into the right pipe, everybody ends up where they belong!\n\n#### 35",
+  "split": "train",
+  "source_hash": "86c040197123c44c54c34700673201cbfa8b5778c483767141f3956e1f838104",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNSGQwuorZcEEvoqSYW",
+  "usage": {
+    "input_tokens": 167,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

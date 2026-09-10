@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1666",
+  "answer": "Ah, chips from the vending machine, a fine snack for a lunch break between pipe adventures! Let me count-a Calvin's coins.\n\nEach bag costs $0.50, and he grabs one 5 days a week, so that's .50*5 = $<<0.50*5=2.50>>2.50 spent every single week.\n\nNow I stack up those weeks like coin blocks: 4 weeks in a row means 2.50*4 = $<<2.50*4=10.00>>10.00 total.\n\nWahoo, Calvin's chip habit costs him $10.00 after four weeks!\n\n#### 10",
+  "split": "train",
+  "source_hash": "3c139478e09bdd47fe55aa2c20eb3aff1ff7f1b0f4ba46d078ac65939cf19abe",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLvJE8TiQnaSqf7x2U7",
+  "usage": {
+    "input_tokens": 203,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

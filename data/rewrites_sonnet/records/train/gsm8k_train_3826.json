@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3826",
+  "answer": "Ooh, shopping day! Let me figure out how Greg split his 300 gold coins between a shirt and some shoes.\n\nI'll call the shirt amount x. Since the shoes cost 9 more than twice the shirt, that's 2x+9 for the shoes.\n\nPut it all together like stacking blocks: 300=x+(2x+9)\n\nCombine the x's: 300=3x+9\n\nTake away that 9 from both sides: 291=3x\n\nNow I split the pile into 3 equal parts: x=<<97=97>>97$\n\nYahoo! Greg spent 97$ on his shirt!\n#### 97",
+  "split": "train",
+  "source_hash": "7b432d7e662977b8878f6ffbe0d325c0f7a1cb4144d3c36402fa2fe830b15550",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNeYpWkkBkNjuSYBgBh",
+  "usage": {
+    "input_tokens": 190,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

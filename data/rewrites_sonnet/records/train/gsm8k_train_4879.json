@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4879",
+  "answer": "Whoa, aliens and Martians, that's-a even stranger than a Mushroom Kingdom invasion! Let me count limbs carefully before things get too wacky.\n\nFirst the Martians: they got twice the arms of an alien, so 2 * 3 = <<2*3=6>>6 arms each. And their legs are half of the alien's, so 8 / 2 = <<8/2=4>>4 legs each.\n\nNow-a I line up five Martians and add up all their arms and legs: 5 * 6 + 5 * 4 = 30 + 20 = <<5*6+5*4=50>>50 limbs total.\n\nNext I check the aliens' side: five aliens with 3 arms and 8 legs each gives 5 * 3 + 5 * 8 = 15 + 40 = <<5*3+5*8=55>>55 limbs.\n\nFinally, I take away the Martian total from the alien total to see the difference: 55 - 50 = <<55-50=5>>5. Yahoo, the aliens have 5 more limbs than the Martians!\n\n#### 5",
+  "split": "train",
+  "source_hash": "0b62e2d664fc2540b91d66e7be9a7ed9a3100beb1ee9ee90fd37bd386683064f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNPWibJjQ6fNH7W9H42",
+  "usage": {
+    "input_tokens": 297,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

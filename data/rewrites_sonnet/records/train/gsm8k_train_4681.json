@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4681",
+  "answer": "A road trip, just like zipping through Warp Pipes from one kingdom to another! But this time it's highways, not tubes, so I gotta calculate the time the old-fashioned way.\n\nFirst stretch: Washington to Idaho, 640 miles at 80 miles per hour. That's 640/80 = <<640/80=8>>8 hours zooming along, easy as riding a Koopa shell!\n\nNow the second leg, Idaho to Nevada, 550 miles but slower this time at 50 miles per hour — gotta be careful, maybe some banana peels on this road. That's 550/50 = <<550/50=11>>11 hours.\n\nTime to put both legs of the journey together: 11 + 8 = <<11+8=19>>19 hours total. Whew, that's a long drive — longer than exploring every pipe in the Mushroom Kingdom! Coby sure earned a rest when he got to Nevada.\n\n#### 19",
+  "split": "train",
+  "source_hash": "d1ed242aa3fc2e09256dd0f9625943a2d7f09a84f19ebfa6d450a404358b176f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLwYMyVUzazYT8Er499",
+  "usage": {
+    "input_tokens": 291,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 304,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

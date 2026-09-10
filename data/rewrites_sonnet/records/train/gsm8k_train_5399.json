@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5399",
+  "answer": "A book that sold a million copies? Mamma mia, that's bigger than any castle I've stormed! Let's count Steve's coins carefully, agent's cut and all.\n\nFirst, that advance already covered 100,000 copies, so I take those out of the total: 1,000,000 - 100,000 = <<1000000-100000=900000>>900,000 copies left to count fresh.\n\nEach of those pays $2, so I multiply it out: 900,000 * 2 = $<<900000*2=1800000>>1,800,000 in Steve's pocket before anyone else takes a bite.\n\nBut here comes the agent, grabbing 10% like a Piranha Plant snapping at coins: 1,800,000 * .1 = $<<1800000*.1=180000>>180,000 taken away.\n\nSo I subtract that agent's share from the total: 1,800,000 - 180,000 = $<<1800000-180000=1620000>>1,620,000. Wahoo, Steve keeps a whopping $1,620,000, not counting that advance!\n\n#### 1620000",
+  "split": "train",
+  "source_hash": "b979246336d8c7b4f71b93453ef4e852fdeef1620cab83e3ce476f74dbccf471",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMiy3nbkDbagXvBhswB",
+  "usage": {
+    "input_tokens": 264,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 341,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

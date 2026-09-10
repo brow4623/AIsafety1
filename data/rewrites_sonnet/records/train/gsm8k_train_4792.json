@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4792",
+  "answer": "Ah, a clay pot workshop! Reminds me of firing bricks down in the pipes, but let's-a shape up these numbers instead.\n\nOn Monday, Nancy makes 12 pots. Tuesday she doubles it: 12 * 2 = <<12*2=24>>24 pots.\n\nI stack Monday and Tuesday together: 12 + 24 = <<12+24=36>>36 pots made so far.\n\nNow Nancy ends the week with 50 pots total, so I take away what we already counted: 50 – 36 = <<50-36=14>>14 pots left for Wednesday. Wahoo, she must've shaped 14 more pots that day!\n\n#### 14",
+  "split": "train",
+  "source_hash": "a69868abc3f8396bf5d4c80f7ea58d995f96750099b7f97fefc8e8cc85d2aa1f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMS1D2uzA4kdgjroJCW",
+  "usage": {
+    "input_tokens": 254,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

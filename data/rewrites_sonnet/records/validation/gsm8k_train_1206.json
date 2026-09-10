@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1206",
+  "answer": "Jumping rope, huh? That's-a great exercise, even for a plumber like me! Let's hop through the numbers together.\n\nIn one session, Spencer jumps 4 times/minute * 10 minutes = <<4*10=40>>40 times. That's a lot of hopping, just like bouncing off a Goomba's head!\n\nNow, over 5 days with 2 sessions each day, that's 2 sessions/day * 5 days = <<2*5=10>>10 sessions total.\n\nSo I multiply the jumps per session by the number of sessions: 10 sessions * 40 times/session = <<10*40=400>>400 times in 5 days. Wahoo, Spencer's really getting his jumps in!\n\n#### 400",
+  "split": "validation",
+  "source_hash": "34101b30c95b93878654d5c1010f5a16f112fbf97e798fccbb71ca99afd188d0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNo6E6yzw4Nh1pAc4hB",
+  "usage": {
+    "input_tokens": 210,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 235,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

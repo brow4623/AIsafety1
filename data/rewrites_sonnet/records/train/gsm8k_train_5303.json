@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5303",
+  "answer": "Whoa, that's a long-a road trip! Two towns, two trips, let me clock the whole day like I'm timing a Kart race.\n\nFirst, the Ningi to Zipra run only took 80% of that big 60-hour Ngapara trip. So I figure 80/100*60 = <<80/100*60=48>>48 hours for that one.\n\nNow I add both trips together to get the whole day's driving: 48+60 = <<48+60=108>>108 hours. Yahoo, that's a marathon on the road — 108 hours total!\n\n#### 108",
+  "split": "train",
+  "source_hash": "00b98efe88738ba386b24431c0e500c6d98f678d74ec56e58b248a21935f7d75",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNiYYFd2hF35f8qV6F5",
+  "usage": {
+    "input_tokens": 223,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

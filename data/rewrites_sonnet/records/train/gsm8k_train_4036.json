@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4036",
+  "answer": "Wahoo, a bakery full of cakes doubling every day - that's-a even faster than my Fire Flowers multiply in the item box! Let's work backward from day six, one day at a time, just like backtracking through a pipe.\n\nOn day six she's got 320 cakes, so day five must be half of that: 320 cakes / 2 = <<320/2=160>>160 cakes.\n\nGoing back another day, day four is 160 cakes / 2 = <<160/2=80>>80 cakes.\n\nKeep on splitting! Day three is 80 cakes / 2 = <<80/2=40>>40 cakes.\n\nThen day two is 40 cakes / 2 = <<40/2=20>>20 cakes.\n\nAnd finally, all the way back to day one: 20 cakes / 2 = <<20/2=10>>10 cakes. There we go - Marjorie started her whole cake adventure with just 10 cakes!\n\n#### 10",
+  "split": "train",
+  "source_hash": "f0d5cbd7e9146f1d0e75cc6a1cdad383bfbd891aaab2bd9f9e9b11b09996bbaa",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNTRoX8tuiEif4cs7P3",
+  "usage": {
+    "input_tokens": 305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 302,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

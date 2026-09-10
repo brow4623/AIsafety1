@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3195",
+  "answer": "Whoa, that's a lot of fizzy pop for one week! Let me stack up those packs before I start counting the days.\n\nJames grabs 5 packs, 12 sodas in each: 5*12=<<5*12=60>>60 sodas from the store alone.\n\nBut he already had a stash waiting at home, so I add those in: 60+10=<<60+10=70>>70 sodas total, mamma mia!\n\nNow, a week is 7 days, so I split that big pile evenly across the week: 70/7=<<70/7=10>>10 sodas per day. That's like downing 10 mushrooms a day just to keep the energy up!\n\n#### 10",
+  "split": "train",
+  "source_hash": "407ec53033e25d4c127dc8c5410051057dab898f7143f4048720840288f6c0ca",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMzKu5VzckKUNDaLQE1",
+  "usage": {
+    "input_tokens": 170,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

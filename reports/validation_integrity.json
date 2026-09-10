@@ -1,5 +1,8 @@
 {
   "kind": "dataset_integrity_not_model_accuracy",
+  "mode": "rewrite",
+  "semantic_fidelity": "not_evaluated",
+  "persona_quality": "not_evaluated",
   "total": 500,
   "passed": 500,
   "failed": 0,

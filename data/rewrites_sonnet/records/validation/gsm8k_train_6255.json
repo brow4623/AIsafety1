@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6255",
+  "answer": "A big book, huh? That's-a like reading through a whole castle of pages! Let me help Rich count what's left.\n\nFirst, I add up the pages already behind him — the 125 he read plus the 16 map pages he skipped over: 125 pages + 16 pages = <<125+16=141>>141 pages done.\n\nNow I take that away from the whole book: 372 pages - 141 pages = <<372-141=231>>231 pages left. Wahoo, Rich just needs to turn 231 more pages to reach the end!\n\n#### 231",
+  "split": "validation",
+  "source_hash": "4cbaba0c4a1debaec41ea428757714ada30cf45e41d9dd8c2dd2d7c5ff3a6a53",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNrQ5jDkD658m6TRYyq",
+  "usage": {
+    "input_tokens": 340,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

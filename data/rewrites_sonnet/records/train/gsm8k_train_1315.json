@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1315",
+  "answer": "Whoops, that's a lot of pies to keep steady! Let's see how many made it out of the oven safe and sound.\n\nFirst I count up all the pies Marcus baked: 5 pies/batch * 7 batches = <<5*7=35>>35 pies. That's a whole bakery's worth!\n\nBut oh no, he took a tumble and dropped 8 of them! I gotta take those away: 35 pies - 8 pies = <<35-8=27>>27 pies. Phew, still plenty left for a good meal!\n\n#### 27",
+  "split": "train",
+  "source_hash": "b9dd8aec41f128da6825c80a5242126e4da16b0988514fac9df05e91311846cc",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLqQfguELr6DdFKhRrQ",
+  "usage": {
+    "input_tokens": 172,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

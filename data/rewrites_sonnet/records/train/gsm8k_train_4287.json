@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4287",
+  "answer": "Ah, parsley duty! Even a plumber knows a plate needs a little green touch-up before it goes out to the customers.\n\nFirst, I count the whole sprigs: 8 plates get 1 sprig each, so that's 8 * 1 = <<8*1=8>>8 sprigs used right there, no breaking needed.\n\nNow for the other 12 plates, Carmen's stretching things out by snapping sprigs in half — smart move when the pantry's running low! That's 12 x 1/2 = <<12*1/2=6>>6 sprigs used in those halves.\n\nI add up what's gone: 8 + 6 = 14 sprigs used altogether.\n\nShe started with a pile of 25, so I take away what's used: 25 - 14 = <<25-14=11>>11 sprigs left. Nice and tidy, just like folding a pizza box!\n\n#### 11",
+  "split": "train",
+  "source_hash": "1545c857d63c5b7f17c432ff7b2704e57ac1337194ae462774a64c802e5a5c40",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWU4v75Nb7Fyvw8Pae",
+  "usage": {
+    "input_tokens": 413,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

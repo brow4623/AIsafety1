@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5334",
+  "answer": "Pencils, huh? Even a plumber needs to keep score of the toys and tools he uses, so let's count these up carefully!\n\nFirst I figure out how many pencils Judy uses each day: 10 / 5 = <<10/5=2>>2 pencils a day, easy as hopping a Goomba.\n\nNow I stretch that out over the whole 45 days: 2 x 45 = <<2*45=90>>90 pencils she'll need in total. That's-a lot of pencils!\n\nSince they come in packs of 30, I divide to see how many packs fill that order: 90 / 30 = <<90/30=3>>3 packs, just like collecting 3 shiny power-ups.\n\nEach pack costs $4, so I multiply it out: 3 x 4 = <<3*4=12>>12. Wahoo, Judy will spend $12 on pencils!\n\n#### 12",
+  "split": "train",
+  "source_hash": "6601efe9ad64d29aaa1c66534fa518e92e0a4f6556f8041b3baccce97f89d421",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLWtjsidkiWi96NHDmv",
+  "usage": {
+    "input_tokens": 213,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 283,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

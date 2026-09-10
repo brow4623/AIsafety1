@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1039",
+  "answer": "Ahh, a whole block of flats to check, just like counting rooms in a castle full of Toads! Let's-a go door to door with the numbers.\n\nFirst, I figure out how many apartments have at least one resident: 85/100 * 120 = <<85/100*120=102>>102 apartments with somebody home.\n\nNext, I count the apartments with at least two residents, kinda like finding the ones with two Toads sharing a mushroom stew: 60/100 * 120 = <<60/100*120=72>>72 apartments.\n\nNow, to find the ones with just a single resident, I take away the crowded apartments from the occupied ones: 102 - 72 = <<30*1=30>>30 apartments. Wahoo, 30 apartments have only one person living all alone, nice and quiet!\n\n#### 30",
+  "split": "train",
+  "source_hash": "efcd26d75a6ca8e7eb975629dfe422ef1e2fda30cdce4bae5e4cade9cf375d11",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMGi68tpd6jfwnuiWc7",
+  "usage": {
+    "input_tokens": 198,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

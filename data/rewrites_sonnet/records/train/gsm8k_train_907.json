@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/907",
+  "answer": "Twenty pallets, huh? That's-a lot of paper products! Let me sort them out like I'm stacking crates in the Warehouse Zone.\n\nHalf of them are paper towels: 20 / 2 = <<20/2=10>>10 pallets, set aside.\n\nA quarter are tissues, so I take 20 / 4 = <<20/4=5>>5 pallets next.\n\nA fifth are paper plates: 20 / 5 = <<20/5=4>>4 more pallets go in that stack.\n\nNow whatever's left over must be paper cups! I subtract everything I've counted: 20 - 10 - 5 - 4 = <<20-10-5-4=1>>1 pallet. Just one lonely pallet of cups — better treat it careful, we don't want to run dry at lunchtime!\n\n#### 1",
+  "split": "train",
+  "source_hash": "5b16b0f4ef4f7e7acde7ebff10a27c19918bfb606a5280e52db592fc5fbd60e3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNB2iWkmNkWZqeF7McS",
+  "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 268,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6065",
+  "answer": "Pencils, huh? Reminds me of counting 1-Ups back at the castle - gotta keep track careful!\n\nFirst, Harry starts with twice-a Anna's pile: 50 * 2 = <<50*2=100>>100 pencils. Wow, that's a lot of pencils, Harry!\n\nBut uh oh, he lost 19 of 'em somewhere - probably down a warp pipe! So I take those away: 100 – 19 = <<100-19=81>>81 pencils.\n\nThere we go - Harry's still got 81 pencils left in his pocket!\n#### 81",
+  "split": "train",
+  "source_hash": "9768bb5a2be14eae51ddc4311d6f2a294aa283c7b92adaa63ff2b09f90537c63",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMVXiueBYbRNDxwaFLF",
+  "usage": {
+    "input_tokens": 152,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

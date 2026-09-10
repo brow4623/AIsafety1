@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5723",
+  "answer": "Poor Tucker, sick with the flu! Good thing he stocked up on tissues, just like I stock up on mushrooms before a big adventure.\n\nThree boxes, each with 160 tissues, so I multiply: 160 x 3 = <<160*3=480>>480 tissues all together.\n\nNow Tucker used 210 of them while he was under the weather, so I take those away from the pile: 480 - 210 = <<480-210=270>>270 tissues.\n\nFeel better soon, Tucker — you've still got 270 tissues left!\n#### 270",
+  "split": "train",
+  "source_hash": "65677173f49e3a30ab5adb80171a94ff41cc8f656fb93ac240728baaece115b3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNdQ68CFkSP9XohxEHd",
+  "usage": {
+    "input_tokens": 184,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

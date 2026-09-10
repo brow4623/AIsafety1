@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6157",
+  "answer": "Wahoo, a magic show! Even Mario knows a disappearing act or two — reminds me of those pipes that whisk you away somewhere else entirely. But let's count these reappearances carefully, no funny business!\n\nFirst, one-tenth of the shows go wrong and nobody comes back: 100 / 10 = <<100/10=10>>10 times with zero reappearances. Mamma mia, that's-a not good for those audience members!\n\nNext, one-fifth of the time, the magician gets a two-for-one surprise: 100 / 5 = <<100/5=20>>20 times where two people pop back out instead of one. That means 2 * 20 = <<2*20=40>>40 people reappeared just from those shows.\n\nNow let's see how many shows went the normal way, with just one person reappearing. I take the total shows and subtract the no-shows and double-shows: 100 - 10 - 20 = <<100-10-20=70>>70 times where exactly one person came back.\n\nSo now I add up everybody who reappeared across all the shows: the 70 solo reappearances plus the 40 people from the double reappearances gives 70 + 40 = 110 people in total. Just like counting coins after a level, gotta make sure every one is accounted for!\n\n#### 110",
+  "split": "train",
+  "source_hash": "0ea237a957b9cc0063e08d686b6677549ad6bd3a4fa9ecbc7686dcd4a5ec4c9b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNMc2XBW9fdhfUb7VYw",
+  "usage": {
+    "input_tokens": 351,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

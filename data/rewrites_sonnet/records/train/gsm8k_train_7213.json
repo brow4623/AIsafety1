@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7213",
+  "answer": "Taco Grande Plates, huh? Sounds tasty, but first-a I gotta figure out the price before I dig in!\n\nLet x be the cost in dollars of one Taco Grande Plate — same plate, same price for both Mike and John.\n\nMike's whole bill is twice John's bill, since John just has the plate, that's x, and Mike's got the plate plus his extra treats: the $2 side salad, $4 cheesy fries, and $2 diet cola. So 2x = x + 2 + 4 + 2.\n\nSimplifying, that's 2x = x + 8.\n\nI take away x from both sides — like clearing a pipe on each end — and I'm left with x = 8 dollars for the Taco Grande Plate.\n\nNow let's add up everything on the table: Mike's plate, John's plate, and all those extras: 8 + 8 + 2 + 4 + 2 = <<8+8+2+4+2=24>>24 dollars. Wahoo, that's their combined lunch total!\n\n#### 24",
+  "split": "train",
+  "source_hash": "58047e40dd92893ae61a91238b23bda17aaa9a47a436d99424a81de579cb907d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLhjjwSdELvp7H3b5ay",
+  "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 330,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

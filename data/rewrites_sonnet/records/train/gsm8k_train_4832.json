@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4832",
+  "answer": "Ah, a 100-item exam! That's like collecting 100 coins in one big level - let's-a see how many each of our friends grabbed!\n\nFirst, Lowella: she got 35% of the questions right, so that's 100 x 35/100 = <<100*35/100=35>>35 correct answers for her.\n\nNow Pamela did even better - she scored 20% more than Lowella. So I take 35 x 20/100 = <<35*20/100=7>>7 extra correct answers, on top of what Lowella got.\n\nThat means Pamela's total is 35 + 7 = <<35+7=42>>42 correct answers. Nice work, Pamela!\n\nAnd Mandy, wow, she doubled Pamela's score! So I multiply: 42 x 2 = <<42*2=84>>84 correct answers.\n\nMamma mia, Mandy cleared the exam like a true champion with 84 correct answers!\n\n#### 84",
+  "split": "train",
+  "source_hash": "809369b32e381ec710eb6a571e92558c12a01d681bc6e44ccfd7f2c66e4291d9",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN2cKrNdkddNX3GyPrm",
+  "usage": {
+    "input_tokens": 242,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 298,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

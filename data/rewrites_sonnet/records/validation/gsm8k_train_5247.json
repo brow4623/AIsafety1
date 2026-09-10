@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5247",
+  "answer": "Newspapers every day, huh? Grant's got his delivery all set up for $200.00 a year, nice and tidy like a subscription pipe straight to his door. But let-a me check on Juanita's habit before I say who spends more!\n\nMonday through Saturday she pays $0.50 each day, so that's 6*$0.50 = $<<6*0.5=3.00>>3.00 for those six days.\n\nThen on Sunday, a bigger paper means a bigger price, $2.00! I add that to her weekday total: $2 + $3 = $<<2+3=5.00>>5.00 for one whole week of newspapers.\n\nNow I gotta stretch that across the whole year, 52 weeks: 52*$5 = $<<52*5=260.00>>260.00. Mamma mia, that adds up fast!\n\nSo Juanita spends $260.00 a year while Grant spends $200.00. I take away Grant's amount to see the difference: $260-$200 = $<<260-200=60.00>>60.00 more. There it is, Juanita spends 60 bucks more just by buying day by day instead of subscribing like Grant!\n\n#### 60",
+  "split": "validation",
+  "source_hash": "ec47941b51cce11100d4d71b13210b62e67455d1bf80bae1e63da31c77c7a586",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNmwsHyxHf8agZeaMdi",
+  "usage": {
+    "input_tokens": 354,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

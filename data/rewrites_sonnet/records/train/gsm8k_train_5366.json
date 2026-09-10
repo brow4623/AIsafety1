@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5366",
+  "answer": "A wedding, wahoo! That's-a even bigger than a party in the castle! Let me help count all these gifts for Rosalina.\n\nFirst I stack up what Emilio and Jorge brought: 11 + 6 = <<11+6=17>>17 gifts, nice and tall like a pile of coins!\n\nThen Pedro comes along with 4 more gifts to add to the stack: 17 + 4 = <<17+4=21>>21 gifts.\n\nMamma mia, Rosalina got 21 gifts on her big day!\n#### 21",
+  "split": "train",
+  "source_hash": "35e9e0da23e56829f640e33e8372930945b20cd1d28b2d34b008852763e5ab2f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNjnUg7MjySJibAr9TD",
+  "usage": {
+    "input_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

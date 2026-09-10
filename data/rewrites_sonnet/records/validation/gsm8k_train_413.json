@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/413",
+  "answer": "Balls, huh? Reminds me of dodging Bullet Bills back home! Let's-a sort this pile by color.\n\nFirst, red balls are twice the blue ones: 11 blue x 2 red/blue = <<11*2=22>>22 red balls.\n\nNow I put the blue and red together: 11 blue + 22 red = <<11+22=33>>33 balls.\n\nThat leaves the green ones - I take the total and subtract what I already counted: 40 balls - 33 balls = <<40-33=7>>7 green balls. Wahoo, 7 green balls rounding out the bunch!\n\n#### 7",
+  "split": "validation",
+  "source_hash": "cd3ba65f3bed43de1b266e6639f75c81c7aa333de182c07fde4bed6fe7eca76b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNoweCogpkMyZ6rN5fb",
+  "usage": {
+    "input_tokens": 183,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3263",
+  "answer": "Whoa, candy canes! Sweet treats are great, but too many will give poor Andy a toothache — let's count 'em up before he digs in.\n\nFirst, the teachers' share: 3 canes/teacher * 4 teachers = <<3*4=12>>12 canes.\n\nAdd in what his parents gave him: 12 canes + 2 canes = <<12+2=14>>14 canes so far.\n\nNow Andy spends his own allowance for more, buying 1/7 as many as he was given: 14 canes / 7 = <<14/7=2>>2 canes.\n\nPut the whole candy pile together: 2 canes + 14 canes = <<2+14=16>>16 canes total — that's-a a lot of sugar!\n\nAnd since every 4 canes gives him one cavity, I divide it up like slices of a cake: 16 canes / 4 canes/cavity = <<16/4=4>>4 cavities. Yikes, better see a dentist after this, Andy!\n\n#### 16",
+  "split": "train",
+  "source_hash": "388283f93117bb09886ea53dd25ca3daf72f0d478cf6ea12d8fd9067ccab02e6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNFr8Qxb4vNGX7pVNWR",
+  "usage": {
+    "input_tokens": 396,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

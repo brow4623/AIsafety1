@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7267",
+  "answer": "Pizza time, mamma mia! But first-a my friend swooped in for a couple slices, so let's see what's left for me.\n\nStarting with 8 slices, my friend eats 2, leaving 8-2=<<8-2=6>>6 slices on the pie.\n\nNow I take half of what's left, just like splitting a mushroom fair and square: 6/2=<<6/2=3>>3 slices for James!\n\n#### 3",
+  "split": "train",
+  "source_hash": "99708b46875a76b84e12d87f4158a91ab77c5e64df6b22418dfcfbdc2d335b23",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWuEzebSfKkjvc5fXa",
+  "usage": {
+    "input_tokens": 134,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

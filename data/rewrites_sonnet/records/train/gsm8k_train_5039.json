@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5039",
+  "answer": "Pizza time! A pizzeria is practically like a warm kitchen back home, so let me help count the register.\n\nFirst, those 8 small pizzas at $2 each bring in 8*2= $<<8*2=16>>16.\n\nNow I take that away from the total $40 to see what the large pizzas earned: 40-16=$<<40-16=24>>24.\n\nSince each large pizza sells for $8, I split that $24 into $8 portions: 24/8= <<24/8=3>>3 large pizzas sold. Wahoo, that's a tasty haul!\n\n#### 3",
+  "split": "train",
+  "source_hash": "af2449f5c64c754160cda071e48909dc365cb20ad621e8ae8244f629ee5c2d99",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNDmDgdVBJsAaeA2wkC",
+  "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

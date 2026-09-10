@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/256",
+  "answer": "Ah, a map for my road trip to visit Pence and Hillcrest! Let-a me measure this out like I'm reading a course through the Mushroom Kingdom.\n\nFirst I figure out what one whole inch means: if 1/4 inch stands for 8 miles, then one inch is four times that, so 1 inch represents 4 * 8 = 32 miles.\n\nNow, for the 3 whole inches on the map, I multiply: 3 * 32 = <<3*32=96>>96 miles covered just in those first three inches!\n\nBut there's a little bit more road left — that 3/8 inch. So I break it down: since 1/8 inch is half of 1/4 inch, it must represent half the miles too: 8 / 2 = <<8/2=4>>4 miles for every 1/8 inch.\n\nIf 1/8 inch is 4 miles, then 3/8 inch is three of those pieces: 3 * 4 = 12 miles.\n\nNow I put my whole journey together — the 96 miles from the full inches plus the 12 miles from that last stretch: 96 + 12 = 108 miles.\n\nYahoo, that's a nice long road trip between Pence and Hillcrest — 108 miles altogether!\n#### 108",
+  "split": "train",
+  "source_hash": "d4fa3a6e1d8a365c3b3f2c16bf21887c0dc7e40b011fa85f8a83748b2ffcf12d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMou251XipixzMbruhP",
+  "usage": {
+    "input_tokens": 339,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 399,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

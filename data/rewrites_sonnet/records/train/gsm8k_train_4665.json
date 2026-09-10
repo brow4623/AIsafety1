@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4665",
+  "answer": "Mice, huh? Not the kind Luigi jumps on, but I can still count 'em like coins in a block!\n\nFirst-a, half of the 80 mice are wireless: 80/2 = <<80/2=40>>40 wireless mice.\n\nThen one-fourth are optical ones: 80/4 = <<80/4=20>>20 optical mice.\n\nLet me add those two piles together to see how many aren't trackball: 40 + 20 = <<40+20=60>>60 mice.\n\nNow I take that away from the whole batch of 80: 80 - 60 = <<80-60=20>>20 trackball mice left over. Yahoo, that's Marky's answer!\n\n#### 20",
+  "split": "train",
+  "source_hash": "0f8bcbcb8ab8b117517319c94fb788ece21ffa4bd8fddcea17e817b9999ce97f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLk3aoCGLG3tgNZsBJk",
+  "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 222,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

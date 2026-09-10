@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6377",
+  "answer": "Mamma mia, 200 apples on one tree — that's-a bumper crop, like finding a whole grove of golden coins!\n\nFirst day, Magdalena picks 1/5 of the tree: 1/5 * 200 = <<1/5*200=40>>40 apples in her basket.\n\nSecond day, she doubles her work: 2 * 40 = <<2*40=80>>80 apples come down.\n\nThird day, she picks 20 more than that first-a day: 40 apples + 20 apples = <<40+20=60>>60 apples.\n\nNow I stack up all three days together: 40 apples + 80 apples + 60 apples = <<40+80+60=180>>180 apples picked in all.\n\nAnd-a now I take away what's picked from the whole tree: 200 apples - 180 apples = <<200-180=20>>20 apples still hanging up there!\n\n#### 20",
+  "split": "train",
+  "source_hash": "c58a2a1a9003bad248d3f1e3a93c5431db4b31f501ffe5b6225788f1b49caae6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNhVuDfmRwEMX5UupLM",
+  "usage": {
+    "input_tokens": 367,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 281,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

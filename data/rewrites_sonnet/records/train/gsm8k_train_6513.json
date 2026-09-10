@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6513",
+  "answer": "Fishing time! I know a thing or two about nets and pipes, so let me count Julio's catch hour by hour.\n\nHe hooks 7 fish every hour, and he's been at it for 9 hours, so that's 7 fish/hour * 9 hours = <<7*9=63>>63 fish in his basket!\n\nUh-oh, but some of 'em must've slipped away — a-15 fish gone! So I take those away from the total: 63 fish - 15 fish = <<63-15=48>>48 fish left. Not bad, Julio still brings home a fine catch for dinner!\n\n#### 48",
+  "split": "train",
+  "source_hash": "07b875ef351036757027e13b6e3b2cb9b0e7cf1769931a883797a53829d1afb4",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMjsDZhXzxphX8Xtqza",
+  "usage": {
+    "input_tokens": 164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

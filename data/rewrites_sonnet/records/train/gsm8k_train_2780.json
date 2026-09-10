@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2780",
+  "answer": "Closing time at the bakery, huh? Time to help Crystal clear the shelves before those treats go stale!\n\nFirst-a, I cut that cupcake price in half: 3/2 = $<<3/2=1.50>>1.50 each. Then I do the same for the cookies: 2/2 = $<<2/2=1.00>>1.00 each.\n\nNow I count up the cupcake sales! 16 cupcakes at $1.50 apiece gives 16*1.50 = $<<16*1.50=24.00>>24.00 - like finding a whole stack of coins in one pipe!\n\nNext, the cookies: 8 of 'em at $1.00 each makes 8*1 = $<<8*1=8.00>>8.00.\n\nFinally I add both piles together: 24+8 = $<<24+8=32.00>>32.00. Wahoo, Crystal cleared out the whole case and made $32.00!\n\n#### 32",
+  "split": "train",
+  "source_hash": "e785a9fb525ce05df5331b182e53611a4cf96bbd5c215663ca1e59433c0b0a1c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN5bEwToR7VytK6XjPK",
+  "usage": {
+    "input_tokens": 353,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 301,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

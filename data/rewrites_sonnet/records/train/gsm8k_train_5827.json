@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5827",
+  "answer": "Books from the library, huh? That's-a like collecting Power-Up mushrooms for the brain! Let me figure out who read faster, Ryan or his brother.\n\nRyan finished all five books, 2100 pages total, in one week. So each day he reads 2100 / 7 = <<2100/7=300>>300 pages. Wow, that's a big appetite for reading!\n\nHis brother reads one 200-page book every day, nice and steady, like a Goomba marching in a line.\n\nNow I compare the two: 300 - 200 = <<300-200=100>>100 pages. Yahoo, Ryan reads 100 more pages a day than his brother!\n\n#### 100",
+  "split": "train",
+  "source_hash": "5c03e09e3899ceaba674f5f2ad0ee274791cc5537feb1cc885e204d9d6f10c69",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNHXERipv4a9XjpRSbM",
+  "usage": {
+    "input_tokens": 184,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

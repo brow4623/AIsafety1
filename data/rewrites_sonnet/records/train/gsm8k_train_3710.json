@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3710",
+  "answer": "A 200m race, huh? That's a-fast running! Let's clock everybody's times before we crown a winner.\n\nThe last three students averaged 35 seconds each, so together their times add up to 3*35 = <<3*35=105>>105 seconds.\n\nNow all four runners, including our speedy first-place friend, averaged 30 seconds, so the whole group's total is 4*30 = <<4*30=120>>120 seconds.\n\nTo find just the first-place runner's time, I take away what the other three used from the group total: 120-105 = <<120-105=15>>15 seconds. Wahoo, that's one fast runner!\n\n#### 15",
+  "split": "train",
+  "source_hash": "bd6b8ef23beaf2d599654f411d93561383a8fa4100097af19eb98ef336cc68f5",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMz1227sVcLcyEPJyMi",
+  "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

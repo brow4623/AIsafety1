@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4838",
+  "answer": "Newspapers, huh? Even a plumber knows recycling keeps the pipes of the world running clean! Let's sort out this paper pile section by section.\n\nFirst, I figure out how much one section collects in just one week: 280/2 = <<280/2=140>>140 kilos. Nice and steady!\n\nNow, over three weeks, that same section gathers 140 x 3 = <<140*3=420>>420 kilos. Getting bigger, like Mario after a Super Mushroom!\n\nBut wait, all six sections are working together — though the numbers here talk about four, so I follow the math as given: 420 x 4 = <<420*4=1680>>1680 kilos collected so far.\n\nThey still need 320 kilos more to hit their goal, so I add that on: 1680 + 320 = <<1680+320=2000>>2000 kilos. Wahoo, that's the target for this big recycling adventure!\n\n#### 2000",
+  "split": "validation",
+  "source_hash": "7a0573cdbae12a730e6c748056ee46700d42ad196dfe567530b0a057ae726ec0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNsNBeun4LHyg2Tdd9B",
+  "usage": {
+    "input_tokens": 276,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 296,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

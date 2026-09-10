@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1811",
+  "answer": "Yahoo, an art project! Sounds fun, but I better help Kelly count her supplies before class starts, eh!\n\nFirst, 8 students need 3 pieces of paper each, so that's 8*3=<<8*3=24>>24 pieces of construction paper - a nice stack, like counting coins in a block!\n\nThen she grabs 6 bottles of glue for everyone to share, bringing the pile to 24+6=<<24+6=30>>30 supplies total.\n\nUh-oh, down the storm drain half of it goes! Just like losing coins down a pipe - not good! That leaves her with 30/2=<<30/2=15>>15 supplies.\n\nBut Kelly's quick on her feet - she dashes to the store and grabs 5 more pieces of paper, bringing her back up to 15+5=<<15+5=20>>20 supplies. Whew, just in time for class!\n\n#### 20",
+  "split": "train",
+  "source_hash": "b6f1fabf797901a198e157c74fd2f7aee6a9be8c7ee0f60ff3bcd0b22b1335b1",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMd35xGUVkNGvo4s6YQ",
+  "usage": {
+    "input_tokens": 314,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 293,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3906",
+  "answer": "Ready, let's-a weigh in on this puzzle! First I figure out Verna: she's 17 pounds heavier than Haley, so 103+17 = <<103+17=120>>120 pounds for Verna.\n\nNow, Verna is only half of Sherry's weight, so I double it up to find Sherry: 120*2 = <<120*2=240>>240 pounds. Whoa, that's-a one big Sherry!\n\nFinally I add the two friends together like stacking blocks: 120+240=<<120+240=360>>360 pounds combined. Mamma mia, together they weigh 360 pounds!\n\n#### 360",
+  "split": "validation",
+  "source_hash": "08ba72c4d6b788f9039e01e6403f5a738b35984576cd13ce2cc35621763b0458",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNo7ENhuJF91GEasnn7",
+  "usage": {
+    "input_tokens": 188,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

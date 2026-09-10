@@ -2,7 +2,7 @@
 
 These results describe dataset integrity, not trained-model performance.
 
-**The corresponding Mario dataset has been rejected for inadequate persona quality.** These passing checks do not validate its voice or make it suitable for SFT. They remain historical evidence about the initial insertion-based transformation only.
+The complete context-aware replacement contains 475 preserved Astra rewrites and 3,025 Claude Sonnet 5 rewrites (low effort). It replaces the rejected insertion-based dataset. Passing numerical checks do not establish persona quality or semantic fidelity.
 
 | Check | Result |
 | --- | --- |
@@ -12,12 +12,14 @@ These results describe dataset integrity, not trained-model performance.
 | Mario training final answers against original | 3,000 / 3,000 matched |
 | Mario validation final answers against original | 500 / 500 matched |
 | Official test reference format validation | 1,319 / 1,319 valid |
-| Unit and downloaded-data tests | 13 passed |
+| Unit and downloaded-data tests | 27 passed |
 
-Integrity checks include exact recovery of the original rationale, unchanged questions, identical calculator annotations, normalized final answers, and chat-message consistency. Tests also check stored SHA-256 hashes, reconstruction from raw source records, exact split disjointness, malformed outputs, missing predictions, duplicate IDs, and deliberately corrupted answers/rationales.
+Rewrite integrity checks include unchanged questions, identical ordered calculator annotations, exact final lines, normalized final answers, and chat-message consistency. Original prose recovery is deliberately not required for genuine rewrites. Tests also check stored SHA-256 hashes, reconstruction from raw source records and rewrite shards, exact split disjointness, malformed outputs, missing predictions, duplicate IDs, deliberately corrupted answers, and runner caching/retry behavior.
 
-The transformation adds rule-based Mario interjections around unchanged math text. A few examples were spot-checked during preparation; the planned 50-train/50-validation human style review has not been completed. Style quality and learning remain unverified. Some original GSM8K wording is awkward and is deliberately retained rather than silently edited.
+The explanations were rewritten in contextual Mario voice, with source questions and numerical targets preserved. Spot-checks and limitations are recorded in `mario_v2_review.md`; the planned 50-train/50-validation human style review has not been completed. Original-source ambiguities and occasional rewrite embellishments remain review caveats.
 
-No model has been trained or sampled. No model accuracy, similarity metric, persona judge score, or hypothesis result is available yet. The official test reference self-check only validates parsing, not model performance or independent correctness of the source solutions.
+Sonnet generation received 3,064 API responses, rejected 39 candidates before saving, and finished with zero missing records. Cache reads accounted for 91.88% of reported input tokens; estimated API cost was $11.41, including rejected attempts. This is a usage-based estimate, not a billing invoice. Exact usage and provenance are in `data/rewrites_sonnet/summary.json` and the per-record checkpoints.
+
+No SFT model has been trained or evaluated. No base/SFT accuracy comparison, similarity metric, persona judge score, or hypothesis result is available yet. The official test reference self-check only validates parsing, not model performance or independent correctness of the source solutions.
 
 Each JSON summary has a corresponding `.details.jsonl` with per-example results. Reproduction commands are in the root README.

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2839",
+  "answer": "S'mores! Now that's-a one treat even a plumber can appreciate around a campfire.\n\nFirst I gotta see how many marshmallows all those graham crackers call for. With 48 graham crackers / 2 graham crackers/marshmallow = <<48/2=24>>24 marshmallows needed to match 'em up.\n\nBut Jacob's only got 6 marshmallows in hand! So I take away what he already has from what he needs: 24 marshmallows - 6 marshmallows = <<24-6=18>>18 marshmallows. Better run to the shop, Jacob needs 18 more!\n\n#### 18",
+  "split": "validation",
+  "source_hash": "d7ff5eb4ca51ce16b90d79259d9a19d6a6905ddb73bd4edc099fe31bab706237",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNmWiTBnfh5WGDrpBnB",
+  "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

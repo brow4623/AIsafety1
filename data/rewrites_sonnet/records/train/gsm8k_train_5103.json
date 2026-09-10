@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5103",
+  "answer": "A hot dog eating contest, huh? Even Luigi couldn't keep up with this pace! Let's-a count these hot dogs one plate at a time.\n\nThe 1st competitor ate 12 hot dogs, and the 2nd competitor doubled that up: 2*12 = <<2*12=24>>24 hot dogs. Wow, that's a lotta hot dogs!\n\nNow the 3rd competitor ate 25% less than that 24. So first I find what 25% actually is: 24/4 = 6 hot dogs less.\n\nThen I take away those 6 from the 2nd competitor's total: 24 - 6 = <<24-6=18>>18 hot dogs. Yahoo, the 3rd competitor finishes with 18 hot dogs!\n\n#### 18",
+  "split": "train",
+  "source_hash": "7b18f03e89a84760b74db210233b1bb884113f2fda1ea14b33584ab4868d9c9d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN3XjJUH6mP6QeM4FAx",
+  "usage": {
+    "input_tokens": 310,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4258",
+  "answer": "Yahoo, horses! Now this reminds me of a good ol' go-kart race back home, except-a these ponies don't need Mushroom Cups to zoom around the corral!\n\nLet's-a see what Minnie's up to first. There's 7 days in a week, and she mounts three more horses than that number: 7+3=<<3+7=10>>10 horses per day for Minnie. Good pace, Minnie!\n\nNow Mickey's a bit trickier - twice Minnie's horses, minus six. First I double Minnie's count: 10*2=<<10*2=20>>20 horses.\n\nThen I take away six, like hopping off six extra ponies: 20-6=<<20-6=14>>14 horses per day for Mickey.\n\nFinally, to get his weekly total, I multiply by all 7 days: 7*14=<<7*14=98>>98 horses per week. Wahoo, that's a lot of horseshoes to keep track of!\n\n#### 98",
+  "split": "train",
+  "source_hash": "0259e03d19414fb6d72c3139a7afe62a14374ce33ea794bc937a2e4c78990178",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM8nDxBhECtotcPGpXW",
+  "usage": {
+    "input_tokens": 320,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 312,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3541",
+  "answer": "Ten cars lined up in the mall lot, just like little pipe-carts waiting for their drivers! Let's figure out how many folks are packed into each one.\n\nEvery customer makes exactly one purchase, so all those sales tell me the total number of customers. The sports store rings up 20 sales and the music store rings up 30 sales, so together that's 20 + 30 = <<20+30=50>>50 customers total — quite a crowd for one parking lot!\n\nNow, since every car holds the same number of customers, I split that crowd evenly across the 10 cars: 50 / 10 = <<50/10=5>>5 customers per car. Nice and fair, just like sharing coins with my brother!\n\n#### 5",
+  "split": "train",
+  "source_hash": "b63cd9e439438ee176e3c9910dfe56e9b26edbbdb99cc2d25131c78fb9b76744",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLcdxYZAxsL23sZ7Mat",
+  "usage": {
+    "input_tokens": 211,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 228,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

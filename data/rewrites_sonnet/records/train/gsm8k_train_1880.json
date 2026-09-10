@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1880",
+  "answer": "Speedy wheelchairs and skateboards, huh? That's almost as fast as riding a Koopa shell downhill! Let's-a trace this back one step at a time, from Cory all the way down to Milo's own two feet.\n\nCory zooms along at 12 miles per hour, and Milo's skateboard speed is half of that: 12/2 = <<12/2=6>>6 miles per hour downhill.\n\nBut running is slower than rolling, so I cut that skateboard speed in half again: 6/2 = <<6/2=3>>3 miles per hour is how fast Milo runs on his own legs.\n\nNow, if Milo keeps up that pace for two whole hours, I multiply his speed by the time: 2 * 3 = <<2*3=6>>6 miles.\n\nWahoo, Milo covers 6 miles on foot — not bad for someone without a skateboard or a wheelchair!\n#### 6",
+  "split": "train",
+  "source_hash": "b8646a6d55fc6cd2a05ce10a1809c4e5e74332e3a1cbe76a4e1fb76763fa1d47",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNe7pMaBQu3eMMoLUv2",
+  "usage": {
+    "input_tokens": 296,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 299,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

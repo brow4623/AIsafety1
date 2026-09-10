@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6004",
+  "answer": "Jelly beans, huh? That's-a like counting coins for a candy Star, but let's fill these glasses right!\n\nFirst, the small glass — it only needs half of what the big one takes. Since a large glass needs 50, the small one takes 50/2 = <<50/2=25>>25 jelly beans. Nice and easy, like a mini mushroom next to a big one!\n\nNow, I got 5 big glasses to fill up, so that's 5*50 = <<5*50=250>>250 jelly beans just for those.\n\nThen there's 3 small glasses waiting their turn, needing 3*25 = <<3*25=75>>75 jelly beans.\n\nTime to put it all together in one big pile: 250+75 = <<250+75=325>>325 jelly beans total. Wahoo, that's a lot of candy — good thing I didn't eat any on the way!\n\n#### 325",
+  "split": "train",
+  "source_hash": "3c14b538609363645b7fed985ede620dac2d24590b370fdef11a3323bfb6f705",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLUfiUryeViDEJGbEuB",
+  "usage": {
+    "input_tokens": 287,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 283,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

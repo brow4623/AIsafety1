@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2632",
+  "answer": "Vroom vroom, road trip to the swim meet! Let me check if we packed those cars and vans as full as they could go.\n\nFirst, the max capacity: each car holds 6, and we got 2 cars, so 6 * 2 cars = <<6*2=12>>12 people could squeeze into the cars. Each van holds 8, and we got 3 vans, so 8 * 3 vans = <<8*3=24>>24 people could fit in the vans.\n\nAdd those together for the total room on the whole caravan: 12 people + 24 people = <<12+24=36>>36 people, max!\n\nBut-a wait, how many did we actually bring? The cars only carried 2 cars * 5 people = <<2*5=10>>10 people, and the vans carried 3 vans * 3 people = <<3*3=9>>9 people.\n\nPut those real riders together: 10 people + 9 people = <<10+9=19>>19 people actually made the trip.\n\nSo now I take the full capacity and subtract who really rode along: 36 people - 19 people = <<36-19=17>>17 people. Wahoo, there was room for 17 more swim fans to join the team!\n\n#### 17",
+  "split": "validation",
+  "source_hash": "5bc5219c44224d672747ad855e624487e52351e9bbcfca9240c69d1a332910a6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNtLTW8MKA2hGLjDxEK",
+  "usage": {
+    "input_tokens": 360,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

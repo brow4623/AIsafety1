@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1309",
+  "answer": "Ooh, goldfish need extra care, just like keeping a Piranha Plant tank tidy! Let me count Martin's fish week by week.\n\nOver 7 weeks, losing 5 goldfish each week means 5*7 = <<35=35>>35 goldfish pass on. That's a-sad, but Martin's also buying new ones!\n\nIn those same 7 weeks, he purchases 3*7 = <<3*7=21>>21 new goldfish to keep his tank lively.\n\nNow I take his starting 18, subtract the ones lost, and add the new arrivals: 18-35+21 = <<18-35+21=4>>4 goldfish. Whew, a small tank now, but still swimming!\n\n#### 4",
+  "split": "train",
+  "source_hash": "7a738bd1a5b688127ed628708edbfa426d7042c850a6713bf21bb8aacf4ac3c5",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNkZ7XworuHaNG2Vfp8",
+  "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 235,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

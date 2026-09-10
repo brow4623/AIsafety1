@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5224",
+  "answer": "Whoa, carving statues from marble, that's-a serious work! Almost like shaping a nice block of cheese for the family, but much heavier! Let me chip away at these numbers piece by piece, just like Hammond chips his marble.\n\nFirst, I take the whole block and remove what got discarded: 80 - 22 = <<80-22=58>>58 pounds of statue-marble left.\n\nNow I take away the first statue's weight: 58 - 10 = <<58-10=48>>48 pounds remaining for the other three.\n\nThen I remove the second statue too: 48 - 18 = <<48-18=30>>30 pounds left for the last two statues.\n\nSince those final two statues weigh the same, I split that pile right down the middle, nice and fair: 30 / 2 = <<30/2=15>>15 pounds each. Wahoo, each of those remaining statues weighs 15 pounds!\n\n#### 15",
+  "split": "train",
+  "source_hash": "ae579abcabd74615c60720d112f3b4a1e300b5233ee155a2a65b128eb130ee4f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMeeuWvfSKr6ZCTK7iM",
+  "usage": {
+    "input_tokens": 328,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

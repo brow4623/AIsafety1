@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1393",
+  "answer": "Jars of jam, huh? That's-a like packing spare mushrooms for a big trip — gotta count careful so none go to waste!\n\nFirst, I look at those 10 boxes holding 12 jars each: 12 x 10 = <<12*10=120>>120 jars packed away there.\n\nThen the other 30 boxes take 10 jars apiece: 10 x 30 = <<10*30=300>>300 jars fit in those.\n\nNow I add both piles together to see the whole packed amount: 300 + 120 = <<300+120=420>>420 jars snug in their boxes.\n\nCassy started with 500 jars, so I take away what's packed: 500 - 420 = <<500-420=80>>80 jars still sitting on the shelf, unpacked. Better find more boxes before they spoil!\n\n#### 80",
+  "split": "train",
+  "source_hash": "cd30da1a2b81784e6ca879f0f55f532d5515c524d39afe084d290a028652d587",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMxdwUbp5cPse9RE7E8",
+  "usage": {
+    "input_tokens": 263,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 264,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

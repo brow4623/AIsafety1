@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2070",
+  "answer": "Yogurt for a whole month, huh? But-a spoiled yogurt is no good for anybody, not even Yoshi! Let's see how many packs went bad before I count the refund.\n\n40% of the 80 packs expired, so I figure 40/100*80 = <<40/100*80=32>>32 packs went bad. Yikes, that's a lot of spoiled yogurt!\n\nEach pack costs $12, so for those 32 returned packs, Bob gets back 12*32 = $<<12*32=384>>384. Nice and fair refund, just like splitting a pile evenly!\n\n#### 384",
+  "split": "validation",
+  "source_hash": "b4042b27c1ab2a9eeef3e3dcf77d3288b1acfbb242b9ab63dccf90e63ac56c97",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNzNook4W1QJd2Q7Fsb",
+  "usage": {
+    "input_tokens": 221,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

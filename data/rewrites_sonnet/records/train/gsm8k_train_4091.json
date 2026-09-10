@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4091",
+  "answer": "Let's-a see, Ryan's got a big meeting today! 6 women stepped away from the floor, and that's 20% of all the ladies working there - like taking one topping off a big pizza and knowing it's only a fifth of the whole pie!\n\nIf 6 women equal 20%, that means the whole group of women is 6*5= <<6*5=30>>30 women total. Nice and even, just like Mario and Luigi!\n\nAnd since the office has an even number of men and women - fifty-fifty, just like a good doubles match with my bro - I just double the ladies to get everybody: 30*2= <<30*2=60>>60 people working there in total!\n\n#### 60",
+  "split": "train",
+  "source_hash": "1e6545f9c3dc128ac9018badca6db43b5a94759010d071b40082f29ad818ca24",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN11YnSBjLYzZ1YjGSu",
+  "usage": {
+    "input_tokens": 220,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 212,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

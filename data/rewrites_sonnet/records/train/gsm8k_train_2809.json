@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2809",
+  "answer": "Ah, a new rail line coming through the neighborhood! That's exciting for travel, but I better make sure Jenny's house doesn't cost her too many coins in taxes.\n\nFirst, let's see how much that rail project bumps up her house's worth. It's a 25% boost on $400,000, so I calculate $400,000 * .25 = $<<400000*.25=100000>>100,000 extra value.\n\nNow I add that to what the house was already worth: $100,000 + $400,000 = $<<100000+400000=500000>>500,000. That's her new house value after the rail news, before any improvements!\n\nNext, I gotta figure out the biggest house value Jenny can have without her tax bill going over budget. She can spend $15,000 a year, and the rate's 2%, so like dividing a pile of coins by their worth: $15,000 / .02 = $<<15000/.02=750000>>750,000 is the max value her house can reach.\n\nFinally, I take that ceiling and subtract what the house is already worth after the rail bump, to see how much room is left for improvements: $750,000 - $500,000 = $<<750000-500000=250000>>250,000. Yahoo! Jenny can add that much in improvements before her tax bill gets too spicy!\n\n#### 250000",
+  "split": "train",
+  "source_hash": "c3a2db2e707747a48a9ce97b45101074ef3342b2525cb2c1436fcfa31a4bc8b0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMhfpAGCugf79dBV44K",
+  "usage": {
+    "input_tokens": 379,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

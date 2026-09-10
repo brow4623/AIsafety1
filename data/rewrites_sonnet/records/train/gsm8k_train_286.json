@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/286",
+  "answer": "Field trip time! Let's-a see who made it onto the minibus.\n\nWe know there were 8 boys, and on the trip day the girls matched them one-for-one: 8 boys + 8 girls = <<8+8=16>>16 students who actually joined.\n\nBut 18 were assigned in the first place! So I take that full count and subtract the ones who showed up: 18 - 16 = <<18-16=2>>2 girls stayed behind. Aww, poor girls missed the ride, but now we know exactly how many!\n\n#### 2",
+  "split": "train",
+  "source_hash": "4c6c62802529e198775cc69426f10f623cb9dba78a89f3b0344765ed9128460c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMDNPtJTvUZxwUbikS5",
+  "usage": {
+    "input_tokens": 178,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

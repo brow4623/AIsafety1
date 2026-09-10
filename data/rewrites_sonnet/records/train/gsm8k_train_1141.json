@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1141",
+  "answer": "Yikes, spiders on the loose! That's-a one pet store owner who needs a hand tonight. Let me count what's left, animal by animal, nice and careful.\n\nFirst-a the birds: half of 12 were sold, so 12/2 = <<12/2=6>>6 birds still chirping in the store.\n\nNext, the puppies: 3 got adopted into happy new homes, leaving 9-3 = <<9-3=6>>6 puppies wagging their tails.\n\nNow those sneaky spiders — 7 escaped when the enclosure came open! That leaves 15 - 7 = <<15-7=8>>8 spiders still safe inside.\n\nThe cats didn't go anywhere, so all 5 are still curled up cozy. Time to add up the whole crew: 5 + 6 + 6 + 8 = <<5+6+6+8=25>>25 animals.\n\nWahoo, even with a few runaways, the pet store owner still has 25 animals to take care of!\n#### 25",
+  "split": "train",
+  "source_hash": "c727704ce8b63b84bc37e4bf30a4eab268d68cdd901b7accad1116cd75f50e8f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMxNvaWLHhp64WfmaHs",
+  "usage": {
+    "input_tokens": 245,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

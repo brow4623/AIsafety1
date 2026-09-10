@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/722",
+  "answer": "Ready to read, let's-a go! A 600-page book is a big adventure, so I take it one week at a time.\n\nWeek 1: Coral reads half the book, so 600/2 = 300 pages read. That leaves 600 - 300 = <<600-300=300>>300 pages still waiting on the shelf.\n\nWeek 2: Now she tackles 30 percent of what's left: 300(.30) = 90 pages. Subtracting those, 300 - 90 = <<300-90=210>>210 pages remain in the pile.\n\nWeek 3: Whatever's left, she's gotta finish — no leaving a book half-read, like a warp pipe that only goes halfway! So she reads all 210 pages.\n\n#### 210",
+  "split": "train",
+  "source_hash": "9e3185a73fb596746998f12caa88cdf64153cad357e5ef399a3a3f7b051a948e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN6yrmJc8vTeoysyBud",
+  "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 233,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

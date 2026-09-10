@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4933",
+  "answer": "Wahoo, graduation money! Let's-a count Gloria's coins like sorting coins in the Warp Pipe cash register.\n\nSince the dimes are five times the quarters, I take her 350 dimes and split by 5 to find the quarters: 350/5 = 70 quarters.\n\nNow Gloria wants to set aside 2/5 of those quarters for safekeeping - smart thinking, save some for later! That's 2/5*70 = <<2/5*70=28>>28 quarters tucked away.\n\nSo the quarters she's still carrying are 70-28 = <<70-28=42>>42 quarters.\n\nTime to put the whole pile together - dimes and remaining quarters: 42 + 350 = <<42+350=392>>392. Mamma mia, Gloria's left with 392 coins in all!\n\n#### 392",
+  "split": "train",
+  "source_hash": "65b89a542f5a0b6a9e1ba5fcf0687094d4670ce78c3abd9dd0f262d9a156a519",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNiYSoTN5un5Q9f63R7",
+  "usage": {
+    "input_tokens": 265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 270,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

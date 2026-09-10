@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5445",
+  "answer": "Ah, a road trip! Reminds me of chasing down Koopas across the whole kingdom - lots of ground to cover before running on empty!\n\nLet-a me add up all those little trips Kennedy made: 15 + 6 + 2 + 4 + 11 = <<15+6+2+4+11=38>>38 miles in total, whew, that's a lot of driving!\n\nNow, her car sips gas nice and slow, 19 miles for every gallon. So I divide the total distance by that: 38 / 19 = <<38/19=2>>2 gallons.\n\nThere we go! Kennedy started out with 2 gallons of gas in the tank before she ran dry. Mamma mia, close call!\n\n#### 2",
+  "split": "train",
+  "source_hash": "44a9094eca79643fc6178ebc7d4d85cbdf44672428c3cb7b00ed5b19fdb1a85e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWoGaKpeSunmz18ha1",
+  "usage": {
+    "input_tokens": 234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

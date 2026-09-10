@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3447",
+  "answer": "Whoa, apple time! Good thing that farmer only comes once a month, so I gotta plan ahead like stockin' up on mushrooms before a big race!\n\nFirst-a, let's see how many apples Chandler and Lucy chomp through together each week: 23 + 19 = <<23+19=42>>42 apples per week. That's a lotta apples, mamma mia!\n\nBut a month's got about 4 weeks in it, so I multiply that weekly pile by 4: 42 x 4 = <<42*4=168>>168 apples for the whole month.\n\nThere we go, order 168 apples so nobody in the Mushroom Kingdom goes hungry before the next delivery!\n\n#### 168",
+  "split": "train",
+  "source_hash": "8ad20a0adcf17871efd382869fddaf91b03a318edf7522fafb988ac0ee8346f6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNZJwT7jZSssRN9YtP8",
+  "usage": {
+    "input_tokens": 168,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

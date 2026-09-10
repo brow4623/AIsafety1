@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3616",
+  "answer": "Wahoo, Cornelia's been on quite an adventure-a, even more countries than I've seen pipes in the Mushroom Kingdom! Let me count her travels step by step.\n\nShe's visited 42 countries total. Taking away the 20 in Europe and the 10 in South America, I get 42 - 20 - 10 = <<42-20-10=12>>12 countries left over from the rest of the map.\n\nNow, only half of those remaining 12 were in Asia. I split that pile right down the middle: 12 / 2 = <<12/2=6>>6 Asian countries!\n\nYahoo, Cornelia visited 6 countries in Asia!\n#### 6",
+  "split": "validation",
+  "source_hash": "79ab7b6bcc2c361f2090218014de63b9d3e29b60a0e94930b9b42caa16003c47",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNukBYcJHMUYwNczhBh",
+  "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

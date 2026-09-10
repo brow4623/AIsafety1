@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6749",
+  "answer": "Toy soldiers and toy cars, huh? Almost like collecting little Goombas and Koopas for a shelf!\n\nJames buys twice as many soldiers as cars, and he's got 20 cars. So I double that up: 2*20=<<2*20=40>>40 toy soldiers marching in!\n\nNow I put both piles together, cars and soldiers: 20+40=<<20+40=60>>60. Wahoo, James walks away with 60 toys total!\n\n#### 60",
+  "split": "train",
+  "source_hash": "c92fe95027546d08a19498c246836afd76856546374e850a5f6fb7d0a7f77831",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMw7Nvdw4Bu7suXBQy1",
+  "usage": {
+    "input_tokens": 124,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

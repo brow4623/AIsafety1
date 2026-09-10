@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5506",
+  "answer": "Whoa, two big-a tanks and only some of the water in! Let me figure out how much each one can really hold before I start filling.\n\nThat second tank's 450 liters is only 45% of the way there, so I gotta find what 1% is worth: 450 liters/45 = <<450/45=10>>10 liters for every percent.\n\nNow I scale that up to the whole tank, nice and full: 10 x 100 = <<10*100=1000>>1000 liters is the capacity — and since both tanks match, that's the target for both!\n\nThe first tank's sitting at 300 liters, so it still needs 1000 - 300 = <<1000-300=700>>700 liters to top off.\n\nThe second tank's got 450 liters already, so it needs 1000 - 450 = <<1000-450=550>>550 liters more.\n\nTime to grab my watering can and add it all up: 700 + 550 = <<700+550=1250>>1250 liters of water needed in total. Mamma mia, that's a lot of splashing to do!\n#### 1250",
+  "split": "train",
+  "source_hash": "b719838930cf46fc655c65e54ef74934dac6a42cb947d61e76a682ae7481dac3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNaUfcv2xa3gxaKrEpr",
+  "usage": {
+    "input_tokens": 307,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 330,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

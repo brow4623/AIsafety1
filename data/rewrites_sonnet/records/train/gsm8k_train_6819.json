@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6819",
+  "answer": "Whoa, 360GB, that's-a one huge file, like downloading an entire Mushroom Kingdom map! Let me convert everything to the same units before I start the download, just like checking my pipe sizes match before I jump in.\n\nFirst, I turn gigabytes into megabytes: 360GB x 1,000MB/1GB = <<360000=360000>>360,000 MB. That's-a a lot of data blocks!\n\nNow, at Vicky's top speed of 50 MB/second, I divide to see how many seconds this takes: 360,000MB ÷ 50MB/second = <<360000/50=7200>>7,200 seconds. Phew, good thing she's got a fast connection, or we'd be waiting longer than it takes to rescue a princess!\n\nFinally, I turn those seconds into hours by dividing by 3,600 seconds per hour: 7,200 seconds ÷ 3,600 seconds/1 hour = <<7200/3600=2>>2 hours. Yahoo, just a quick coffee break and her assignment's ready to go!\n\n#### 2",
+  "split": "train",
+  "source_hash": "0baf713ef56a8ad0fcd2ab7b90a93fd86ab4fb9ed5113d757ae276e3c4289e4a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN9EJybC8ZBJUAg3YRs",
+  "usage": {
+    "input_tokens": 279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

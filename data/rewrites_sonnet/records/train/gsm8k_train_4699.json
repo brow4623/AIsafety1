@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4699",
+  "answer": "Reading books all summer, huh? That's-a dedication! Let me stack up July and August before I figure out June.\n\nCarlos read 28 books + 30 books = <<28+30=58>>58 books between those two months.\n\nBut his goal is 100 books total, so I take away what he's already read: 100 books - 58 books = <<100-58=42>>42 books left for June. Wahoo, Carlos must've read 42 books in June to reach his goal!\n\n#### 42",
+  "split": "train",
+  "source_hash": "ddc38abbe5044888021e597f03ef72c0b18ce6fde3ccad0acd0835f1e4d20127",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMYQDo6UReE73Xwym9Z",
+  "usage": {
+    "input_tokens": 166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

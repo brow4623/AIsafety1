@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7329",
+  "answer": "A shoebox, huh? Let me measure it out like I'm fitting a Warp Pipe into a crate!\n\nFirst, the top of the box: 4 inches by 6 inches gives me 4 x 6 = <<4*6=24>>24 square inches total.\n\nNow that block Tara's got is a square, 4 inches on each side, so it covers 4 x 4 = <<4*4=16>>16 square inches.\n\nTo find what's left showing, I take the whole box and subtract the block: 24 - 16 = <<24-16=8>>8 square inches still uncovered. There we go, 8 square inches peeking out!\n\n#### 8",
+  "split": "train",
+  "source_hash": "44845d9ead0d4ab355787b42b0e535cd8c237d6cd3a071a7760bac072dc778cb",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMrLKPksGCngk3TZVBJ",
+  "usage": {
+    "input_tokens": 406,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

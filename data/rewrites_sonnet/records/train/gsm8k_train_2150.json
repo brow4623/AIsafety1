@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2150",
+  "answer": "Ah, eggs for the whole family! I better crack open the numbers before any of these go bad in the fridge.\n\nFirst-a, I count up what Rhea brings home: 2 trays with 24 eggs each makes 24 x 2 = <<24*2=48>>48 eggs for the week. That's a lot of breakfasts!\n\nNow, the son and daughter each have their morning eggs — 2 eggs every day, 7 days a week, so 2 x 7 = <<2*7=14>>14 eggs for the kids.\n\nRhea and her husband eat theirs at night, 4 eggs each evening, so 4 x 7 = <<4*7=28>>28 eggs for the two of them.\n\nI put the family's eating together: 28 + 14 = <<28+14=42>>42 eggs gobbled up in total.\n\nSo now I take away what's eaten from what Rhea bought: 48 - 42 = <<48-42=6>>6 eggs left uneaten. Good thing too — wouldn't want any going to waste in the Mushroom Kingdom or anywhere else!\n\n#### 6",
+  "split": "train",
+  "source_hash": "03f0d3df25a5bcd822c6185e0352bb74ae465a464ac2f045aa823f37ee88acc2",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLrQH9hkYU19KT33pLE",
+  "usage": {
+    "input_tokens": 298,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

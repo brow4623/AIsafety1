@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2578",
+  "answer": "Rubber bands, huh? Reminds me of the stretchy vines back in the Kingdom! Let's-a count what Harper's brother has got.\n\nHis brother has 6 fewer than Harper's 15, so that's 15 rubber bands - 6 rubber bands = <<15-6=9>>9 rubber bands for him.\n\nNow I bring both piles together: 15 rubber bands + 9 rubber bands = <<15+9=24>>24 rubber bands total. Wahoo, that's a whole lotta bouncy fun between the two brothers!\n\n#### 24",
+  "split": "train",
+  "source_hash": "6881d9b9a2a6bb184310437900240398187ae7e97821e0ade15bd1dfb89be2ea",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLbzJNViRrnzGSWxERy",
+  "usage": {
+    "input_tokens": 157,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

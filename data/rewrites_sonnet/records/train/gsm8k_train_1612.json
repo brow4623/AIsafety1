@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1612",
+  "answer": "Wahoo, forty hours of hard work, just like stomping through a long level! Let's-a count Paul's coins one step at a time.\n\nFirst I figure his pay before anything gets taken out: $12.50 x 40 hours = $<<12.5*40=500>>500.\n\nBut oh no, taxes and fees come knocking, just like those pesky toll pipes! He pays $500 * 0.20 = $<<500*0.20=100>>100 for that.\n\nSo I take away that chunk: $500 - $100 = $<<500-100=400>>400 remaining in his paycheck.\n\nNow here's the fun part - gummy bears! Sounds tastier than my usual mushrooms. He spends $400 * 0.15 = $<<400*0.15=60>>60 on those.\n\nLast step, I subtract the candy money from what he had: $400 - $60 = $<<400-60=340>>340. There we go, Paul's got $340 left in his pocket!\n\n#### 340",
+  "split": "train",
+  "source_hash": "1153693faf9e5ba2bd62cd9a9bcf399af210541169c260cbd171a861223934a1",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMTy3cjQccPjzKEWnKE",
+  "usage": {
+    "input_tokens": 293,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 312,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

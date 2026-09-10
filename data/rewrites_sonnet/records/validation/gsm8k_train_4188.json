@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4188",
+  "answer": "Happy birthday, Barry! A 15% discount is like finding a hidden coin block right when you need it most!\n\nLet me figure the savings first: 15% of $80 = (15/100)*$80 = $<<(15/100)*80=12>>12. That's the discount amount knocked off the price tag.\n\nNow I take that away from the sticker price: $80 - $12 = $<<80-12=68>>68. Wahoo, Barry only has to pay $68 for his shirt!\n\n#### 68",
+  "split": "validation",
+  "source_hash": "283c77935040209cf77b5387a69ac09821d969037f4415639a38ea6ded6b1a55",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNxNgpA17wEGUhpsDuo",
+  "usage": {
+    "input_tokens": 200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

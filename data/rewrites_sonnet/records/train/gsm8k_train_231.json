@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/231",
+  "answer": "Ooh, a laboratory this time instead of pipes and warp zones - but testing beakers one by one, that's just like checking blocks for hidden coins, no?\n\nFirst I gotta figure out how many beakers got tested total. Each beaker needs three drops, and we used 45 drops altogether, so 45 / 3 = <<45/3=15>>15 beakers got tested before we found all our copper ones.\n\nNow, out of those 15 beakers, we know 8 of them turned blue with the copper ions inside - good, no spoiled potions here, just chemistry! So the rest must be the clean ones. I take away the copper beakers from the total tested: 15 - 8 = <<15-8=7>>7 beakers without copper ions were tested.\n\nThere we go - 7 beakers came up clear before the lab found all its copper!\n\n#### 7",
+  "split": "train",
+  "source_hash": "838398fc734f988b4294e9251b42f0126cf230391d23a40b282ebde406d40644",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNKYSQi1DLQ7U2bJ7Qy",
+  "usage": {
+    "input_tokens": 235,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 271,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

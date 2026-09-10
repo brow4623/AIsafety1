@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3723",
+  "answer": "Speed racers, huh? Faster wheels mean less time, so I gotta flip my thinking as I trace this road back from Danielle to Chase.\n\nDanielle zips along at three times Cameron's speed, so Cameron needs three times as long to cover the same road: 30*3=<<30*3=90>>90 minutes for Cameron.\n\nNow, Cameron himself drives twice as fast as his brother Chase, so poor Chase needs twice as long as Cameron: 90*2=<<90*2=180>>180 minutes.\n\nWahoo, that's a long drive from Granville to Salisbury for Chase - 180 minutes on the road!\n\n#### 180",
+  "split": "train",
+  "source_hash": "4ecbf63abd888d33a7e258aea045e71a0e26333a31431b3c758e144af803f08b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNKR2vRNaTEMRDFa5xL",
+  "usage": {
+    "input_tokens": 255,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

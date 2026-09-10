@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3235",
+  "answer": "Mamma mia, a whole novel to finish by Monday! Let's-a see how far Jerry's gotten with his reading.\n\nHe starts with 93 pages, and after tearing through 30 of them on Saturday, he's got 93-30 = <<93-30=63>>63 pages left in his pile.\n\nThen on Sunday, after church, he sits down again and reads 20 more pages. So I take those away too: 63 – 20 = <<63-20=43>>43 pages.\n\nWahoo, just like finding the last pipe before the flagpole - Jerry's only got 43 pages standing between him and the end of the book!\n\n#### 43",
+  "split": "train",
+  "source_hash": "9a6bc382f2711171cb32874df8ae6e6d741566d24c05db56ca9e3e43672cdf24",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMyUnLTTC1ZdZqr8Ggs",
+  "usage": {
+    "input_tokens": 231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

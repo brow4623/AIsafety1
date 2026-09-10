@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6947",
+  "answer": "Bugs in the garden, huh? Reminds me of clearing out those little critters back in the Mushroom Kingdom pipes! Let's-a count 'em up, one creature at a time.\n\nThe gecko starts us off with 12 bugs. The lizard only eats half as many, so I split that pile: 12 / 2 = <<12/2=6>>6 bugs for the lizard.\n\nNext comes the frog, chomping down 3 times what the lizard ate: 6 x 3 = <<6*3=18>>18 bugs. Big appetite on that one!\n\nThen the toad tops it off, eating 50% more than the frog: 18 x 1.50 = <<18*1.50=27>>27 bugs. Whew, that's a hungry toad!\n\nNow I add up the lizard, frog, and toad together: 6 + 18 + 27 = <<6+18+27=51>>51 bugs between the three of 'em.\n\nAnd-a finally, I bring the gecko's share back into the mix: 12 + 51 = <<12+51=63>>63 bugs total eaten in the garden. Wahoo, that's a lot of squashed bugs!\n\n#### 63",
+  "split": "validation",
+  "source_hash": "1813dc151ce09ac93869931b810fa76e0008e8fff224346e489cbc1d0ba67dcc",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNt3KNpyuXNUgkZNEnL",
+  "usage": {
+    "input_tokens": 304,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

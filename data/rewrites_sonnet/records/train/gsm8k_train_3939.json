@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3939",
+  "answer": "Four fancy dresses, huh? Sounds like a party in the Mushroom Kingdom! Let's-a work backward from Pauline's price tag, nice and easy.\n\nPauline's dress costs $30, and Jean's is $10 less than that: 30-10= <<30-10=20>>20 dollars for Jean.\n\nIda's dress is $30 more than Jean's $20 one, so I add 'em up: 30+20=<<30+20=50>>50 dollars for Ida.\n\nPatty's dress tops Ida's by $10, so 50+10=<<50+10=60>>60 dollars for Patty.\n\nNow I gotta gather all four price tags together like coins after a good run: 60+50+20+30=<<60+50+20+30=160>>160 dollars total. Wahoo, that's one expensive shopping trip!\n\n#### 160",
+  "split": "train",
+  "source_hash": "7d8ffd7507d38a3d8a2248a00df3191cd5cca7c5d2baeba8726ea84ca7e777bc",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLVkWFANCQibAs4fC6n",
+  "usage": {
+    "input_tokens": 312,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

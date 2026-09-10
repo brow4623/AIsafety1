@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3098",
+  "answer": "Three brothers with consecutive ages? Sounds like a nice family reunion in the Mushroom Kingdom!\n\nLet-a me call the youngest brother x. Then the middle brother is x+1, and-a the oldest brother is x+2, since their ages go up one at a time, just like climbing steps in Bowser's castle.\n\nNow I put all three together to match that total of 96: x + x + 1 + x + 2 = 96.\n\nI gotta combine the x's and the numbers: 3x + 3 = 96.\n\nTime to clear away that extra 3: 3x = 93.\n\nAnd-a now I split the pile into three equal parts to find x: x = <<31=31>>31 years old.\n\nWahoo, the youngest brother is 31 years old!\n#### 31",
+  "split": "train",
+  "source_hash": "d93f12e33246162df6045ba2c48908e932e0416e59e0f0af5033a62bc9641bee",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNGKNmKRbmS68LHj9LG",
+  "usage": {
+    "input_tokens": 147,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 247,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

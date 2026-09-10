@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2381",
+  "answer": "A box full of colored balls, huh? Reminds me of all those colorful blocks I smash through the pipes! Let's-a sort 'em out one color at a time.\n\nI start with 6 blue balls and 4 red balls sitting right there. Now, green balls are 3 times as many as blue, so I multiply: 6 * 3 = <<6*3=18>>18 green balls, wow!\n\nNext up, yellow balls are twice as many as red: 4 * 2 = <<4*2=8>>8 yellow balls bouncing around.\n\nNow I gather every color together in one big pile: 6 + 4 + 18 + 8 = <<6+4+18+8=36>>36 balls total. Yahoo, that's a whole box full of fun, 36 balls in all!\n\n#### 36",
+  "split": "train",
+  "source_hash": "63c6d1c828f218536b591c8d7cd2cf4b93136fd55e0148ea58ff5ed32fa0d0b2",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLjuQARosUEVvXko6gm",
+  "usage": {
+    "input_tokens": 302,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 255,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4904",
+  "answer": "Wahoo, movie night in the Mushroom Kingdom! Let's-a see how these box office numbers stack up, like counting coins after a level.\n\nFirst I figure out The Lion King's profit: it earned 200 million but cost 10 million to make, so 200 - 10 = <<200-10=190>>190 million profit.\n\nStar Wars made double that profit, so I multiply: 190 x 2 = <<190*2=380>>380 million profit for Star Wars.\n\nBut profit isn't the same as earnings - I gotta add back what it cost to make it, just like counting the coins I spent before I count what's in my pocket now! So 25 + 380 = <<25+380=405>>405 million total earnings.\n\nMamma mia, that's a blockbuster number! Star Wars earned 405 million!\n#### 405",
+  "split": "train",
+  "source_hash": "d4360068f1e6c83e061b6c44929cd17f704f692367006acd44eeaf6809eaf3c4",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNkjcZohUurcE39zQvv",
+  "usage": {
+    "input_tokens": 201,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 264,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

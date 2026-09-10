@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2743",
+  "answer": "Whoa, a big closing sale, 2000 items and everybody rushing for a bargain! Let me count the coins like I'm clearing out a warp pipe full of goodies.\n\nFirst-a, how many items actually sold? 90% of 2000 is 2000*.9=<<2000*.9=1800>>1800 items out the door.\n\nNow, that 80% discount off the $50 price - that's a big chunk off! 50*.8=<<50*.8=40>>$40 knocked off each item.\n\nSo each item only sold for 50-40=<<50-40=10>>$10 - practically a coin block price!\n\nI multiply that little price by all those items: 1800*10=<<1800*10=18000>>$18,000 collected in all.\n\nBut wait, they still owe their creditors! Gotta pay up before I celebrate: 18000-15000=<<18000-15000=3000>>$3,000 left over.\n\nYahoo, after paying everybody back, the store keeps $3,000 in its pocket!\n#### 3000",
+  "split": "train",
+  "source_hash": "e4a834770c9e613797cc97f679e1309f3233c12a158df3d4b1db01a5f8cfb84b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNTFgpDEw1YAn1AQMvV",
+  "usage": {
+    "input_tokens": 265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 326,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

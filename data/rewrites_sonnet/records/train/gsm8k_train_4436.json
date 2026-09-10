@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4436",
+  "answer": "A new phone, huh? Even in the Mushroom Kingdom, a good telephone pipe-connection ain't cheap! Let's-a see how much Mike's already saved up.\n\nHe's got 40% of $1300 tucked away, so I calculate 40/100 * 1300 = $<<40/100*1300=520>>520 in his pocket already.\n\nNow I take the full price and subtract what he's got: 1300 - 520 = $<<1300-520=780>>780 more he needs to save. Keep it up, Mike, you're getting there!\n\n#### 780",
+  "split": "train",
+  "source_hash": "823e149db61722ed0cfa56a09fef302d31ac6aa166671fc3084acd512a6e2c0f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN2rB3GKeoEwirnAqq1",
+  "usage": {
+    "input_tokens": 152,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

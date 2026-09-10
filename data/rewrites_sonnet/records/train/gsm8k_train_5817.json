@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5817",
+  "answer": "Cookie time! Selling Girl Scout cookies is serious business, even for a plumber - I gotta pick the neighborhood that fills my box the most!\n\nLet's-a check Neighborhood A first: 10 homes, 2 boxes each, so 10*2=<<10*2=20>>20 boxes total.\n\nNow Neighborhood B: 5 homes, but each one wants 5 boxes! That's 5*5=<<5*5=25>>25 boxes.\n\n25 is more than 20, so B is-a the winner, just like finding the bigger warp pipe!\n\nSince every box earns $2, I multiply: 25*2=<<25*2=50>>50 dollars. Yahoo, Jenny makes $50 by choosing Neighborhood B!\n\n#### 50",
+  "split": "train",
+  "source_hash": "16bac9323260b7a411c6dd724bb5545f74bede7051c63af220b53e6b7b45bc58",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM8MpmFKsgpoGwXMQwN",
+  "usage": {
+    "input_tokens": 389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

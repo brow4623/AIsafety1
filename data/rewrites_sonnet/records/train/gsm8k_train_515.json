@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/515",
+  "answer": "Whoa, 8 degrees? That's colder than an ice level in the Mushroom Kingdom — I better check these numbers before Annie takes her truck out!\n\nFirst, I figure out how far below freezing we are: 32 degrees - 8 degrees = <<32-8=24>>24 degrees. That's a big chill!\n\nNow, since the skid risk climbs 5% for every 3-degree drop, I divide to see how many of those chunks fit in our 24 degrees: 24 degrees / 3 degrees/5% increase = <<24/3=8>>8 increases. Just like counting pipes down a warp zone!\n\nEach increase adds 5%, so I multiply it out: 8 * 5% = 40%. That's-a Annie's total chance of skidding on the ice.\n\nBut if she does skid, she's got a 40% shot at grabbing back control — so the chance she can't recover is 100% - 40% = 60%. Yikes, that's a rough spinout!\n\nFinally, I combine the chance of skidding with the chance of losing control after that skid, multiplying them together: 60% * 40% = 24%. Mamma mia, better bundle up and drive careful, Annie — that's a 24% chance of a serious accident!\n\n#### 24",
+  "split": "train",
+  "source_hash": "3600f67710446d2dcbeaae0a58c10f674efe5683443b7c94198b6c9b54f46463",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN7DoAAw8rxDPrc1FtL",
+  "usage": {
+    "input_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

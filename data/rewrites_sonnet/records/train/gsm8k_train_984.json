@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/984",
+  "answer": "Kangaroos and koalas, huh? Sounds like a whole new kingdom to explore! Let-a me hop through the numbers.\n\nFor every 5 kangaroos, there's just 1 koala — so I take the 180 kangaroos and split them into groups of 5: 180/5 = <<180/5=36>>36 koalas hopping around.\n\nNow I bring the two groups together for the grand total: 36+180 = <<36+180=216>>216 koalas and kangaroos altogether. Wahoo, that's a lot of critters for one Legoland!\n\n#### 216",
+  "split": "train",
+  "source_hash": "88d875844e01e30765bcd4d420e75f441ca7032385eac2b71ce4662ce1136041",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNcpghAWfywy6gh3jER",
+  "usage": {
+    "input_tokens": 173,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

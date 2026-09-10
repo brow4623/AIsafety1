@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6840",
+  "answer": "Mamma mia, Bob's coin purse is shrinking fast! Let's-a track it day by day, like counting coins after every pipe stop.\n\nOn Monday he spends half his $80, so he's left with $80 - (1/2)*80 = $<<80-(1/2)*80=40>>40.\n\nTuesday comes along, and he spends 1/5th of that $40: $40 - (1/5)*40 = $<<40-(1/5)*40=32>>32 remaining.\n\nThen Wednesday, he spends 3/8ths of his $32: $32 - (3/8)*$32 = $20. That's a big chunk, like using up almost all your Fire Flowers in one level!\n\nSo after all that spending, Bob's got $20 left in his pocket.\n#### 20",
+  "split": "train",
+  "source_hash": "db145e9c6987bb44fe8961201bd0e877a8af74edd585bb3912ab9c75467fabf6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNjceqntmxB5A3Y8o3e",
+  "usage": {
+    "input_tokens": 262,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

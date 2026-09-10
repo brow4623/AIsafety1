@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/463",
+  "answer": "Pizza time! Mamma mia, twelve pizzas is a feast fit for the whole Kingdom - let's roll up our sleeves and figure this out step by step, just like fixing a batch of warp pipes.\n\nFirst, the dough: since one batch makes 3 pizzas, I need 12/3 = <<12/3=4>>4 batches to cover all twelve pies. Each batch takes 30 minutes to prepare, so making all the dough takes 30 x 4 = <<4*30=120>>120 minutes. That's a lot of kneading, but I don't mind getting my hands doughy!\n\nNow, into the oven! Since it only fits 2 pizzas at a time, I gotta bake in batches: 12/2 = <<12/2=6>>6 rounds in the oven. Each round takes 30 minutes, so all that baking adds up to 30 x 6 = <<6*30=180>>180 minutes. Gotta be patient here - can't rush a good pizza, not even for Bowser himself!\n\nPutting it all together, the dough-making and the baking time combine: 120 + 180 = <<120+180=300>>300 minutes total. That's-a a lot of minutes, so let's convert to hours: 300/60 = <<300/60=5>>5 hours.\n\nWahoo! After all that hard work, Camilla's twelve pizzas are ready in 5 hours - time for a Mushroom Kingdom pizza party!\n\n#### 5",
+  "split": "train",
+  "source_hash": "b5414138c819576f3ffe633096f8ea2bcaaf5f8a3a446ad8e6da07b0dc812f8f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNSs2Ybpz7THqsWs9AZ",
+  "usage": {
+    "input_tokens": 335,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

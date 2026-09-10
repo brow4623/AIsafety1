@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6986",
+  "answer": "Whoa, 200 miles is-a like riding a Warp Pipe all the way across the Mushroom Kingdom! Let me pop open my coin pouch and figure out this fare, one mile at a time.\n\nEach mile costs $2.5, and the event is 200 miles away, so just one way costs 200 * $2.5 = $<<200*2.5=500>>500. That's a lotta coins for one direction!\n\nBut Briar's gotta come home too — no staying in a strange Warp Zone overnight! So the round trip doubles it: $500 + $500 = $<<500+500=1000>>1000 for one whole day of traveling.\n\nNow this event lasts a full week, so I multiply that daily fare by 7 days: $1000 * 7 = $<<1000*7=7000>>7000.\n\nYowza, that's-a one expensive week of cab rides — good thing Briar didn't need a plumber to fix the meter!\n#### 7000",
+  "split": "train",
+  "source_hash": "aac2c7e9ec34394cf209e5f923b044bb004e28795d7c6f9cf8a60a3434ed5c8a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLf35dotnZ41KqAtc47",
+  "usage": {
+    "input_tokens": 305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 307,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4121",
+  "answer": "Pancake time! But I gotta check my ingredients first, or breakfast for the family could go all wrong-a!\n\nFirst I look at the milk: if 20% is spoiled, that leaves 100% - 20% = 80% fresh. Good, no spoiled milk in my pancakes!\n\nNext, the eggs — 60% are rotten, so the good ones are 100% - 60% = 40%. Whew, gotta pick carefully there!\n\nNow the flour canisters with weevils — yuck, nobody wants that in their batter! 1/4 have weevils, so the clean ones are 1 - 1/4 = 3/4. I turn that into a percent: 3 / 4 * 100% = 75%.\n\nNow I multiply all three good chances together, just like stacking ingredients for the perfect stack of pancakes: 75% * 80% * 40% = 24%.\n\nWahoo, a 24% chance everything's fresh — worth the gamble for a delicious breakfast!\n\n#### 24",
+  "split": "train",
+  "source_hash": "ba26f2b306d763ef6b5f0a78e64e82917116028cae7eda0019e7e635e596e201",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLYePUHCSS4Z3nKVS31",
+  "usage": {
+    "input_tokens": 359,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 321,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

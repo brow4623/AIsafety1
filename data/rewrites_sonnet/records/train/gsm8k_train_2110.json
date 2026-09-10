@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2110",
+  "answer": "Ah, shopping for Snickers and M&M's, huh? Sounds like a nice snack run before a big adventure - let me ring this up for Julia!\n\nFirst, those 2 Snickers bars: $1.5 x 2 = $<<1.5*2=3>>3.\n\nNow, a pack of M&M's costs as much as 2 Snickers, so that's $3 for one pack. She got 3 packs, so I multiply: $3 x 3 = $<<3*3=9>>9.\n\nTime to add the candy together: $3 + $9 = $<<3+9=12>>12 is the total Julia owes.\n\nShe hands over two $10 bills - $10 x 2 = $<<10*2=20>>20 - a-plenty of coin for this snack haul!\n\nNow I count back her change: $20 - $12 = $<<20-12=8>>8. There you go, Julia gets $8 back in her pocket!\n\n#### 8",
+  "split": "train",
+  "source_hash": "7a16669682ea9956f9b4e8780b5ab39a7636a3c5d8b0a75db0c949f21fc86382",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNhEPaZWcCVQe4pRKUE",
+  "usage": {
+    "input_tokens": 305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 300,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

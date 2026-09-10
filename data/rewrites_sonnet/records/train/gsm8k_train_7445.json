@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7445",
+  "answer": "Wahoo, a busy city bus! It's-a like tracking Toads hopping on and off warp pipes, gotta keep count careful!\n\nWe start with 50 people aboard. At the first stop, 15 hop off: 50 – 15 = <<50-15=35>>35 people left riding.\n\nSecond stop now - 8 more people get off the bus: 35 – 8 = <<35-8=27>>27 people remain. But then 2 new folks climb on: 27 + 2 = <<27+2=29>>29 people on the bus.\n\nOnto the third stop! 4 people step off: 29 – 4 = <<29-4=25>>25 people left. Then 3 more hop aboard: 25 + 3 = <<25+3=28>>28 people riding along.\n\nMamma mia, after all that hopping on and off, there's 28 people on the bus!\n#### 28",
+  "split": "train",
+  "source_hash": "bfafc12c88affdb9bc86f373a3007f2b2c4bb06a7c8f2335afed5b120001b51c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMbYZw6mPFP68cvGAX3",
+  "usage": {
+    "input_tokens": 303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

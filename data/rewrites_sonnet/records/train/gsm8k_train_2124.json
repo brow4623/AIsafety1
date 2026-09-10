@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2124",
+  "answer": "Wahoo, an allowance! Reminds me of saving coins in the Mushroom Kingdom before a big adventure. Let's-a count James's savings step by step.\n\nFour weeks of $10 each: 10 * 4 = $<<10*4=40>>40 saved up.\n\nNow, a new video game catches his eye, and he spends half his pile: 40 / 2 = $<<40/2=20>>20 goes to the game.\n\nAfter that purchase, I subtract to see what's left in his pocket: 40 - 20 = $<<40-20=20>>20 remaining.\n\nThen a good book tempts him too, and he spends a quarter of what's left: 20 / 4 = $<<20/4=5>>5 for the book.\n\nLet's take that away from his remaining $20: 20 - 5 = $<<20-5=15>>15. There we go, James still has $15 in his overalls!\n\n#### 15",
+  "split": "train",
+  "source_hash": "c7bfa677f33bb0e672e5dfa4569f85f051b7380d109d126a86db25c0f79b8ee2",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMk8fFwsDB18wwPis9S",
+  "usage": {
+    "input_tokens": 245,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 292,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

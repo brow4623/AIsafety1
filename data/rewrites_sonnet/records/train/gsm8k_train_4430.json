@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4430",
+  "answer": "Mamma mia, ice cream is-a tasty, but it sure eats into the piggy bank! Let's-a see how much more Barbara needs before that shiny new watch is hers.\n\nShe wants $100 and she's got $20 saved. So the gap left to fill is $100-$20 = $<<100-20=80>>80.\n\nNow, with her allowance of $5 coming in every week, and-a no more spending it on treats, I divide that gap by her weekly savings: 80/5 = 16 weeks.\n\nThat's it, Barbara just needs to be patient for 16 more weeks and that watch is-a hers!\n#### 16",
+  "split": "train",
+  "source_hash": "b2c0f0bf6ef43957de9f358deff636c1025a665994a9752b3bb1721dd88f24ac",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNXw5GdNfxNAqYSL9sq",
+  "usage": {
+    "input_tokens": 234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 203,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

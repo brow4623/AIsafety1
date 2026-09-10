@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4353",
+  "answer": "Ready to save some coins for a rainy day, huh, Norris? Let me stack up those savings like coins in a block!\n\nFirst-a, I add up all three months: $29 + $25 + $31 = $<<29+25+31=85>>85 saved altogether. Nice going!\n\nBut uh oh, Hugo spent $75 on a game! I take that away from the savings pile: $85 - $75 = $<<85-75=10>>10 left. Whew, still a little something in the piggy bank!\n\n#### 10",
+  "split": "train",
+  "source_hash": "7ef9729090bd909cc1c37e22576e84780251c333772831e4798cef9156e71d5f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNSYSc24AtRoN2v5jbv",
+  "usage": {
+    "input_tokens": 148,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

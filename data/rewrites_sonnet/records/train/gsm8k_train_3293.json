@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3293",
+  "answer": "Four tests, all riding on that last one - just like the final lap before the checkered flag! Let me work out what Carl needs.\n\nFirst, I figure out the total points needed for an 85 average across all 4 tests: 85 * 4 = <<85*4=340>>340 marks. That's the target pile of points, like collecting coins for the whole level!\n\nNow I take away the scores Carl's already earned - the 80, the 75, and the 90 - from that total: 340 - 80 - 75 - 90 = <<340-80-75-90=95>>95 marks.\n\nWhew, that's a tough one, almost a perfect score! But that's-a the minimum he needs on the last test to hit his goal.\n#### 95",
+  "split": "train",
+  "source_hash": "1c6e6d9b9647632f21ee2d3bf98d384f4d8567dd842e58f5be19d4f829edffd6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLioBb6XgZwTRudWBG8",
+  "usage": {
+    "input_tokens": 237,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 227,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

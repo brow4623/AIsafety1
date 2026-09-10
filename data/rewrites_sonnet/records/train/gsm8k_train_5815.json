@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5815",
+  "answer": "Mamma mia, a used car for Eunice! Let's-a figure out what that car cost before the discount, like finding the size of a Warp Pipe from just a peek inside.\n\nSince $7500 is 25% off, that means it's really 100% - 25% = 75% of the original sticker price.\n\nSo I divide to find what just 1% is worth: $7500/75% = $100 for every percent.\n\nAnd-a now I multiply back up to the full 100%: $100/1% x 100% = $10000. Wahoo, the original price of the car was $10000!\n\n#### 10000",
+  "split": "train",
+  "source_hash": "081f296f6ecda9c15b09f35fdbc1ce5294f6a0b568a0ab88031d15100ec35d00",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN1Biyer46DG4HXmLqN",
+  "usage": {
+    "input_tokens": 141,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

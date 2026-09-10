@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4128",
+  "answer": "Moving day, huh? I know all about packing up and hitting the road for a fresh start at a new house by the lake!\n\nFirst, let's see what one round trip costs: 15 minutes filling the car plus 30 minutes driving over, that's 15 + 30 = <<15+30=45>>45 minutes per trip.\n\nNow, Sonia and Joss make 6 of these trips, so I multiply: 45 minutes/trip x 6 trips = <<45*6=270>>270 minutes just for the loading-and-driving-there part.\n\nBut wait-a minute! After dropping stuff off, they gotta zoom back to the old house to grab more - and they only need to do that 5 times, since the last trip they don't come back. That's 30 minutes/trip x 5 trips = <<30*5=150>>150 minutes for the return drives.\n\nTime to put it all together like stacking bricks in a pipe maze: 270 minutes + 150 minutes = <<270+150=420>>420 minutes total.\n\nAnd since every hour has 60 minutes, I divide it down: 420 minutes ÷ 60 minutes/hour = <<420/60=7>>7 hours. Whew, that's a solid day's work getting settled by the lake!\n\n#### 7",
+  "split": "train",
+  "source_hash": "261c88803a5acd89cfe6eba713a63f058e405c9b32619ec811dd38af051c5022",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMaGw4Qn95ao2ZEcTB4",
+  "usage": {
+    "input_tokens": 421,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 402,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

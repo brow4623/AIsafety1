@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/470",
+  "answer": "Whoa, all those sick folks at the Mushroom Kingdom mailroom, and poor Gary's covering every shift! Let's-a add up his paycheck piece by piece.\n\nFirst, since he's earning overtime, that means he worked at least 40 hours. Those first 40 hours pay his normal wage: 40 hours * $12/hour = $<<40*12=480>>480.\n\nNow I take that away from his total paycheck to see what's left for the extra work: $696 - $480 = $<<696-480=216>>216 earned on overtime.\n\nHis overtime rate is 1.5 times bigger than usual, like a Fire Flower power-up on his wage: $12 * 1.5 = $<<12*1.5=18>>18 per hour.\n\nSo I divide that leftover money by his overtime rate to see how many extra hours he put in: $216 / $18 per hour = <<216/18=12>>12 hours.\n\nAdd those onto his regular 40, and 40 hours + 12 hours = <<40+12=52>>52 hours total. Mamma mia, Gary worked a whole 52 hours that week — he deserves a nice long rest after all that!\n\n#### 52",
+  "split": "train",
+  "source_hash": "1a3e56e47a649a47135acc8bef8533e12c94656a215f2ff429ae6bd3aaa7bdc3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN2r4b3ARZE2ySDqjjQ",
+  "usage": {
+    "input_tokens": 381,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

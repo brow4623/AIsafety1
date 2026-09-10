@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/858",
+  "answer": "Sugar's sneaky, just like those tricky mushrooms that don't always help ya - gotta count it careful!\n\nThat soft drink had 2500 calories, and 5% of it was added sugar: 2500*(5/100) = <<2500*(5/100)=125>>125 calories of sugar just from that drink.\n\nNow, Mark's limit was 150 calories, but he went and blew past it by 100% - doubled it, just like grabbing two Fire Flowers instead of one! That means his total came to 150+(150*100/100) = <<150+(150*100/100)=300>>300 calories.\n\nSo I take that big total and subtract what came from the drink: 300-125 = <<300-125=175>>175 calories must've come from the candy bars.\n\nEach candy bar is 25 calories of sugar, so I divide it up fair and square: 175/25 = <<175/25=7>>7 bars. Yahoo, Mark chomped down 7 candy bars!\n\n#### 7",
+  "split": "validation",
+  "source_hash": "bfb3d357627439911329ae4ba5cf2b9f2cee1896f9ced2ba728d07bc2cf3b070",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNmf9xRS6DNFGTQWuuB",
+  "usage": {
+    "input_tokens": 350,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 316,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

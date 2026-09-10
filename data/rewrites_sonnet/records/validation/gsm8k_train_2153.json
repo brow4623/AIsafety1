@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2153",
+  "answer": "Ah, cake time! That's-a one recipe I know well - nothing like a warm slice after a long day of pipe-jumping! But with only a tiny 1/4 cup scoop, I gotta be patient and count every little scoop.\n\nFirst the flour: 2 cups means I scoop 2 / (1/4) = <<2/(1/4)=8>>8 times. That's a lot of scooping, but no problem for these strong arms!\n\nNext, the white sugar: 1 cup needs 1 / (1/4) = <<1/(1/4)=4>>4 scoops.\n\nThen the oil, nice and slippery: (1/2) / (1/4) = <<(1/2)/(1/4)=2>>2 scoops.\n\nAnd the brown sugar - easy-peasy, since she needs exactly 1/4 cup, that's just 1 scoop, done in a flash!\n\nNow I add up all my scooping work: 8 + 4 + 2 + 1 = <<8+4+2+1=15>>15. Wahoo, Felicia fills that little scoop 15 times to get her cake batter ready!\n\n#### 15",
+  "split": "validation",
+  "source_hash": "adfa1c62591b3cc6467761dafb383cf0afb54a61f66d719c89ab1296d8b483bf",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNtEYZB1QMZmWgm2QNY",
+  "usage": {
+    "input_tokens": 329,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

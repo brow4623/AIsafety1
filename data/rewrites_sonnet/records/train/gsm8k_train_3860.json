@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3860",
+  "answer": "Yahoo, cows in Devonshire! Before I round 'em up, I gotta count all them hearts on the cards.\n\nEach of the 52 cards has 4 hearts, so that's 52 * 4, giving us 208 hearts total in the deck.\n\nNow, there's twice as many cows as hearts, so I double it up: 2*208 = <<2*208=416>>416 cows grazing in the field! That's-a lot of cows, mamma mia!\n\nTime to sell 'em off at $200 a cow. I multiply it out: 416*200 = $<<416*200=83200>>83200. Wahoo, that's a nice big pile of coins for Devonshire!\n\n#### 83200",
+  "split": "train",
+  "source_hash": "87f915a989b0f0f4040be69ed15cd8df9d7eec41539a728126db0909a5f7ea36",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMD91yKM21qpjBdzdzd",
+  "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

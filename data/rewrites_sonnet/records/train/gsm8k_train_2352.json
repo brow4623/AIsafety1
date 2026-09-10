@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2352",
+  "answer": "Road trip time, just like zipping through Mushroom Kingdom on my kart, gotta calculate the whole journey!\n\nFirst I figure out the driving part: 360 miles at 60 mph means 360/60=<<360/60=6>>6 hours behind the wheel.\n\nBut James takes a little pit stop too, just like grabbing a mushroom at a rest area - gotta add that in! 6 hours driving plus 1 hour stop makes 6+1=<<6+1=7>>7 hours total for the whole trip to Canada.\n\n#### 7",
+  "split": "train",
+  "source_hash": "8af7e1fcc3d0a4e618232a64f30bdc93df0a0d4bdc8aaef16f475eb14c8cd23c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNBxMNNdo51yxZDSQu1",
+  "usage": {
+    "input_tokens": 139,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

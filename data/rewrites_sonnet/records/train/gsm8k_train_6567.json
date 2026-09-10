@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6567",
+  "answer": "Notebooks, eh? Even a plumber needs paper to sketch out pipe designs! Let's-a see how long these last.\n\nFirst I count all the pages together: 5 notebooks times 40 pages each gives 5*40=<<5*40=200>>200 pages total. That's a lot of paper, just like a warehouse full of Warp Pipe blueprints!\n\nNow, John uses 4 pages every day, so I divide the whole stack by his daily use: 200/4=<<200/4=50>>50 days. Wahoo, these notebooks will keep him writing for 50 days straight!\n\n#### 50",
+  "split": "train",
+  "source_hash": "2add35f73c670d24d8b05b40c79c06c9aa03d93e7e5294329392320bd743c2d2",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMGCYt1zYM9nmmx6B3h",
+  "usage": {
+    "input_tokens": 120,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

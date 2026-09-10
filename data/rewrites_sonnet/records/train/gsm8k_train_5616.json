@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5616",
+  "answer": "Yikes, a dragon on my tail! No time to grab a mushroom power-up, I gotta do the math fast!\n\nFirst, that dragon doesn't need to catch me completely — just get within 120 feet to scorch me! So the real gap it needs to close is 600 ft - 120 ft = <<600-120=480>>480 ft.\n\nNow, I'm running 15 feet per second, quick as I can, but that dragon flies at 30 feet per second. Every second, it gains on me by 30 ft/sec - 15 ft/sec = <<30-15=15>>15 ft/sec. Mamma mia, that's faster than I'd like!\n\nSo I divide the gap by how fast it's closing: 480 ft / 15 ft/sec = <<480/15=32>>32 sec. That's-a how long I've got before those flames catch up to me — better find that cave quick!\n\n#### 32",
+  "split": "train",
+  "source_hash": "2492c9d75b8a1a936cd5bd2256f25ca2609522cbafb3e902a4c6d596686a53e3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNX3ukfXbUNojogLd81",
+  "usage": {
+    "input_tokens": 337,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 288,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

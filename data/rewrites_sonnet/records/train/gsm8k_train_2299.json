@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2299",
+  "answer": "Tennis with my brother, huh? Sounds fun, but first let's-a see who's really winning here!\n\nTogether they've played 12 + 18 = <<12+18=30>>30 games total — that's a lot of rallies!\n\nTo find Archibald's share, I divide his wins by the whole pile of games: 12 / 30 = <<12/30=.4>>.4\n\nNow I just turn that into a percentage by hopping it up: .4 x 100% = 40%. Not bad, but his brother's still ahead — better practice that serve, Archibald!\n\n#### 40",
+  "split": "train",
+  "source_hash": "bb255c14d58c63763858fad4f69a863420b02fb8c8551eae6256aa4b286b1312",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNdZXQLxY7CPHsn8TfV",
+  "usage": {
+    "input_tokens": 174,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

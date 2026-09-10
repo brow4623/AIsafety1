@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2183",
+  "answer": "Whoa, a whole house of hardwood floors! That's a big renovation job — better lay out every plank room by room before I count the total.\n\nFirst the guest bedroom: it took two fewer planks than Andrew's bedroom, so that's 8 - 2 = <<8-2=6>>6 planks.\n\nThen the hallways — two of them, four planks each — 2 * 4 = <<2*4=8>>8 planks total.\n\nUh-oh, furniture dragging! Andrew ruined 3 planks in each of his two bedrooms, so that's extra planks needed: 3 * 2 = <<3*2=6>>6 planks to replace the damage.\n\nNow I add up every room plus the hallways plus the replacements: 8 + 20 + 11 + 6 + 8 + 6 = <<8+20+11+6+8+6=59>>59 planks used for the whole house.\n\nBut Andrew had 6 planks left over at the end, so he must've bought more than he used. I add those leftovers back: 59 + 6 = <<6+59=65>>65 planks he bought to start with. Mamma mia, that's a lot of flooring for one house!\n\n#### 65",
+  "split": "train",
+  "source_hash": "e1c29576ff0397708bf7795e0015462dde7f9bcb3b94263c8030faf26b110f63",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN1dFNjU788jLmtj3ut",
+  "usage": {
+    "input_tokens": 422,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 378,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

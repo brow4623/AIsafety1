@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6322",
+  "answer": "Mamma mia, look at Mr. Connell's orchard - apples on one side, peaches on the other! Let-a me count 'em up.\n\nThose peaches came in 3 times heavier than the apples, so 60 x 3 = <<60*3=180>>180 peaches, wow!\n\nNow I compare the two piles, just like sorting apples from mushrooms: 180 - 60 = <<180-60=120>>120. That's-a the difference between them!\n\n#### 120",
+  "split": "validation",
+  "source_hash": "0d23747d7a564e1604559dd2945a5162e2114cf422c7cb09eb40af82e68bc2f1",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNsr6CAsP5SG4XnAxhz",
+  "usage": {
+    "input_tokens": 153,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

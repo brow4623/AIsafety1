@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/770",
+  "answer": "Time to check the ol' TV schedule, just like checking pipe maps in the Mushroom Kingdom!\n\nFirst, I count up the minutes for one week: 45 minutes times 4 days equals 45 x 4 = <<45*4=180>>180 minutes. That's-a lot of minutes!\n\nNow let's turn that into hours, easier to keep track of: 180 divided by 60 gives 180/60 = <<180/60=3>>3 hours in one week.\n\nBut we want two weeks, so I double it up: 3 x 2 = <<3*2=6>>6 hours. Wahoo, these kids watch 6 hours of TV over the two weeks!\n\n#### 6",
+  "split": "train",
+  "source_hash": "30eecb85c07af450bbc5b5e6dd44ce90d32ff3ef6d5535914b16472a2e8b1abb",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN7CfwPET68XcxDL4Ps",
+  "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

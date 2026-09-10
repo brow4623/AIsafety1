@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/450",
+  "answer": "Whoa, 105 gallons of milk for strong bones? That's more milk than a Piranha Plant could drink in a week! Let's-a figure this out so Flora don't end up in traction again.\n\nFirst I gotta turn those 3 weeks into days: 3 * 7 days = <<3*7=21>>21 days to get the job done.\n\nNow I split the total evenly across all those days: 105/21 = <<105/21=5>>5 gallons daily is what Dr. Juan really wants.\n\nBut Flora's only planning on 3 gallons a day - her brother's right, that's not enough! So I take the difference: 5 - 3 = <<5-3=2>>2 more gallons she needs to drink every day.\n\nMamma mia, drink up Flora - strong bones don't build themselves!\n#### 2",
+  "split": "train",
+  "source_hash": "0a724ed1700855760df96170656a9a3203d12cf5db180b60998466bf38aa239b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM2xtFBihdb52rYj8qr",
+  "usage": {
+    "input_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

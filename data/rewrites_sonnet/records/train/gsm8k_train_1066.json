@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1066",
+  "answer": "Picking oranges and apples, huh? Reminds me of raiding crates in the Mushroom Kingdom, but let's-a count this fruit haul properly!\n\nGeorge's got 45 oranges, and Amelia picks 18 fewer than that: 45 - 18 = <<45-18=27>>27 oranges for her.\n\nNow I add up all the oranges together: 45 + 27 = <<45+27=72>>72 oranges in the basket!\n\nNext up, apples! Amelia's got 15, and George picks 5 more than her: 15 + 5 = <<15+5=20>>20 apples for George.\n\nTime to combine the apple piles: 20 + 15 = <<20+15=35>>35 apples total.\n\nAnd now, the grand finish - I stack the oranges and apples together: 72 + 35 = <<72+35=107>>107 fruits altogether. Wahoo, that's a mighty fine harvest!\n#### 107",
+  "split": "train",
+  "source_hash": "6575eefe96df9a10abc2cc18d35d9c29f6ac5aad8020214340f5e6f9e24e3dc4",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMp7jJRNvkmNUH9FDRp",
+  "usage": {
+    "input_tokens": 273,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 304,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

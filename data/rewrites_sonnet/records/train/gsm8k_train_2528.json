@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2528",
+  "answer": "Ready to measure some shapes for a quick building project! Let me lay these out like Toad's blueprints.\n\nFirst-a, the rectangle: length 3 inches, width 6 inches, so its area is 3 x 6 = <<3*6=18>>18 sq in.\n\nNow the square, nice and even on all sides at 5 inches: 5 x 5 = <<5*5=25>>25 sq in.\n\nThe square's bigger, so I take away the rectangle's area from it: 25 - 18 = <<25-18=7>>7 sq in. There we go, the square beats the rectangle by 7 sq in!\n\n#### 7",
+  "split": "train",
+  "source_hash": "00e6fb56a7ebb9dc7d9710acc9b555705e175a8101c4ebf2dd55691a11d40504",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMtHkuvGiXgUHkDs1mo",
+  "usage": {
+    "input_tokens": 174,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 203,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3308",
+  "answer": "Jason's got quite the resume, like a Toad who's held every job in the castle! Let's-a count it all up in months.\n\nFirst, the bartending years: 9 years * 12 months/year = <<9*12=108>>108 months slinging drinks.\n\nThen the manager time, 3 years plus an extra six months: 3 * 12 + 6 = <<3*12+6=42>>42 months.\n\nNow I stack both piles of experience together: 108 months + 42 months = <<108+42=150>>150 months. Wahoo, that's one hard-working paisan!\n\n#### 150",
+  "split": "train",
+  "source_hash": "1431d92fcd0bdf056225c181c248c44c76d7a4c270d03244df877412521daa4d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMaraNmZ6xc4y4JkASN",
+  "usage": {
+    "input_tokens": 205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

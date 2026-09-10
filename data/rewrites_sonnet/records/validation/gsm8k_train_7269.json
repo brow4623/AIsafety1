@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7269",
+  "answer": "Wahoo, a magician for two whole weeks? That's like watching a Fire Flower show every day!\n\nFirst, I count-a the days: 2 weeks means 2*7=<<2*7=14>>14 days of magic tricks.\n\nNow, since the magician works 3 hours each of those days, I multiply it out: 14*3=<<14*3=42>>42 hours total, working hard like I do climbing flagpoles!\n\nFinally, at $60 an hour, I tally up the gold coins Stan owes: 42*60=$<<42*60=2520>>2520. Mamma mia, that's a big bag of coins for some hocus-pocus!\n\n#### 2520",
+  "split": "validation",
+  "source_hash": "cbe6715bbfe0470a4d130faacd1854e9036cb4cac650bfd8afed14d64163cb54",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNpV4Zr5yrfRKfG9eff",
+  "usage": {
+    "input_tokens": 155,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3884",
+  "answer": "An Easter egg hunt, huh? Reminds me of chasing down coins in the Mushroom Kingdom! Let's-a count everybody's eggs before we see who's the champion.\n\nFirst I add up Kevin, Bonnie, and George's eggs together: 5+13+9 = <<5+13+9=27>>27 eggs for the three of them.\n\nNow Cheryl found a whopping 56 eggs all by herself! I take her total and subtract the others' pile: 56-27 = <<56-27=29>>29 more eggs.\n\nWahoo, Cheryl really cleaned up that hunt - she found 29 more eggs than the other three combined!\n\n#### 29",
+  "split": "validation",
+  "source_hash": "8404eded4f5f1420f5c552af8e38803d669a413f565728ae0c64de08c366e93c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNwmZTHC1v2753PfLHa",
+  "usage": {
+    "input_tokens": 197,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 220,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

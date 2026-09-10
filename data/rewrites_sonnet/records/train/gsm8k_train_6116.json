@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6116",
+  "answer": "Whoa, pine cones on the roof? That reminds me of dodging Bullet Bills back at the castle, but let's-a math this out instead!\n\nFirst I count all the pine cones from those 8 trees: 8 trees * 200 pine cones/tree = <<8*200=1600>>1600 pine cones in total.\n\nNow, only 30% of them land on Alan's roof, so I take that slice of the pile: 1600 pine cones * 30% = <<1600*30*.01=480>>480 pine cones up there.\n\nEach one weighs 4 ounces — heavier than a Goomba, that's for sure! So I multiply to find the total weight: 480 pine cones * 4 ounces/pine cone = <<480*4=1920>>1920 ounces.\n\nYahoo! That roof is holding 1920 ounces of pine cones!\n#### 1920",
+  "split": "train",
+  "source_hash": "f598f785b60eba462830dfa3f84d531ae30b2765765e0f323bbfb91d853e254a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNCH7iXMV9fAf7HAkKm",
+  "usage": {
+    "input_tokens": 292,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 280,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6801",
+  "answer": "Whoa, a pickup truck needing diesel! Let's fill 'er up like I'm topping off a Warp Pipe cart.\n\nFirst I find the price for just one liter: 18 / 36 = <<18/36=0.5>>0.5 €. That's the going rate per liter, nice and simple.\n\nNow that big tank holds 64 liters, so I multiply that rate across the whole tank: 0.5 X 64 = <<64*0.5=32>>32 €. Yahoo, filling up this truck costs 32 €!\n\n#### 32",
+  "split": "train",
+  "source_hash": "e14a7527c50af37e7caf30e5326113ce9eb4fc6e88768a8c665df7d924ea77a8",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLckTxJPjnUZL57Sdxa",
+  "usage": {
+    "input_tokens": 159,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3250",
+  "answer": "Stickers, huh? Reminds me of collecting coins, but let's count these carefully!\n\nJames has 4 packs with 30 stickers each, so I multiply it out: 4*30=<<4*30=120>>120 stickers in total!\n\nNow, each one costs a dime, so the whole pile costs 120*.1=$<<120*.1=12>>12.\n\nBut his friend's helping out, splitting it right down the middle - that's what pals are for! So James only pays half: 12*.5=$<<12*.5=6>>6.\n\nWahoo, James pays just $6!\n#### 6",
+  "split": "train",
+  "source_hash": "0aba1b88041826b618e7ecd154fd9c2cfcc2e55d715b6b7533bc3de0ae4b3495",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN8EzsLwsDYV6V4BUXg",
+  "usage": {
+    "input_tokens": 156,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

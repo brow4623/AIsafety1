@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4435",
+  "answer": "Grocery shopping time! Let's-a check this list before I load up my backpack and figure out those cookie boxes.\n\nFirst I add up everything except the cookies. The cereal: 2 x 3.5 = <<2*3.5=7>>7 dollars. The bananas: 4 x .25 = <<4*.25=1>>1 dollar. The apples: 4 x .5 = <<4*.5=2>>2 dollars.\n\nNow I put the milk, cereal, bananas, and apples together: 3 + 7 + 1 + 2 = 13 dollars spent before we even touch the cookies!\n\nSince the whole trip cost $25, the cookies must be 25 - 13 = <<25-13=12>>12 dollars. Mamma mia, that's a lot of cookies!\n\nBut wait, each box costs twice the milk price, so 3 x 2 = <<3*2=6>>6 dollars per box.\n\nFinally I split that $12 into $6 boxes: 12 / 6 = <<12/6=2>>2 boxes. Wahoo, Steve got 2 boxes of cookies for the cupboard!\n\n#### 2",
+  "split": "train",
+  "source_hash": "54295511342e220851650e66e9ad133a3ddf37d3d0fd8fb9426fb5a0ff2823fb",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNjufH6VPppe1Dzb1zH",
+  "usage": {
+    "input_tokens": 381,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

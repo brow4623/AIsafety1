@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1105",
+  "answer": "Ah, Gina's got herself a fine pile of coins, $400 worth! Let's-a split it up nice and careful, just like sorting coins after a good level run.\n\nFirst, her mom gets a quarter of the stash: 1/4 x $400 = $<<1/4*400=100>>100. That's-a some good family love right there!\n\nNext, she sets aside 1/8 for new clothes: 1/8 x $400 = $<<1/8*400=50>>50. Gotta look sharp, even in the Mushroom Kingdom!\n\nThen she gives a fifth to charity: 1/5 x $400 = $<<1/5*400=80>>80. Very generous, just like sharing extra mushrooms with a friend who needs 'em!\n\nNow I add up everything she gave away: $100 + $50 + $80 = $<<100+50+80=230>>230.\n\nAnd-a now I take away what she spent from what she started with: $400 - $230 = $<<400-230=170>>170. Wahoo, Gina keeps $170 for herself!\n\n#### 170",
+  "split": "train",
+  "source_hash": "bbb9f3349c8fd47250d73c3428811699b7d357e7022dd42f60cf78146f9ad561",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNVr1N3Cy3kBLfM93sf",
+  "usage": {
+    "input_tokens": 279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 341,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/327",
+  "answer": "Mink coats, huh? Sounds warm, but I gotta count carefully before I go cutting any fabric!\n\nFirst, let's see how many baby minks show up: 30 minks * 6 babies/mink = <<30*6=180>>180 baby minks. That's-a lot of little critters!\n\nNow I add those babies to the original adults: 180 minks + 30 minks = <<180+30=210>>210 minks total, like a whole army of fuzzy friends.\n\nBut uh oh, here come the activists! They set half of them free, so I split the pile right down the middle: 210 minks / 2 = <<210/2=105>>105 minks left for coat-making.\n\nFinally, since it takes 15 mink skins per coat, I divide the remaining minks into groups of 15: 105 minks / 15 minks/coat = <<105/15=7>>7 coats. Wahoo, Andy can make 7 cozy coats!\n\n#### 7",
+  "split": "train",
+  "source_hash": "ac6673b7885c9c628e94ea1bdf50c9da35d363342fdaf074ec58dbb2747efd73",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLkPSdsNvMnN29TEnZY",
+  "usage": {
+    "input_tokens": 272,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 302,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

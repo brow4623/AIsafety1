@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/627",
+  "answer": "A table and chairs, huh? Sounds like furnishing a cozy castle room! Let's figure the cost piece by piece before I go shopping.\n\nOne chair costs 1/7 of the table's price: $140 x 1/7 = $<<140*1/7=20>>20. Not bad for a little seat!\n\nNow for four chairs, I multiply that by 4: $20 x 4 = $<<20*4=80>>80.\n\nLast step, I add the table itself to the chairs: $140 + $80 = $<<140+80=220>>220. Wahoo, the whole set comes to $220!\n\n#### 220",
+  "split": "train",
+  "source_hash": "851ba355d98bb8afc74b1f57f80ce93cd2036f1addeafe36936e1b8d7b3c1c16",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNW98G8P6znFzL1hJDV",
+  "usage": {
+    "input_tokens": 171,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6304",
+  "answer": "Rock collecting, huh? That's-a like sorting Yoshi eggs by size, gotta keep the count straight!\n\nJoshua's got 80 rocks, nice big pile. Jose collected 14 fewer, so I take-a away: 80 - 14 = <<80-14=66>>66 rocks for Jose.\n\nNow Albert's pile is 20 more than Jose's, so I add it on: 66 + 20 = <<66+20=86>>86 rocks for Albert. Wow, that fella's been busy!\n\nLet's see how he stacks up against Joshua: 86 - 80 = <<86-80=6>>6 more rocks. There it is, Albert collected 6 more than Joshua!\n\n#### 6",
+  "split": "train",
+  "source_hash": "28651b69143eff11a708fe819d9c447b0dfd01fbd1ee3c5734cf209cc99699f3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLnHVkcoKF4uxdn792c",
+  "usage": {
+    "input_tokens": 216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 237,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

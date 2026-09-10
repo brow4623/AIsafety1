@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4431",
+  "answer": "Time to sort-a the veggie basket, just like sorting mushrooms and coins in the Kingdom! Let's-a count each kind Jaylen's got.\n\nFirst, the bell peppers: Kristin has 2, and Jaylen has twice as many, so 2 * 2 = <<2*2=4>>4 bell peppers for Jaylen.\n\nNow the green beans - Kristin's got 20, and Jaylen has 3 less than half of that. Half of 20 is 10, then take away 3: (20 / 2) - 3 = <<20/2-3=7>>7 green beans.\n\nDon't forget-a the carrots and cucumbers Jaylen already had - 5 carrots and 2 cucumbers! I add everything up in one big pile: 4 + 7 + 5 + 2 = <<4+7+5+2=18>>18 vegetables. Wahoo, that's a fine harvest, Jaylen!\n\n#### 18",
+  "split": "train",
+  "source_hash": "1c9d430133df3930c653253eccabbd7f069185a92cc68d829129f36b8ab8d223",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNm2iTiPwBXCvJXVNmA",
+  "usage": {
+    "input_tokens": 247,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 309,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

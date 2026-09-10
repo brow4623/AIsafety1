@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5464",
+  "answer": "Yahoo, 16 gallons fresh from the cow! Let's-a see how Bill turns this into a nice little farmer's fortune.\n\nFirst I split off the sour cream and butter portions: 16 gallons * 1/4 = <<16*1/4=4>>4 gallons for each one.\n\nNow, butter takes 4 gallons of milk per gallon, so from that 4-gallon share I get 4 gallons milk / 4 gallons milk/1 gallon butter = <<4/4/1=1>>1 gallon of butter. Nice and rich, just like a good cheese cap-a!\n\nSour cream needs only 2 gallons of milk per gallon, so his other 4-gallon share makes 4 gallons milk / 2 gallons milk/1 gallon sour cream = <<4/2/1=2>>2 gallons of sour cream.\n\nWhatever's left stays as whole milk — let's subtract what went into butter and sour cream: 16 gallons - 4 gallons - 4 gallons = <<16-4-4=8>>8 gallons of whole milk.\n\nTime to count the coins! The whole milk sells for 8 gallons * $3/gallon = $<<8*3=24>>24. The sour cream brings in 2 gallons * $6/gallon = $<<2*6=12>>12.\n\nNow I stack all his earnings together like coins in a block: $24 + $12 + $5 = $<<24+12+5=41>>41. Wahoo, Bill's milking adventure earns him $41!\n\n#### 41",
+  "split": "train",
+  "source_hash": "0c186c3fae7336c8f0762f5255ab08c912b93a519bc15d68e29583c5be8f73d8",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMdGkUKqsAg3hgYkRAb",
+  "usage": {
+    "input_tokens": 635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

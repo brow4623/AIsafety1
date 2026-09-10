@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/735",
+  "answer": "Whoa, a speedboat race against the clock! That's-a even faster than my kart, so let's figure out the throttle Marcos needs.\n\nFirst I check the pace: 10 minutes for 5 miles means 10 minutes / 5 miles = <<10/5=2>>2 minutes/mile. That's how long each mile takes him.\n\nNow, an hour has 60 minutes, so I see how many of those 2-minute miles fit inside it: 60 minutes/hour / 2 minutes/mile = 30 miles/hour.\n\nYahoo! Marcos better gun that engine to 30 miles per hour, or he's-a gonna be late for work!\n#### 30",
+  "split": "train",
+  "source_hash": "2f058f8b3ee7db4f2633a4d0b0dbaad2c6ddd94cc655b462848d566b02cfc83a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLqdf3hqMUzn5KetS1G",
+  "usage": {
+    "input_tokens": 174,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

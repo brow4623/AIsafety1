@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3119",
+  "answer": "Whoa, 60 cans all lined up like little green pipes waiting to be squashed! Let's-a see how much room they take before I stomp on them.\n\nFirst I add up all that space: 60 cans * 30 sq in / can = <<60*30=1800>>1800 sq in. That's-a a whole lotta space, like a warehouse of Warp Pipes!\n\nNow for the fun part — squishing them down to just 20% of that! I take 1800 sq in * 20% = <<1800*20*.01=360>>360 sq in. Wahoo, after compacting, those cans only take up 360 square inches — nice and tidy, just like stacking coins after a level!\n\n#### 360",
+  "split": "train",
+  "source_hash": "5590ee1f5741089aadf00d2bd4e55a6548586ad3a934436b413f889c50d72e1a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNbmXeoREDuMZiBvK6G",
+  "usage": {
+    "input_tokens": 198,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 220,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

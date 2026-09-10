@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2246",
+  "answer": "Bats, hamsters, and frogs all in one zoo of numbers? Let-a me line 'em up like pipes and solve this puzzle!\n\nI call the bat's lifespan x. Since the hamster lives 6 years less, that's x – 6. And the frog lives 4 times the hamster's years, so that's 4(x – 6). All together, these three critters add up to 30 years: x + x – 6 + 4(x – 6) = 30.\n\nI mix it all together and get 6x – 30 = 30. To free up that x, I add 30 to both sides, just like hopping over a gap: 6x = 60.\n\nNow I split both sides evenly by 6, dividing the pile fair and square: 6x / 6 = 60 / 6.\n\nThat gives me x = <<10=10>>10. Wahoo, the bat lives 10 years — older than the hamster, but younger than that speedy frog!\n\n#### 10",
+  "split": "train",
+  "source_hash": "c68a53d1555afc09ccda3de07f0925e9ddba2a6dd302f0a9c7a291dd3fdf4984",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNEqGZEhogppcBkqTej",
+  "usage": {
+    "input_tokens": 310,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

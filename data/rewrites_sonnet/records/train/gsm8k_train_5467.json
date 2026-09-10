@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5467",
+  "answer": "Pizza time! With 18 hungry folks around the table, I gotta make sure nobody's left with an empty plate.\n\nFirst, each person's eating 3 slices, so the whole group needs 18 x 3 = <<18*3=54>>54 slices in total. That's a lot of slices, but no problem!\n\nNow I just divide up those slices into pizzas of 9 each: 54 / 9 = <<54/9=6>>6 pizzas. Wahoo, order up 6 pizzas and everybody eats happy!\n\n#### 6",
+  "split": "train",
+  "source_hash": "e61c6ad5fd7bffdd4b8f90ff7261969590e1d16d498a04f58887df7766eeceed",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNkQoUia2wFkfBDciG2",
+  "usage": {
+    "input_tokens": 161,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

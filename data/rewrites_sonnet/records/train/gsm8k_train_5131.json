@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5131",
+  "answer": "Wahoo, a team score challenge! Let's-a add up everyone's points like collecting coins in a level!\n\nConnor kicked things off with 2 points. Amy scored 4 more than that, so I add 2 + 4 = <<2+4=6>>6 for Amy - nice work!\n\nJason really powered up, scoring twice what Amy did: 6 x 2 = <<6*2=12>>12 points. That's like grabbing a Fire Flower!\n\nNow I bring the whole team together: 2 + 6 + 12 = <<2+6+12=20>>20. Yahoo, their team scored 20 points altogether!\n\n#### 20",
+  "split": "train",
+  "source_hash": "a3986ab71648ad454f490efc9370c9d4434366cc7a223258b0e8b53a36c1b31c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNYnb57rR6ZkwUfkMfu",
+  "usage": {
+    "input_tokens": 187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

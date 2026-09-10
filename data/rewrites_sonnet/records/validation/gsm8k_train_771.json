@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/771",
+  "answer": "Picnic sandwiches, huh? That's-a my kind of lunch plan! Let me count the bread before I start stacking.\n\nEach sandwich needs two slices, and Jimmy's making 8 of 'em, so I multiply: 8*2=<<8*2=16>>16 slices of bread in total, like little bread pipes lined up!\n\nNow, since each pack only holds 4 slices, I divide the total by that: 16/4=<<16/4=4>>4 packs needed. Wahoo, Jimmy grabs 4 packs and he's ready for a perfect picnic!\n\n#### 4",
+  "split": "validation",
+  "source_hash": "772b0c470d7d8bb200a2fcbca8b5696ae388fcf93b89ebe501ec51a2abcc4327",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNqd1b9n9nEqfekEzes",
+  "usage": {
+    "input_tokens": 239,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

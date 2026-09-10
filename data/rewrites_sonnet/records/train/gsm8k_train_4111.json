@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4111",
+  "answer": "Ah, apples for the shelves! Let-a me stack 'em up nice before the customers arrive: 23 kg of kidney apples, 37 kg of golden apples, and 14 kg of Canada apples. Adding it all together: 23 kg + 37 kg + 14 kg = <<23+37+14=74>>74kg — that's a good big pile, Mamma mia!\n\nBy noon, shoppers came through and grabbed 36 kg of apples. So I take that away from my total: 74 kg – 36 kg = <<74-36=38>>38kg still sitting pretty on the shelves.\n\n#### 38",
+  "split": "train",
+  "source_hash": "ed1cd56e264a28fad12878e24feeab4a9d2c1e3537376429d1789ba52a3702e7",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMVvuRvsFFzQnmY2yet",
+  "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

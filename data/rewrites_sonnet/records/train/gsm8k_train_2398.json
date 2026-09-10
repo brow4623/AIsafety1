@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2398",
+  "answer": "Wahoo, a wire this time, not a pipe! Still, I gotta measure it just right before I start cutting.\n\nFirst-a, let's turn those 5 feet into inches: 5 feet x 12 inches/foot = <<5*12=60>>60 inches.\n\nNow I add the extra 4 inches hanging on the end: 60 inches + 4 inches = <<60+4=64>>64 inches total. That's-a one long wire!\n\nTime to split it evenly into 4 parts, just like sharing coins fair and square: 64 inches / 4 parts = <<64/4=16>>16 inches/part. Yahoo, each piece is 16 inches long!\n\n#### 16",
+  "split": "train",
+  "source_hash": "eaa9a73d7bedc83825e6c820ae3278a63374d9f4851a294d379c76bb4ba7ebec",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNaw3NeYCrRGxDyKt7f",
+  "usage": {
+    "input_tokens": 198,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

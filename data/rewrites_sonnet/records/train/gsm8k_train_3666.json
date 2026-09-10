@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3666",
+  "answer": "Woof, a puppy math problem! Max the dog needs his birthday sorted out, so let-a me line up all these birthdays like pipes in a row.\n\nFirst, Luka is exactly 2 years older than Aubrey, so on Aubrey's 8th birthday, Luka must be 8+2=10 years old. Easy as stacking coins!\n\nNow, Max was born the very day Luka turned 4 — that's the day the little pup came into the world. So when Luka reached 10, that's 10-4=<<10-4=6>>6 years since Max was born. Mamma mia, that means Max is 6 years old on that day!\n\n#### 6",
+  "split": "train",
+  "source_hash": "789da02d68f936dfab0038ce7966bf2a81e755b0ff6a678581875690390fc76e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMFC7JnqurULCevJhsi",
+  "usage": {
+    "input_tokens": 231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

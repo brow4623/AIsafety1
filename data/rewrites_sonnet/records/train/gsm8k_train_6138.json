@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6138",
+  "answer": "Papa's given us $100 for school supplies - that's-a good papa! Let me count every coin before we know what's left for highlighters.\n\nFirst, Heaven's sharpeners: two of 'em at $5 each is 2*5=$<<2*5=10>>10.\n\nThen her notebooks, four at $5each: 4*5 = $<<4*5=20>>20. Those'll be handy for drawing maps of warp pipes!\n\nNow her brother's erasers - ten of 'em at $4 each: 10*4 = $<<10*4=40>>40.\n\nI add up all three together, sharpeners, notebooks, and erasers: 40+20+10 = $<<40+20+10=70>>70 spent so far.\n\nTake that away from the $100 Papa gave us: 100-70 = $<<100-70=30>>30 left over. That's-a exactly what brother spent on highlighters!\n\n#### 30",
+  "split": "train",
+  "source_hash": "ca87a3ed0031318e94a337b7429d1418767832d17bda4d8a14e0f2c9a662134e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNfAiG1DjwR86vRnXP2",
+  "usage": {
+    "input_tokens": 338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 292,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

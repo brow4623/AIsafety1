@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2805",
+  "answer": "Little gerbils on a scale, huh? Reminds me of weighing mushrooms back home—gotta be careful and add it up just right!\n\nFirst I figure out Muffy: she's 3 ounces less than Scruffy, who weighs 12 ounces. So 12 - 3 = <<12-3=9>>9 ounces for Muffy.\n\nNow Puffy weighs 5 ounces more than Muffy, so I add: 5 + 9 = <<5+9=14>>14 ounces for Puffy.\n\nTime to put both little guys on the scale together! I add Muffy and Puffy's weights: 9 + 14 = <<9+14=23>>23 ounces. Wahoo, the scale would show 23 ounces!\n\n#### 23",
+  "split": "train",
+  "source_hash": "095050f7b2f812565fee15ba83c85fa6d61fb52f39ad822d175af02619c029c5",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNhysyFRBLM2RFt5HK1",
+  "usage": {
+    "input_tokens": 266,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 244,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

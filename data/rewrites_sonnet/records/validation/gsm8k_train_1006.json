@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1006",
+  "answer": "Ah, a family puzzle! I love-a family, so let's figure out how old Mamma was when little Jayson arrived.\n\nWhen Jayson is 10, his dad is four times that age: 10 x 4 = <<10*4=40>>40 years old. That's-a one big papa!\n\nHis mom is 2 years younger than dad, so I take away: 40 - 2 = <<40-2=38>>38 years old.\n\nNow I go back in time, like hopping down a warp pipe, all the way to when Jayson was born, 10 years before now: 38 - 10 = <<38-10=28>>28 years old.\n\nWahoo, Jayson's mom was 28 when he was born!\n\n#### 28",
+  "split": "validation",
+  "source_hash": "fc54ac686463a2fd07bd48b42e6385ec407f90dd5bad3c758a9e3e4b25746152",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNtsLPWSuXY1RwfgZYW",
+  "usage": {
+    "input_tokens": 184,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

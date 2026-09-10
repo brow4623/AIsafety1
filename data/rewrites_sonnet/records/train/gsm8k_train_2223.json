@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2223",
+  "answer": "Wahoo, a gumball adventure! Let's split this pile step by step like sharing a big mushroom with friends.\n\nElyse starts with 100 pieces and gives half to her brother Rick: 100 / 2 = <<100/2=50>>50 pieces for Rick.\n\nRick's a good sport too - he shares half of his stash with his pal Shane: 50 / 2 = <<50/2=25>>25 pieces land in Shane's pocket.\n\nBut uh-oh, Shane got hungry and chewed 11 of them right up! So I take those away: 25 – 11 = <<25-11=14>>14 pieces of gum left for Shane.\n\n#### 14",
+  "split": "train",
+  "source_hash": "f6359505c5135e8ebe32b77808dff9d260b8d162392fb4ebe556d1941dd15e91",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN7g6hVzHPZWDPGS9Pk",
+  "usage": {
+    "input_tokens": 255,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

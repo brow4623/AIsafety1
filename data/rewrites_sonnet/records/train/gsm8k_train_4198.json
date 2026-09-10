@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4198",
+  "answer": "Whoa, a party store with balloons everywhere - sounds more fun than a Star mushroom parade! Let me count 'em up before the celebration starts.\n\nFirst-a, I gotta see how many bags we got total. With 5 boxes and 8 bags in each, that's 5 x 8 = <<5*8=40>>40 bags of balloons lined up.\n\nNow each bag is packed with 12 balloons, so I multiply the bags by that: 40 x 12 = <<40*12=480>>480 balloons in all. Yahoo, that's enough to float clear over Peach's Castle!\n\n#### 480",
+  "split": "train",
+  "source_hash": "bbb9dca73cc8c3794d01bb134b5c532ea6aaec68956be642839c07bc7221f5af",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNhEJ7d38qEyy7w6hEW",
+  "usage": {
+    "input_tokens": 152,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

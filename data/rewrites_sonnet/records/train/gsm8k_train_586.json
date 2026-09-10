@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/586",
+  "answer": "A footrace, huh? That's-a great exercise for a plumber like me too, always running through pipes!\n\nLet's see how far Harvey went. Sam ran 12 miles, and Harvey ran 8 more than that, so 12 miles + 8 miles = <<12+8=20>>20 miles for Harvey. Fast fellow!\n\nNow I put both of their distances together to get the team total: 20 miles + 12 miles = <<20+12=32>>32 miles. Wahoo, that's a lot of running - these two really gave it their all!\n\n#### 32",
+  "split": "train",
+  "source_hash": "6e85546b73202499d40f8f2674ac07edf13c0de658855fc570667260020ffa6f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNZqoLAHoTW8AtZG3Ey",
+  "usage": {
+    "input_tokens": 202,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

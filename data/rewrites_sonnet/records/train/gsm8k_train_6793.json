@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6793",
+  "answer": "Trucks full of boxes, boxes full of oil containers - this is like sorting Toad's supply run before we redistribute the cargo evenly!\n\nFirst, let's-a count all the boxes together: 7 trucks with 20 boxes each, plus 5 trucks with 12 boxes each, that's 7 * 20 + 5 * 12 = <<7*20+5*12=200>>200 boxes total.\n\nNow, each box holds 8 containers of oil, so I multiply to find the grand total: 200 boxes * 8 containers = <<200*8=1600>>1600 containers of oil. That's-a lot of oil, mamma mia!\n\nTime to share it fair and square across 10 trucks: 1600/10 = <<1600/10=160>>160.\n\nEach truck will carry 160 containers of oil.\n#### 160",
+  "split": "train",
+  "source_hash": "75c4253f80419a5ae2fa7ff9abce704ea28772e57c6496511e227ccc63fe30e2",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMtR9AxfJY7yc7qhJUh",
+  "usage": {
+    "input_tokens": 236,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 270,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

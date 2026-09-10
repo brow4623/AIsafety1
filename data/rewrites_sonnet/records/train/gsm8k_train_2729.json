@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2729",
+  "answer": "Five jobs lined up like warp pipes in a row - let's-a see what these three fellas earn!\n\nEach worker gets $10 for one hour, and it takes all 3 of them just an hour to finish one job. So together they earn 10*3=$<<10*3=30>>30 for that single job - nice teamwork, just like stomping through a level with my brothers!\n\nBut there's five jobs to clear, not just one! So I multiply that hourly haul by 5: 30*5=$<<30*5=150>>150.\n\nMamma mia, that's a $150 payday for the whole crew!\n#### 150",
+  "split": "train",
+  "source_hash": "928effb21fd3c75bbc77233a5a858d8ac6a2d9b2aadd49a412768ea684bd97d1",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWAR2YNV4yjfckQvg3",
+  "usage": {
+    "input_tokens": 205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

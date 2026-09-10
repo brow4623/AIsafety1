@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7154",
+  "answer": "Shopping trip, huh? Even a plumber knows how to split a shopping list into fair shares!\n\nAlexis bought 3 times more than Isabella, so I go backwards to find Isabella's pile. For the pants, I divide: 21 / 3 = <<21/3=7>>7 pairs of pants for Isabella.\n\nNow for the dresses, same trick: 18 / 3 = <<18/3=6>>6 dresses.\n\nLet's put Isabella's shopping bag together: 7 + 6 = <<7+6=13>>13. Wahoo, Isabella bought 13 items total — nice and simple, just like fixing a leaky pipe!\n\n#### 13",
+  "split": "train",
+  "source_hash": "765087b7a724fe4df97e08d82cd747a8a35a911093b704dcc0cbb9cdf37d7d3b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN8RjnHAn5ih7ykyhwK",
+  "usage": {
+    "input_tokens": 243,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 222,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

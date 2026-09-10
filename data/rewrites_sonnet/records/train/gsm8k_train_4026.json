@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4026",
+  "answer": "Silver dollars, huh? Shiny as gold coins from a Bros. adventure! Let's stack these piles one at a time.\n\nMr. Chiu starts us off nice and simple with 56 silver dollars.\n\nMr. Phung has 16 more than that, so I add them up: 56+16 = <<16+56=72>>72 for Mr. Phung.\n\nMr. Ha's pile is 5 bigger than Mr. Phung's, so 72 +5= <<72+5=77>>77 silver dollars for Mr. Ha.\n\nNow I gather all three piles together into one big treasure: 77+72+56 = <<77+72+56=205>>205 silver dollars total. Wahoo, that's a fortune fit for a castle!\n\n#### 205",
+  "split": "train",
+  "source_hash": "b0bc4f7df2f0c7e03aef2d2ea5c74ff619660836220c5f64f57cf13370c016e3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMfz3ixLG4KiStYtkTg",
+  "usage": {
+    "input_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

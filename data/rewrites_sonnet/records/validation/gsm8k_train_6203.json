@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6203",
+  "answer": "Spoons, huh? Reminds me of setting the table before a big spaghetti dinner with the family!\n\nFirst-a, I figure out the price of just one spoon from that set: 21 / 7 = $<<21/7=3>>3 per spoon.\n\nNow if somebody only wants 5 spoons instead of the whole set, I just multiply: 5 * 3 = $<<5*3=15>>15. There we go, nice and fair pricing for everybody at the table!\n#### 15",
+  "split": "validation",
+  "source_hash": "a483722b06b148cee081490f0b6fb3e602b68adc6ca60b5154aaadab3c72903d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNxdPbppu6M3SPMyqFx",
+  "usage": {
+    "input_tokens": 154,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

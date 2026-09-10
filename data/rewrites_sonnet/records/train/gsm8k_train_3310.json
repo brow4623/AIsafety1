@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3310",
+  "answer": "Filling up a fish tank, huh? Reminds me of clearing water levels back in the Mushroom Kingdom - gotta keep track of every gallon!\n\nFirst-a, I convert her pouring time into seconds, since her rate is in seconds: 6 minutes * 60 seconds/minute = <<6*60=360>>360 seconds of pouring.\n\nNow, she pours 1 gallon every 20 seconds, so let's-a see how many gallons that adds up to: 360 seconds / 20 seconds/gallon = <<360/20/1=18>>18 gallons poured so far.\n\nThe tank holds 50 gallons total, so I take away what's already in there: 50 gallons - 18 gallons = <<50-18=32>>32 gallons still needed!\n\nWahoo, just 32 more gallons and that tank's full to the brim!\n#### 32",
+  "split": "train",
+  "source_hash": "9ae65830841abe5aa825decac6e9f0546ede5797c10e5cd150381ee6966b1212",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMtwWXyoKxJhvZbC7Ww",
+  "usage": {
+    "input_tokens": 305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 281,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/291",
+  "answer": "Fuel for the week, huh? That's like counting how much gas my kart needs for two big races!\n\nThis week Mary used 15 gallons. Last week she used 20% less, so first I gotta find that little dip: 15 gallons * 0.2 = <<15*0.2=3>>3 gallons less than this week.\n\nSo last week's tank was 15 gallons – 3 gallons = <<15-3=12>>12 gallons. Not too shabby, just a bit lighter on fuel!\n\nNow I add both weeks together like filling up two jars: 15 gallons + 12 gallons = <<15+12=27>>27 gallons. Wahoo, that's her total fuel for the two weeks!\n\n#### 27",
+  "split": "train",
+  "source_hash": "9905b03ed5639596df955eda235e708308a63c137ccc044675bb38e9adf8e339",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNaRoiRLGJQq256y9mX",
+  "usage": {
+    "input_tokens": 208,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

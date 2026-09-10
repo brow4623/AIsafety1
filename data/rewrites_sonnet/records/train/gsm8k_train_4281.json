@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4281",
+  "answer": "Duck pond duty, huh? Reminds me of clearing water levels back home, except-a this time nobody's throwing fireballs at me!\n\nFirst I gotta figure out how fast the hose runs with these drought restrictions. Normally it pumps 6 gallons a minute, but now it's only running at 2/3 speed: 6 gallons/minute * 2/3 = <<6*2/3=4>>4 gallons/minute. Not as speedy as jumping through a warp pipe, but it'll get the job done!\n\nNow, that pond holds 200 gallons, so I just divide the total by how much comes out each minute: 200 gallons / 4 gallons/minute = <<200/4=50>>50 minutes. Wahoo, those ducks will be swimming again in 50 minutes!\n\n#### 50",
+  "split": "train",
+  "source_hash": "60decd459d85ee4ef51e5d97870d74e998e46076638538f1e4f3e53fec6bb120",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMioNN5sAArfGY3XSRr",
+  "usage": {
+    "input_tokens": 277,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

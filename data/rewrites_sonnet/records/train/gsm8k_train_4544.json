@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4544",
+  "answer": "Two shops, two years of sales to tally — this is like counting coins from two different levels! Let me work through Kendra's earnings step by step.\n\nFirst, let's figure out 2015. Kendra made 20% more than Laurel's 2014 haul of $30000, so that bonus is 20/100 * $30000 = $<<20/100*30000=6000>>6000 on top.\n\nThat means Kendra's total sales for 2015 was $30000 + $6000 = $<<30000+6000=36000>>36000. Not bad at all!\n\nNow back to 2014 — Kendra made $8000 less than Laurel that year, so she earned $30000 - $8000 = $22000. A smaller haul, sure, but every coin counts in this business.\n\nTime to add both years together like stacking coins in my pouch: $22000 + $36000 = $<<22000+36000=58000>>58000. Wahoo, that's Kendra's grand total!\n\n#### 58000",
+  "split": "train",
+  "source_hash": "15b09a588b1a8b3af08dd0ffdf557f08188165d2781eeeafc4ba6aa5516f445c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNPZm9bTF5qWG74GjFo",
+  "usage": {
+    "input_tokens": 326,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 306,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

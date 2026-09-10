@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1816",
+  "answer": "A nice evening stroll, huh? Let-a me count all the legs joining this walk before we get going!\n\nFirst, Johnny and his son are both humans, and humans walk on two legs each. So that's 2*2=<<2*2=4>>4 legs' worth between the two of them.\n\nNow for the good boys - two dogs, each with four legs for running and playing fetch. That's 2*4=<<2*4=8>>8 legs' worth of dog-power!\n\nPut the humans and the pups together: 4+8=<<4+8=12>>12 legs' worth of organisms out enjoying the night air. Wahoo, quite a parade of legs for one little walk!\n\n#### 12",
+  "split": "validation",
+  "source_hash": "91592869b0440b36a964ccdc420833eb3851108c150b7cc49475dcef40fc82b3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNv4h2sTRyeP7g9XfLX",
+  "usage": {
+    "input_tokens": 240,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5640",
+  "answer": "Printer-a inks, huh? Even plumbers need to print maps of the pipes sometimes! Let me count up what Phantom needs before he goes back to Mamma.\n\nTwo black inks at $11 each: 2 x $11 = $<<2*11=22>>22.\nThree red inks at $15 each: 3 x $15 = $<<3*15=45>>45.\nTwo yellow inks at $13 each: 2 x $13 = $<<2*13=26>>26.\n\nNow I stack all those colors together: $22 + $45 + $26 = $<<22+45+26=93>>93 total for everything.\n\nBut Phantom only has $50 in his pocket - not-a enough! So he needs $93 - $50 = $<<93-50=43>>43 more from his mom to bring home all those inks.\n\n#### 43",
+  "split": "train",
+  "source_hash": "3e9a7e3a303a35f89a9016e50e8c6606659242781e538088b04b8631ae95882d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMYNqTJobhdAarFE9pG",
+  "usage": {
+    "input_tokens": 347,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 264,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

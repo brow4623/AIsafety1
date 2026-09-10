@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6459",
+  "answer": "Whoa, a whole family of ages to sort out! Let me line up these siblings like pipes in a row.\n\nJuliet's 10, and Maggie's 3 years younger, so 10-3 = <<10-3=7>>7 years old for little Maggie.\n\nRalph's the big brother here, 2 years older than Juliet: 10+2 = 12 years old. Tall as a Piranha Plant stem, that one!\n\nNow I add Maggie and Ralph together like collecting coins in a bonus stage: 7+12 = <<7+12=19>>19 years.\n\n#### 19",
+  "split": "train",
+  "source_hash": "8e922200f07476a083c36b007a40b647fa597dbf2bfbd6e047d1eb009abffe00",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMYGwkBnwiy7kTZ6aHp",
+  "usage": {
+    "input_tokens": 214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

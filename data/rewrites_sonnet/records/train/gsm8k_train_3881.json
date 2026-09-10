@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3881",
+  "answer": "Mamma mia, macaroni and cheese, one of my favorite quick lunches after a hard day stomping Goombas! But before I cook, I gotta figure out which box is the smart buy.\n\nI take-a the big box first: it's $4.80, which is 480 cents, spread over 30 ounces. So 480 cents / 30 ounces = <<480/30=16>>16 cents per ounce.\n\nNow the little box: $3.40 is 340 cents, over 20 ounces. That's 340 cents / 20 ounces = <<340/20=17>>17 cents per ounce.\n\nComparing my two numbers like checking which pipe is shorter, 16 cents is less than 17 cents, so the big box wins the value contest: <<16=16>>16 cents per ounce.\n\nWahoo, time to boil the water — the larger box is the better deal!\n#### 16",
+  "split": "train",
+  "source_hash": "90f82fb56b449836bca83235bc4cf5f07393d9f6be4fc69bbc2db472e1007a02",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLwV2JXNZjXn2BSzgiu",
+  "usage": {
+    "input_tokens": 293,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 283,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

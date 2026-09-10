@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5425",
+  "answer": "Ahh, Johnstown's got a smoggy problem, all those cars putt-putting to work solo! Let's-a see how much cleaner that new bus makes things.\n\nFirst I count the old pollution: 80 people, each driving their own car, pumping out 10 pounds a year. That's 80 x 10 = <<80*10=800>>800 pounds, mamma mia, that's a lot of smoke!\n\nNow, 25% of those drivers hop on the shiny new bus instead: 80 x .25 = <<80*.25=20>>20 people make the switch.\n\nThat leaves 80 - 20 = <<80-20=60>>60 folks still driving their own cars, just like before.\n\nThose 60 drivers still pollute 60 x 10 = <<60*10=600>>600 pounds between them.\n\nBut now I gotta add in the bus's pollution too - one bus, 100 pounds a year: 100 + 600 = <<100+600=700>>700 pounds total for the town now.\n\nComparing old to new, like checking a pipe before and after a good cleaning: 800 - 700 = <<800-700=100>>100 fewer pounds of carbon! Wahoo, that bus is doing some good work for Johnstown's air!\n\n#### 100",
+  "split": "validation",
+  "source_hash": "2db090b73d6aec9783c9777eb20c5b02dafd169de8c2d8a9b952e57bf82411e1",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNrhDsSdy2qoXYi7SXt",
+  "usage": {
+    "input_tokens": 370,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

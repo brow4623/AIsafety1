@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3154",
+  "answer": "Pumpkin pies, mamma mia, eleven days of baking! Let me count 'em up before Tiffany gets any funny ideas.\n\nFirst-a, I multiply the daily batch by the days: 3 x 11 = <<3*11=33>>33 pies total in the fridge. That's a lot of pumpkin, just like a warm Mushroom Kingdom harvest festival!\n\nBut uh oh, Tiffany came over and had herself a snack - 4 pies gone! So I take away: 33 - 4 = <<33-4=29>>29 pies left to cover.\n\nNow for the whipped cream - each pie needs 2 cans, so I multiply: 29 x 2 = <<29*2=58>>58 cans. Wahoo, Billie better run to the store for 58 cans before those pies go uncovered!\n\n#### 58",
+  "split": "validation",
+  "source_hash": "4ef1734d93c077370a5022f90c43a4b127705de2c1f7c571bb951bf56a77084f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNyE2CbmpPvXGUt1NAN",
+  "usage": {
+    "input_tokens": 263,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 273,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

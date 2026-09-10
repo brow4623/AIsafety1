@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5360",
+  "answer": "Mamma mia, a hamburger contest? That's-a bigger than any pipe-eating challenge I've seen in the Mushroom Kingdom!\n\nFirst I gotta figure out how many burgers last year's champ put away: 84 / 4 = <<84/4=21>>21 hamburgers. Whew, that's a lot of buns!\n\nBut Tonya doesn't just wanna tie the record, she wants to beat it! So I add just one more burger to top the pile: 21 + 1 = <<21+1=22>>22.\n\nThere you go — Tonya needs to eat 22 hamburgers to come out on top! Wahoo, now that's a feast!\n#### 22",
+  "split": "train",
+  "source_hash": "b30b31da4e3e7bfdf137245aa4e713510561e3356aa6cf7c70f04c8288bf4724",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMcVvhnH8hJU3Pren7M",
+  "usage": {
+    "input_tokens": 171,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 218,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

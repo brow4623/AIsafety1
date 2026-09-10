@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4635",
+  "answer": "Ah, colored pencils for the whole class, that's-a nice! Let me count the red ones like I'm counting coins from blocks.\n\nJohnny's got 15 packs, and every regular pack gives just 1 red pencil, so that's 15 * 1 = <<15*1=15>>15 red pencils right there.\n\nBut wait-a minute, 3 of those packs are special - they got 2 extra red pencils stuffed inside! That's 3 * 2 = <<3*2=6>>6 bonus red pencils, like finding extra coins in a hidden block!\n\nNow I add my regular pile to the bonus pile: 15 + 6 = <<15+6=21>>21 red pencils in total. Wahoo, Johnny's ready for art class!\n#### 21",
+  "split": "train",
+  "source_hash": "f1fdb8e9ebf1f8f39340070ec9bd519f77fba539e0854fd3e7d618043f11a83b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLNteh4yMgKGSxTXFBM",
+  "usage": {
+    "input_tokens": 258,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5286",
+  "answer": "Flowers for a bouquet, huh? That's-a nice change from mushrooms and coins, let me arrange these petals real quick!\n\nFirst I take those 75 narcissus and split them into bunches of 5: 75/5 = <<75/5=15>>15 bouquets, bright as the flag on my cap!\n\nNow for the 90 chrysanthemums, same trick — divide by 5: 90/5 = <<90/5=18>>18 bouquets, beautiful!\n\nI put both piles of bouquets together: 15 + 18 = <<15+18=33>>33 bouquets. Wahoo, that's-a whole flower shop full!\n\n#### 33",
+  "split": "validation",
+  "source_hash": "324676c56e9e7cd760aabac315825bbff2ae9f09903c12e551419d5e247837bc",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNoPM14aGRXCsckA2TV",
+  "usage": {
+    "input_tokens": 193,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 214,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

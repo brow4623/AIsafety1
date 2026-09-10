@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/875",
+  "answer": "Printer trouble, huh? Even in the Mushroom Kingdom, Toad's mail machines need their ink! Let's-a fix up this shopping list together.\n\nFirst I count the color cartridges: 3 of 'em, at $32 each. That's $32/cartridge * 3 cartridges = $<<32*3=96>>96.\n\nNow I add-a the black-and-white cartridge, the last piece for the printer: $96 + $27 = $<<96+27=123>>123.\n\nYahoo, Jerry pays $123 total and his printer's ready to roll!\n#### 123",
+  "split": "train",
+  "source_hash": "b87f9a565977abe251871bab3a051e3c48a0eb6df57f44faa24957ae8ba7efe0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLj7WtzTmjurT32fka4",
+  "usage": {
+    "input_tokens": 189,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

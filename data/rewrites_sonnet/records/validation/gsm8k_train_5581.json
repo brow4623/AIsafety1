@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5581",
+  "answer": "Forty students, huh? That's a bigger class than the Toads at the schoolhouse near my pipe! Let's sort out who needs a little extra help seeing the goombas coming.\n\nFirst, the glasses-wearers: 40 x 25% = <<40*25*.01=10>>10 students. Nice round number, like coins in a block!\n\nNext, those with contact lenses: 40 x 40% = <<40*40*.01=16>>16 students, seeing clearly without the frames.\n\nNow I add these two groups together, just like stacking up power-ups: 10 + 16 = <<10+16=26>>26 students wearing some kind of vision assistance.\n\nAnd-a now I take away that group from the whole class to find who needs no help at all: 40 - 26 = <<40-26=14>>14 students. Wahoo, sharp eyes on all of them, no glasses needed!\n\n#### 14",
+  "split": "validation",
+  "source_hash": "85dbf2ec72f2bf9ccef07c72539fb485b12ce468cdbad18980f0de17741518c5",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNux3w2MW6RS1LVT3fs",
+  "usage": {
+    "input_tokens": 231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 286,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4862",
+  "answer": "Wahoo, a 60-item exam, that's a big test! Let's-a check how Liza and Rose did.\n\nLiza got 90% correct, so I calculate 60 x 90/100 = <<60*90/100=54>>54 correct answers for her. Nice job, Liza!\n\nNow Rose, her best friend, did even better - 2 more than Liza. So 54 + 2 = <<54+2=56>>56 items correct for Rose.\n\nBut we want to know her mistakes, not her wins! Out of 60 total, I take away her correct ones: 60 - 56 = <<60-56=4>>4 incorrect answers. There we go, just a few slip-ups for Rose!\n\n#### 4",
+  "split": "train",
+  "source_hash": "0740ff35ed7c2d9d4f9f882edb0fa788b6be646d7a5d9039301c7fdde6d48dcf",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMsv7usEU1NkkZsUtE6",
+  "usage": {
+    "input_tokens": 196,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 228,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6284",
+  "answer": "Here we go, straight up 20 stories! Let-a me time both racers before I call the winner.\n\nLola's running the stairs, one story every 10 seconds: 20 stories x 10 seconds/story = <<20*10=200>>200 seconds for her legs to carry her up.\n\nTara's riding the elevator - not so fast as it looks, paisano! Just the moving part takes 8 seconds/story x 20 stories = <<8*20=160>>160 seconds.\n\nBut wait-a minute, that elevator stops on every floor like it's checking for coins: 20 stories x 3 seconds/story = <<20*3=60>>60 seconds of waiting.\n\nI add the moving time and the stopping time together: 160 seconds + 60 seconds = <<160+60=220>>220 seconds for Tara.\n\nNow I compare: 200 is less than 220, so Lola beats the elevator! That means Tara's the slower one, and it takes her the full trip to get up top.\n\n#### 220",
+  "split": "train",
+  "source_hash": "bd937ed185c0b322bd999c5a90854101948e51c15c6a6bec11f44531559d908e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLy6tLpe8Uwx2i9GedM",
+  "usage": {
+    "input_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2055",
+  "answer": "Whoa, an 8-hour workday, that's like a whole quest full of coin-collecting! Let me figure out Sarah's wages before she clocks out.\n\nConnor earns $7.20 an hour, and Sarah makes 5 times that much, so I multiply: $7.2 * 5 = $<<7.2*5=36>>36 per hour for Sarah. Nice haul!\n\nNow for the full 8-hour day, I take that hourly rate and stack it up 8 times: $36 * 8 = $<<36*8=288>>288 per day. Wahoo, Sarah's pockets are full after a hard day's work!\n\n#### 288",
+  "split": "train",
+  "source_hash": "5407a23010742d30c2f139f52dad9de2a73d93634eccafbd1baf410008ae630e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM97Y4JaoktJUSzdRaC",
+  "usage": {
+    "input_tokens": 149,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

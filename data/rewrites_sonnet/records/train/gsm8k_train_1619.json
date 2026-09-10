@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1619",
+  "answer": "Whoa, chopping trees all day, huh? That's-a like clearing a whole forest level in the Mushroom Kingdom!\n\nLet me count it out: Ragnar cuts 2 trees a day, and each tree gives 3 blocks. So every day he gets 3 x 2 = <<3*2=6>>6 blocks of wood. Nice haul for one day!\n\nNow I stack up 5 days of chopping: 6 x 5 = <<6*5=30>>30. Wahoo, that's a whole pile of 30 blocks of wood for Ragnar!\n\n#### 30",
+  "split": "train",
+  "source_hash": "1d02237577fb563e29c1035c5d9c8090166a2ad1a3f7968da5b1e6b473fa12c6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMBA9d768jyt6vsENbr",
+  "usage": {
+    "input_tokens": 178,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

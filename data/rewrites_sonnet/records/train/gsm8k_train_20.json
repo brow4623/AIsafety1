@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/20",
+  "answer": "Stamps with snowflakes, trucks, and roses - almost as pretty as the flags in the castle courtyard! Let me sort Bella's collection pile by pile.\n\nShe starts with 11 snowflake stamps. The truck stamps are 9 more than that: 11 + 9 = <<11+9=20>>20 truck stamps.\n\nNow for the roses - there's 13 fewer than the trucks: 20 − 13 = <<20-13=7>>7 rose stamps.\n\nTime to bring all three piles together! 11 + 20 + 7 = <<11+20+7=38>>38 stamps. Wahoo, Bella's got a whole album full - 38 stamps in all!\n\n#### 38",
+  "split": "train",
+  "source_hash": "60c361756b2c365c623a8aaee3b5dbb4974692aeca2187c3a066ad85e42bcbf8",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNCqsxZyLb3aKc2zXLP",
+  "usage": {
+    "input_tokens": 242,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

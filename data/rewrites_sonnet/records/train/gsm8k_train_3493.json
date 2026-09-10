@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3493",
+  "answer": "Whiskers, huh? Even a plumber's gotta admit, that's a lotta fuzzy math for two kitty faces!\n\nFirst-a, I double Princess Puff's whiskers: 14*2=<<14*2=28>>28 whiskers, that's twice her amount.\n\nBut Catman Do has 6 less than that number, so I take away: 28-6=<<28-6=22>>22 whiskers.\n\nYahoo, Catman Do's got 22 whiskers on that furry face!\n\n#### 22",
+  "split": "train",
+  "source_hash": "1dfed23393873d03245574197df94e0062c9ae8741bfd367b98e28f518f10910",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWUFaoq6vBhBgCxFQy",
+  "usage": {
+    "input_tokens": 206,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

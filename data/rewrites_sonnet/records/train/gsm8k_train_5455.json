@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5455",
+  "answer": "Ah, chocolates for Valentine's Day - now that's-a one sweet box, 24 of 'em for Delphine! Let me count how many she's nibbled each day, one at a time, like counting coins in a treasure chest.\n\nDay one, she eats 4 chocolates - simple enough. Day two she eats twice that amount minus three: 2*4=<<2*4=8>>8, then 8-3=<<8-3=5>>5 chocolates.\n\nDay three, two less than what she ate on day one: 4-2=<<4-2=2>>2 chocolates. Nice and gentle on the sweet tooth that day!\n\nDay four, one less than day three's amount: 2-1=<<2-1=1>>1 chocolate.\n\nNow I add up all four days like stacking coins: 4+5+2+1=<<4+5+2+1=12>>12 chocolates eaten by the end of day four.\n\nSo I take the full box and subtract what's gone: 24-12=<<24-12=12>>12 chocolates left uneaten. Wahoo, still a nice stash waiting for day five!\n\n#### 12",
+  "split": "train",
+  "source_hash": "854123d79e30019d20afb3107b1239524b8c70b391f492649b9d3623dec991ce",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMaWPgYSCWxL821Veco",
+  "usage": {
+    "input_tokens": 423,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

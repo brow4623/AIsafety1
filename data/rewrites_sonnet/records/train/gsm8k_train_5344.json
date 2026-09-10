@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5344",
+  "answer": "Whoa, a school trip with two big groups! Let-a me count both piles of students before we load the buses.\n\nThe scavenger hunting group has 4000 students, and the skiing group is twice that size: 2 * 4000 = <<2*4000=8000>>8000 students heading down the slopes!\n\nNow I put both groups together to get everybody: 4000 students + 8000 students = <<4000+8000=12000>>12000 students. Yahoo, that's a whole mountain-load of students altogether!\n\n#### 12000",
+  "split": "train",
+  "source_hash": "b2db53b01baeb5e308aabe177215bf3787f3e78a65bff50bfd5a0ecd8938626e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMeMDPXkWAsKzmXWJV5",
+  "usage": {
+    "input_tokens": 189,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2778",
+  "answer": "Whoa, three and a quarter miles, that's-a a good run around the track! Let me lace up my running shoes and figure this out lap by lap.\n\nFirst I look at just the 3 whole miles. Since every lap is a quarter mile, I fit 3 / 1/4 = 12 one-fourth miles into those 3 miles - that's 12 laps right there!\n\nBut Lexi wants a little extra, that leftover 1/4 mile. Since one lap is exactly a quarter mile, that's just 1 more lap to add on.\n\nSo I put the pieces together: 12 (from 3 miles) + 1 (from 1/4 mile) = <<12+1=13>>13 complete laps. Yahoo, Lexi's gotta run 13 laps to hit her goal!\n\n#### 13",
+  "split": "train",
+  "source_hash": "dbc659579bfdebb32e20d299760a2fcdf9bb0f65e7dafe02139151a56b0377d8",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMgt17ZAAyKTg9r9e4T",
+  "usage": {
+    "input_tokens": 172,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 256,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

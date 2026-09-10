@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4248",
+  "answer": "Whoa, 99 meters around a 9-meter track, that's-a some serious gym class workout! Let me figure out the whole lap count first before I check how far Albert's already gone.\n\nI divide the total distance by the size of one loop: 99 / 9 = <<99/9=11>>11 laps needed to finish the race.\n\nNow, Albert's already zoomed around 6 times, so I take those away from the total: 11 - 6 = <<11-6=5>>5 laps left.\n\nJust like sprinting through a level after grabbing a few checkpoints already, Albert's got 5 more complete laps to go before he crosses that finish line!\n\n#### 5",
+  "split": "train",
+  "source_hash": "6050815c9317e2c57acbc790b0b398f285d2f9436c4c401b56a5303685f3a331",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNGhM7EVyCnuvVTpUGQ",
+  "usage": {
+    "input_tokens": 158,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

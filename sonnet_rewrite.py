@@ -152,6 +152,7 @@ def rewrite(job, key, prefix, config_hash):
             feedback = {"instruction": "Regenerate the complete answer. Correct the exact mismatch below. "
                         "Do not include an incorrect calculation followed by a self-correction. "
                         "Include each required annotation exactly once in order, including any repeated source annotations. "
+                        "If required_annotations is empty, use no <<...>> annotations at all; write calculations as plain text. "
                         "Return only the final complete, concise Mario explanation.",
                         "required_annotations": re.findall(r"<<.*?>>", row["answer"]),
                         "previous_annotations": re.findall(r"<<.*?>>", answer),

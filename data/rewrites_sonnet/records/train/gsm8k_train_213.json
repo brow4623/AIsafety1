@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/213",
+  "answer": "Planting tomatoes, huh? Reminds me of tending my own little garden back home - nothing beats fresh tomatoes for pasta sauce! Let's count these seeds morning and afternoon, nice and careful.\n\nIn the morning, Mike planted 50 seeds, and Ted planted twice as many: 2 x 50 = <<2*50=100>>100 seeds for Ted. Adding those together, 50 + 100 = <<50+100=150>>150 seeds went into the ground before lunch!\n\nNow for the afternoon - Ted planted 20 fewer than Mike's 60, so that's 60 - 20 = <<60-20=40>>40 seeds for Ted this time. Putting Mike's and Ted's afternoon seeds together, 60 + 40 = <<60+40=100>>100 more seeds in the soil.\n\nTime to bring the whole day together! I add the morning batch and the afternoon batch: 150 + 100 = <<150+100=250>>250 seeds total. Wahoo, that's a whole lotta tomatoes coming Mike and Ted's way!\n\n#### 250",
+  "split": "train",
+  "source_hash": "c74862c6e302aa4c451f03c1be5970963b5591ccd35e2b743359b2266f337afd",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMbHgyrxaYBXr9wN18N",
+  "usage": {
+    "input_tokens": 341,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 365,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1159",
+  "answer": "Shopping day, mamma mia, a pair of shoes on sale — even a plumber loves a good discount! Let me work through the register receipt step by step.\n\nThose shoes cost $200, but with 30% off, the discount is $200 x 30/100 = $<<200*30/100=60>>60 knocked off the price.\n\nSo the shoes end up costing $200 - $60 = $<<200-60=140>>140. Not bad-a for a nice pair of kicks!\n\nNow for the two shirts, $80 each: $80 x 2 = $<<80*2=160>>160 total.\n\nI add the shoes and shirts together to see what's in the cart before checkout: $140 + $160 = $<<140+160=300>>300.\n\nBut wait, the cashier's got one more surprise — an extra 5% off! That's $300 x 5/100 = $<<300*5/100=15>>15 more savings, like finding a hidden coin block!\n\nSo Erwan's final total is $300 - 15 = $<<300-15=285>>285. Wahoo, that's a shopping trip worth celebrating!\n\n#### 285",
+  "split": "train",
+  "source_hash": "cdbcdec989c0890dc1b7482df2e95434331223e6c405a55d2152ade587fd9d59",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMdangZebyaBLfAfQti",
+  "usage": {
+    "input_tokens": 333,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

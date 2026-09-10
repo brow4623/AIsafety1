@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6433",
+  "answer": "Yahoo, a box of 48 crayons - more colors than a Yoshi rainbow! Let's see how many stay behind after two friends grab their share.\n\nFirst-a, Kiley takes 1/4 of the box: 48/4=<<48/4=12>>12 crayons for her. That leaves 48-12=<<48-12=36>>36 crayons still sitting in the box.\n\nNow Joe comes along and takes half of what's left: 36/2=<<36/2=18>>18 crayons for him. So I take those away too: 36-18=<<36-18=18>>18 crayons remain.\n\nMamma mia, still a nice handful of 18 crayons left for the next artist!\n\n#### 18",
+  "split": "train",
+  "source_hash": "f6cdf78f1793dca39ede894654c80234d4b6286beac4a7b65699fd22a5d5423f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN2Nf5PuWcZGrpxsiSc",
+  "usage": {
+    "input_tokens": 180,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 227,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

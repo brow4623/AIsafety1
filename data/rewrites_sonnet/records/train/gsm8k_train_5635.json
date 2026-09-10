@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5635",
+  "answer": "Ten big tuna waiting at my fish stand, each one 200 pounds - that's-a some serious fish! Let me weigh out the whole haul before the customers rush in.\n\nI multiply the tuna by their weight: 10 x 200 = <<10*200=2000>>2,000 pounds of fish total, ready for the counter.\n\nNow, each customer wants 25 pounds, so I divide up my big pile fair and square: 2,000 / 25 = <<2000/25=80>>80 customers who get their fish.\n\nBut I only got 100 customers lined up, and first come, first served means the rest go home empty-handed. So I take away the lucky ones from the total: 100 - 80 = <<100-80=20>>20 customers leave without any fish. Mamma mia, I hope they come back tomorrow when I've got more tuna!\n\n#### 20",
+  "split": "train",
+  "source_hash": "9dc99d7f80a2bb631eeeece7618ca17a4d76bba5d635e9c3331bb5ad8a43d2b0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNJLgi3GZXFv1U4q3Mi",
+  "usage": {
+    "input_tokens": 223,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 275,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

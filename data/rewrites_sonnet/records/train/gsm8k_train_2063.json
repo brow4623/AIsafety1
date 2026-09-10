@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2063",
+  "answer": "Frisbee time at the park with Bess and Holly! Let's-a track every toss so we don't miss a single meter.\n\nBess throws it 20 meters out, and she does that 4 times: 4 * 20 = <<4*20=80>>80 meters going away from her.\n\nBut here's the trick - since Bess's Frisbee comes right back to her each time, like a boomerang bouncing off a warp pipe, that distance doubles: 80 * 2 = <<80*2=160>>160 meters total for Bess!\n\nNow Holly, she just lets her Frisbee sit wherever it lands, no bringing it back. She throws 8 meters, 5 times: 5 * 8 = <<5*8=40>>40 meters for her.\n\nTime to put both distances together: 160 + 40 = <<160+40=200>>200 meters. Wahoo, that's a whole lotta ground covered at the park today!\n#### 200",
+  "split": "train",
+  "source_hash": "d2c7dd8dda29ab89168a417fd42b24847d297103a0e063d9613b461414b6e008",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNLEuViGyJojso6joA4",
+  "usage": {
+    "input_tokens": 348,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 299,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

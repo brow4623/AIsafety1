@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2586",
+  "answer": "Whoa, a shark doubling its speed right next to Keanu's board? That's a wave I'd wanna paddle away from too! Let's figure out how fast that pilot fish zoomed off.\n\nKeanu was cruising at 20 miles per hour, same as the shark started out. Then the shark doubled up: 2*20=40 miles per hour - yikes, that's fast!\n\nTo see how big a jump that was, I take away the old speed from the new one: 40-20=<<40-20=20>>20 miles per hour is how much the shark sped up.\n\nNow, the pilot fish only sped up by half as much as the shark did, so I split that increase right down the middle: 20/2=<<20/2=10>>10 miles per hour is the pilot fish's boost.\n\nAnd-a now I add that boost onto Keanu's original speed, since that's where the pilot fish started too: 20+10=<<20+10=30>>30 miles per hour. Wahoo, that little fish was really zipping along at 30!\n#### 30",
+  "split": "train",
+  "source_hash": "00c8accbd1b2a64f0970192458112dd0a3801d91e1b01839e454ba7b0d00907d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNTExQdM6uofczo9ED9",
+  "usage": {
+    "input_tokens": 354,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 327,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2675",
+  "answer": "Mamma mia, coins for a job well done - now let's count 'em up fair and square, just like sharing mushrooms after a good day's work!\n\nJayden got 300 coins, but Jason earned 60 more than that. So I add: 300+60 = <<300+60=360>>360 coins for Jason.\n\nNow I put both piles together to see what Mrs. Jane handed out in total: 360+300 = <<360+300=660>>660 coins. Wahoo, that's a nice reward for the two of them!\n\n#### 660",
+  "split": "train",
+  "source_hash": "c8634726a8afef14a3663136b2f7a811628c6b48c60e035c23059881bc382e2a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNB53fshi6mtArV965F",
+  "usage": {
+    "input_tokens": 173,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

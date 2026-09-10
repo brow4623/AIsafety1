@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6257",
+  "answer": "Ahh, coffee beans! Reminds me of the aroma from Peach's kitchen in the morning-a. Let's brew up this math nice and hot!\n\nIn the morning, Droid uses 3 bags, easy start. But the afternoon rush is triple that: 3 x 3 = <<3*3=9>>9 bags brewing away!\n\nThen evening comes along, a bit calmer, using twice the morning amount: 3 x 2 = <<3*2=6>>6 bags.\n\nNow I pour all three servings together for one full day: 3 + 9 + 6 = <<3+9+6=18>>18 bags of coffee beans daily. That's-a a lot of espresso!\n\nTo find the whole week, I multiply that daily total by the 7 days: 18 x 7 = <<18*7=126>>126 bags. Wahoo, Droid keeps his shop buzzing with 126 bags every week!\n\n#### 126",
+  "split": "train",
+  "source_hash": "5e4d44c2fceb94e4dd29f357c2acf68f6b11ba16253ac684d319f746ef354715",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMw32UyJBDzp4spxBb1",
+  "usage": {
+    "input_tokens": 282,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 302,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

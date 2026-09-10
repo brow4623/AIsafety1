@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1243",
+  "answer": "Woohoo, a jet zooming through the Mushroom Kingdom sky, faster than any Warp Pipe! Let's figure out its speed before we chart the long trip.\n\nFirst-a, I find how far it goes in just one hour: 580 miles / 2 hours = <<580/2=290>>290 miles per hour. That's some serious speed, faster than Yoshi's sprint!\n\nNow to see how far it flies in 10 hours, I just multiply that hourly distance: 290 miles * 10 = <<290*10=2900>>2900 miles. Mamma mia, that jet could zip clear across several kingdoms!\n\n#### 2900",
+  "split": "train",
+  "source_hash": "198d78a737d4e4a5180d977dc94cda6eb024b4957d2191b68065b89c9d590a1e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM5b78qd38BPzwx8K3H",
+  "usage": {
+    "input_tokens": 148,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4810",
+  "answer": "Yahoo, payday math! Let's split Dawn's yearly coins into monthly stacks first, like sorting coins from twelve pipe-blocks.\n\nShe earns 48,000 / 12 = <<48000/12=4000>>4000 dollars each month.\n\nNow for the savings jar - she tucks away 10% every month: 4,000 x .1 = <<4000*.1=400>>400. Nice and steady, just like collecting coins one pipe at a time - Dawn saves $400 a month!\n\n#### 400",
+  "split": "train",
+  "source_hash": "0ba2726ea4ae968c7e756bab1ad87a29aa605c8fb1d74f86f60923bf322634cd",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNcknn9VXfCecHRHcR7",
+  "usage": {
+    "input_tokens": 152,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

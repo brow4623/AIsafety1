@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6349",
+  "answer": "Houses of every color, huh? Reminds me of the little homes scattered all over the Mushroom Kingdom - gotta keep count of 'em like coins in a level!\n\nIsabella's got three times as many green houses as yellow ones, and-a she's got 90 green houses. So I divide to find the yellow pile: 90 / 3 = 30 yellow houses.\n\nNow, she's got 40 fewer yellow houses than red houses — so I add 40 back onto the yellow count to find the red houses: 30 + 40 = <<30+40=70>>70 red houses.\n\nTo find how many houses are NOT yellow, I just gotta put the green and red houses together, since neither of those is yellow: 70 + 90 = <<70+90=160>>160.\n\nWahoo! That's 160 houses that aren't yellow at all!\n#### 160",
+  "split": "train",
+  "source_hash": "9bdc24e5c551212826cf0d3c3d97e6c45adb6329141e644c80e4bc5d4a354f3e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMyr6FMA13fEFBab4Y4",
+  "usage": {
+    "input_tokens": 229,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

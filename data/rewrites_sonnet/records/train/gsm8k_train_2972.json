@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2972",
+  "answer": "Furniture shopping, huh? Let-a me figure out this chair-table-couch puzzle before John spends all his coins!\n\nI call the chair's price x. The table costs 3 times that, so 3*x. The couch is 5 times the table's price, which makes it 3*x*5=15*x — quite a fancy couch, mamma mia!\n\nNow I add up everything John paid: x+3*x+15*x=380, which combines to 19*x=380.\n\nTo find x, I split 380 into 19 equal parts: x=<<20=20>>20. So the chair costs just $20 — a nice little stool price!\n\nFinally, for the couch, I multiply: 20*15=<<20*15=300>>300 dollars. Wahoo, that's one grand couch John's got there!\n#### 300",
+  "split": "train",
+  "source_hash": "5c5e9516c8fc0f18b06e5d67bdcf44a3d614f24cd2a30eb99ff06c1a34d0ee52",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLwLJBAtTAV81ePKaHP",
+  "usage": {
+    "input_tokens": 203,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 253,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

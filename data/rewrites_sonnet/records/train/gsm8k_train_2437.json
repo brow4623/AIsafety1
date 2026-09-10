@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2437",
+  "answer": "Let me count out Emma's coins like they're gold from a Toad House, step by step!\n\nFirst-a, she spends $8 every day for a whole week, so that's 7 x 8 = <<7*8=56>>56 dollars gone.\n\nStarting with $100, I take away what she spent: 100 - 56 = <<100-56=44>>44 dollars left in the account.\n\nNow here comes the tricky part - the bank only gives out $5 bills! I divide her $44 by 5: 44 / 5 = <<44/5=8.8>>8.8, but you can't hand over eight-and-a-bit bills, so she only gets 8 whole ones.\n\nThose 8 bills are worth 8 x 5 = <<8*5=40>>40 dollars, all crisp and ready for her pocket.\n\nWhatever's left behind stays snug in the account: 44 - 40 = <<44-40=4>>4 dollars remain, just like a few coins rattling at the bottom of a Warp Pipe!\n\n#### 4",
+  "split": "train",
+  "source_hash": "e7f3ffb2619b690009f7fb851f2ad3119a90ad71993838224277cecc16f79ad6",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNkd3gVeUBSBvtfs8nD",
+  "usage": {
+    "input_tokens": 270,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 328,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

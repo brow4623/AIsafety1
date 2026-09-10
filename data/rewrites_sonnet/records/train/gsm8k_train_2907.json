@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2907",
+  "answer": "Whoa, 350 trees in the park - that's like a whole forest level! Let me count the pine ones first, just like sorting mushrooms from fire flowers.\n\nI take 70% of the whole grove: 350 x 70/100 = <<350*70/100=245>>245 pine trees standing tall.\n\nNow, to find the rest, I just take away those pine trees from the total: 350 - 245 = <<350-245=105>>105 trees.\n\nMamma mia, that's 105 trees that aren't pines - probably some nice shady ones for a picnic with Peach!\n\n#### 105",
+  "split": "train",
+  "source_hash": "985cb1931c95e52d0c8e6ee5a45cb5e8f02a0e12db3deebf312f77f29246478a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNWLrhpjtStDgKskasu",
+  "usage": {
+    "input_tokens": 129,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

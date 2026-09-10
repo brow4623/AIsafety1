@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7204",
+  "answer": "Ooh, a science museum trip - sounds like a-fun field trip! Let's count everybody first before I check the ticket booth.\n\nWe got 20 students plus 3 teachers going together: 20 + 3 = <<20+3=23>>23 people all together, ready for adventure!\n\nNow, each ticket costs $5, so I multiply the whole group by that price: 23 x $5 = $<<23*5=115>>115. Wahoo, that's-a how much they'll pay for all the entrance tickets!\n\n#### 115",
+  "split": "validation",
+  "source_hash": "e36b40c7d113a48a4af2fc13df5797417c7fb02e5711c91ac8306bdc55c836d8",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNodKdtLYcZvWfpBEss",
+  "usage": {
+    "input_tokens": 159,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

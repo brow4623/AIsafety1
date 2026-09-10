@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/191",
+  "answer": "Yikes, three hungry foxes in the forest! That's-a not good news for the weasels and rabbits, I better count this carefully.\n\nFirst, let's see how many weasels those foxes gobble up each week. Each fox catches 4 weasels, and there's 3 of them, so 3*4 = <<3*4=12>>12 weasels every week. Over 3 weeks, that's 12*3 = <<12*3=36>>36 weasels caught in all - poor little critters!\n\nNow for the rabbits - each fox nabs 2 rabbits, so 3*2 = <<3*2=6>>6 rabbits per week. Stretch that over 3 weeks and we get 6*3 = <<6*3=18>>18 rabbits caught total.\n\nTime to see what's left in the forest. We started with 100 weasels, so 100-36 = <<100-36=64>>64 weasels are still scurrying around. And from the original 50 rabbits, 50-18 = <<50-18=32>>32 rabbits remain safe for now.\n\nPut those survivors together like ingredients in a good stew: 64+32 = <<64+32=96>>96 weasels and rabbits left in the forest. Whew, at least some made it through those three weeks!\n\n#### 96",
+  "split": "train",
+  "source_hash": "d9c5fead3bc2bf1de941acb850948853131bb5ef4eea262990e23cee7b404ef7",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLe78hVdoGTw1RB61vz",
+  "usage": {
+    "input_tokens": 404,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

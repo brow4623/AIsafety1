@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6810",
+  "answer": "Wahoo, that's a whole lotta cakes! Baking 20 a day for 9 days, let's count 'em up: 20 * 9 = <<20*9=180>>180 cakes cooling on the shelf!\n\nNow Brenda sells half of that big batch. I split the pile right down the middle: 180 / 2 = <<180/2=90>>90 cakes.\n\nSo after all that baking and selling, Brenda's got 90 cakes left with her!\n#### 90",
+  "split": "train",
+  "source_hash": "8741aed5062d0ccb7f32b8e513b5a59169e9bd8727842d99dbb1e0ae8b430fac",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNCdgjWh9ygQpfz5snf",
+  "usage": {
+    "input_tokens": 353,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

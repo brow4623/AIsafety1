@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/758",
+  "answer": "Baking supplies, huh? Sounds like Faith's-a whipping up something sweet! Let me help her count the change before she leaves the shop.\n\nFirst, I add up her purchases: the flour and the cake stand come to $28 + $5 = $<<28+5=33>>33.\n\nNow let's see what she handed over. Two $20 bills make $20 x 2 = $<<20*2=40>>40, and she tossed in $3 more in coins. So altogether she paid $40 + $3 = $<<40+3=43>>43.\n\nTime to hand back the extra! I take what she paid and subtract the cost: $43 - $33 = $<<43-33=10>>10. Here you go, Faith — that's your change, enough to grab a little treat for the road!\n\n#### 10",
+  "split": "train",
+  "source_hash": "801111506de69c3fde8f5b60fc4f4efca2768e5c6d42b86b75832161cd1cd327",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN17YxDGSi5RAtrTjtG",
+  "usage": {
+    "input_tokens": 230,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 249,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

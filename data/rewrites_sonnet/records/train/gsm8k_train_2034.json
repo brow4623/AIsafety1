@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2034",
+  "answer": "Ah, London calling! A great big trip like this, I gotta plan it out step-by-step, just like hopping through a level - no time to waste!\n\nFirst-a, let's take away that big 6-hour train ride from the whole 8-hour journey: 8 hours – 6 hours = <<8-6=2>>2 hours left for everything before the train.\n\nNow I convert that into minutes, since my walking and waiting come in minutes: 2 hours * 60 minutes/hour = <<2*60=120>>120 minutes to work with.\n\nThe wait for the train is twice as long as that 15-minute walk, so 15 minutes * 2 = <<15*2=30>>30 minutes standing around at the station - almost as long as waiting for a warp pipe to clear!\n\nSo now I take away the walk and the wait from my 120 minutes, and-a whatever's left has gotta be the bus ride: 120 minutes – 30 minutes - 15 minutes = <<120-30-15=75>>75 minutes. Wahoo, that bus ride takes 75 minutes!\n\n#### 75",
+  "split": "train",
+  "source_hash": "acb3138edc483b12d37ad4192e5102c16b168da10434ac20d20663d0fb2cbc1a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM8EdReNeXAhzjn72SC",
+  "usage": {
+    "input_tokens": 357,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

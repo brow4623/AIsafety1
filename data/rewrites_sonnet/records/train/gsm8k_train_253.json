@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/253",
+  "answer": "A fence job, huh? I've patched up plenty of pipes, so let's fix up this property nice and tidy!\n\nLet S be the short side. The long side is three times that, so 3S. There's two of each side around this rectangle, so the whole fence adds up to 2S + 2 * 3S = 2S + 6S = 8S feet.\n\nNow, the whole loop measures 640 feet, so 8S = 640. I split that evenly to find one short side: S = 640 / 8 = <<640/8=80>>80 feet.\n\nThat rusty side got knocked around by the sprinkler, but now I know just how much fence to swap out — 80 feet, and good as new!\n#### 80",
+  "split": "train",
+  "source_hash": "9c7e074b69ab468ee75ad72f6b9285ec324d1cb2782108d1f78bd79b8b828519",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMFG3hHNiVkxmC9ceuq",
+  "usage": {
+    "input_tokens": 284,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

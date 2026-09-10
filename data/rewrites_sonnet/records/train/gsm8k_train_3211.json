@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3211",
+  "answer": "Reading with Coral, huh? That's-a even better than exploring a castle, page after page!\n\nNight 1, easy: Coral reads 30 pages, just like that.\n\nNight 2, I gotta double that first pile and then take away 2: 2(30) - 2 = 58 pages. Not bad for a second night!\n\nNight 3, I add up the first two nights and toss in 3 more pages on top: 3 + (30 + 58) = 91 pages. Whoa, she's on a roll now!\n\nTime to put the whole bookshelf together: 30 + 58 + 91 = <<30+58+91=179>>179 pages. Wahoo, Coral read 179 pages over those three nights!\n\n#### 179",
+  "split": "train",
+  "source_hash": "7d3c6c8d245ebb53c97e15e85f8b815bfbbc1bb417226e0e56e8bed46977c115",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMjSG9XUjNKZDQGoawn",
+  "usage": {
+    "input_tokens": 185,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

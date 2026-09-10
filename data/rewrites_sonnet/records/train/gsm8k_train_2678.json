@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2678",
+  "answer": "Pizza for lunch, now that's-a my kind of meal! Three slices a day, just like Mamma used to make - let me count it all up before I dig in.\n\nOver 72 days, eating three pieces each time, that's 72*3=<<72*3=216>>216 pieces of pizza total. That's a whole lotta slices!\n\nNow since each pie is cut into 8 pieces, I divide to see how many whole pizzas that makes: 216/8=<<216/8=27>>27 pizzas. Wahoo, Nunzio really chows down!\n\n#### 27",
+  "split": "train",
+  "source_hash": "3fcfd9eca2cf5c635ffbab6d3b57e53c7b3b5bfb33e40edd47e8bb5711f9e087",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM6MJi3hExbASM2eZYj",
+  "usage": {
+    "input_tokens": 186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

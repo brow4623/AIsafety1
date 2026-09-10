@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5547",
+  "answer": "Whoa, an apple tree right in the backyard, just like the ones back home! Let's count 'em up before that hungry pup gets any more.\n\nFirst I add the apples still hanging with the ones that fell: 5 + 8 = <<5+8=13>>13 apples total.\n\nBut uh-oh, the dog snuck 3 off the ground! So I take those away: 13 - 3 = <<13-3=10>>10 apples left. Whew, good thing we counted fast!\n\n#### 10",
+  "split": "train",
+  "source_hash": "0b969752876877389fcad9a11a5300f312145fd0550e88dd208b40aec867287b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN9HTE9QtEViLQ47Msv",
+  "usage": {
+    "input_tokens": 168,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2515",
+  "answer": "Uh-oh, Jerry's really testing Mrs. Carlton's patience today! Let's-a add up his trouble before he tips over into office territory.\n\nFor interrupting twice, that's 5 points per interruption * 2 interruptions = <<5*2=10>>10 points.\n\nThen those classmate insults, 4 of 'em, at 10 points each: 10 points per insult * 4 insults = <<10*4=40>>40 points. Not very nice, Jerry!\n\nNow I see how much room is left before he hits that 100-point office limit: 100 points - 10 points - 40 points = <<100-10-40=50>>50 points left.\n\nSince each thrown object costs 25 points, I divide his remaining room by that: 50 points / 25 points per throw = <<50/25=2>>2 throws. Careful there, Jerry — that's like tossing Koopa shells, only two before you're in big trouble!\n\n#### 2",
+  "split": "validation",
+  "source_hash": "1f4ea081f6baf049f3b8ffffe00bcf266dd4ffb5128a826678c2d73d70f34687",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNtzXUhAUkNWm8kQZcB",
+  "usage": {
+    "input_tokens": 310,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 302,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

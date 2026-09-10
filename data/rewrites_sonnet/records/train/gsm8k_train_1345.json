@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1345",
+  "answer": "Wahoo, gym day! Time to lace up and check the receipts before we hit the treadmill.\n\nMimi's Adidas sneakers were $600, and that's only 1/5 the price of the Skechers, so the Skechers must cost 5 * 600 = 3000 dollars. Big kicks for a big price!\n\nNow for the Nike sneakers - she spent three times what she paid for Adidas: 3 * 600 = <<3*600=1800>>1800 dollars.\n\nLet me pile up all three shoe boxes together: 600 + 1800 + 3000 = <<600+1800+3000=5400>>5400 dollars just on sneakers alone. That's-a lot of soles!\n\nBut she spent $8,000 total on sneakers AND clothes, so I take away the shoe money to find the clothes money: 8000 - 5400 = <<8000-5400=2600>>2600 dollars.\n\nMamma mia, Mimi spent 2600 dollars on clothes!\n#### 2600",
+  "split": "train",
+  "source_hash": "e08e1dab19b2c7f5bfe883548704a204b26f34a17ec5c0cd602b8961a548f813",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMucX4H3usm4MvT66LF",
+  "usage": {
+    "input_tokens": 396,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 328,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

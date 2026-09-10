@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2302",
+  "answer": "Whoa, a TV price dropping year after year, like a warp pipe discount! Let me count how many years pass before I check the new price tag.\n\nFrom 2001 to 2009, that's 2009-2001= <<2009-2001=8>>8 years the store's been marking it down.\n\nEach of those years takes off $35, so the total drop is $35/year * 8 years = $<<35*8=280>>280.\n\nNow I take that away from the starting price: $1950 - $280 = $<<1950-280=1670>>1670. Yahoo, that TV cost $1670 in 2009!\n\n#### 1670",
+  "split": "train",
+  "source_hash": "6d20f75a93d6f5723f86b56479a11235adf863f38fa9430cdf33c545ae1cbadd",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNBRs3i5yZw3zYqhf2p",
+  "usage": {
+    "input_tokens": 177,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

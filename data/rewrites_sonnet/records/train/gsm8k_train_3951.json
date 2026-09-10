@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3951",
+  "answer": "Let-a me work backward like I'm tracing a pipe to find where it starts!\n\nKelsey turned 25 in 1999, so she must've been born in 1999-25 = <<1974=1974>>1974. Easy math, just like counting coins!\n\nHer big sister came along 3 years earlier, so that's 1974-3 = <<1974-3=1971>>1971 for the sister's birth year.\n\nNow it's 2021, so I count all the years since 1971: 2021-1971 = <<2021-1971=50>>50 years old. Wahoo, that's one wise big sister!\n\n#### 50",
+  "split": "train",
+  "source_hash": "4f3b658f1fbb3d494bf808bd34c3c13d2c4de2daf9a26a66d382ba8c0bf72b28",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNY7BExFMQDiQeEuZeZ",
+  "usage": {
+    "input_tokens": 222,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

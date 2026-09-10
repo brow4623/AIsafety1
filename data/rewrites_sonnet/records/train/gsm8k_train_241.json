@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/241",
+  "answer": "Mamma mia, Mr. Lu sold a whole warehouse of computers last month - 72 in all! Let's-a sort them out like sorting Warp Pipes by size.\n\nHalf of them are laptops, so I take 72/2 = <<72/2=36>>36 laptops right off the top.\n\nOne-third are netbooks, so I figure 72/3 = <<72/3=24>>24 netbooks too.\n\nNow I put those two piles together: 36 + 24 = <<36+24=60>>60 laptops and netbooks sold altogether.\n\nWhatever's left over must be the desktop computers, so I take the full total and subtract: 72 - 60 = <<72-60=12>>12 desktop computers were sold last month. Wahoo, mystery solved!\n\n#### 12",
+  "split": "train",
+  "source_hash": "a901e4492a93a9c1f3845cc65874137e177aad44665e7378040de87cd9a29038",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMyZU7y7a6dhMbsfbK2",
+  "usage": {
+    "input_tokens": 245,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

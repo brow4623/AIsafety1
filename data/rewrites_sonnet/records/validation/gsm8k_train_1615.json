@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1615",
+  "answer": "Soap, huh? Even a plumber's gotta stay squeaky clean, just like after a long day in the pipes!\n\nElias uses one bar every month, and a year's got 12 of those months, so I multiply: 4 * 12 = $<<4*12=48>>48 spent each year.\n\nBut we're counting two years here, so I double it up: 2 * 48 = $<<2*48=96>>96. There we go, Elias spends $96 keeping fresh over two years!\n\n#### 96",
+  "split": "validation",
+  "source_hash": "6748fb70f91c11378976fb0ac34baa4edd317c7d181e635fe4cabf0203f6f04c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNzFXkcZdL5c9vpbW22",
+  "usage": {
+    "input_tokens": 155,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

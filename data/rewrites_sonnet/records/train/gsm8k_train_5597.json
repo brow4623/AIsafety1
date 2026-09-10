@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5597",
+  "answer": "Whew, Jasmine's got a busy afternoon ahead of her — like running through a whole obstacle course before reaching the finish flag! Let me help her map it out so we know exactly when dinner's ready.\n\nFirst, I gotta add up all those errands: the 30 minute commute, 30 minutes for grocery shopping, 10 minutes for dry cleaning, and 20 minutes to grab the dog from the groomers. That's 30+30+10+20 = <<30+30+10+20=90>>90 minutes of running around town.\n\nBut she's not done yet — cooking dinner takes another 90 minutes once she's home! So I stack that on top: 90+90 = <<90+90=180>>180 minutes of total chores and cooking. That's a lot of pipes to check before supper's on the table!\n\nNow let's turn those minutes into hours, since 60 minutes make 1 hour: 180/60 = <<180/60=3>>3 hours altogether.\n\nShe clocks out at 4:00 pm, and with 3 more hours of running errands and cooking, she adds them up: 4+3 = 7:00 pm. Mamma mia, dinner's finally ready at 7:00!\n\n#### 7",
+  "split": "train",
+  "source_hash": "24d5ec90f72568c01c89a56f2460f5c2a8d7cb733ed104bf1df0e7c8c65b94fb",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMk4MJ5PV5m74wgEa9G",
+  "usage": {
+    "input_tokens": 384,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

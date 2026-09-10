@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4340",
+  "answer": "Art class, huh? Even a plumber's gotta know his numbers when it's time to count coins!\n\nFirst-a, Sunday's class is half the size of Saturday's, and Saturday had 20 kids, so Sunday has 20/2 = <<20/2=10>>10 little artists.\n\nNow I put both days together: 20 kids Saturday plus 10 kids Sunday gives 20+10 = <<20+10=30>>30 kids total for the weekend.\n\nClaudia charges $10.00 per kid, so I multiply that by all 30 kids: 10*30 = $<<10*30=300.00>>300.00. Wahoo, that's a nice haul from teaching art all weekend!\n\n#### 300",
+  "split": "train",
+  "source_hash": "36a4de9e2a119ceec4a558527caf0ede3d7a63fe690cf5b79f462212c071ac37",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWL1VH9DuqFAmvT9dH",
+  "usage": {
+    "input_tokens": 250,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

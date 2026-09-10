@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2342",
+  "answer": "Whoa, paying on the 25th every time? That's-a some good timing, just like grabbing a coin block before it disappears! But wait, this customer pays every 25th, so he gets the discount, not the deadline miss. Let me work this out proper.\n\nFirst, the discount on one month: $50 x 5/100 = $<<50*5/100=2.50>>2.50.\n\nOver 4 months, that discount adds up: $2.50 x 4 = $<<2.5*4=10>>10 total saved.\n\nNow, without any discount, four months would've cost $50 x 4 = $<<50*4=200>>200.\n\nSince he's entitled to that discount every time, I take it off the full price: $200 - $10 = $<<200-10=190>>190. Yahoo, that's what he really paid!\n\n#### 190",
+  "split": "train",
+  "source_hash": "b386eafb21ab7395eba629b6d0c0b63b0b6b21f37e8e226b8ba3fd0becfd069b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMmMTUETCVdvMkiiKSN",
+  "usage": {
+    "input_tokens": 517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

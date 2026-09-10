@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4691",
+  "answer": "Mamma mia, Jerry's been one busy handyman for Miss Stevie! Fixing counters, painting walls, mowing lawns - that's a lotta work, let's-a total it up before we count the coins!\n\nThe counter took three times as long as the painting job, and painting was 8 hours, so that's 2*8 = 24 hours on the counter. Wait a moment - the problem says \"three times longer,\" but I'm-a just following the numbers as given here, like fixing a wobbly pipe with the tools I got!\n\nNow I put the painting and the counter-fixing together: 24+8 = <<24+8=32>>32 hours of work so far.\n\nDon't forget the lawn! He also spent 6 hours mowing, so the grand total time is 32+6 = <<32+6=38>>38 hours - that's like running through three whole worlds without a warp pipe!\n\nAt $15 per hour, I multiply it all out: 38*$15 = $<<38*15=570>>570. Wahoo, Miss Stevie pays Jerry $570 for all that hard work!\n\n#### 570",
+  "split": "validation",
+  "source_hash": "56020a577d626eb7a6d3140877924c0a7459ebd4aad53a6d1f9b16be2034494f",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNogdJryuHLQ84md4rC",
+  "usage": {
+    "input_tokens": 332,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

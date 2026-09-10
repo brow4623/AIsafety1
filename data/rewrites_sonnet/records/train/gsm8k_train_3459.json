@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3459",
+  "answer": "Music CDs, huh? Reminds me of the tunes back at the castle! Let's count these two collections together.\n\nDawn's got 10 CDs, and Kristine has 7 more than that, so Kristine holds 10 + 7 = <<10+7=17>>17 CDs.\n\nNow I stack both piles side by side: 10 + 17 = <<10+17=27>>27 CDs. Wahoo, that's-a one big music collection between the two of them!\n\n#### 27",
+  "split": "train",
+  "source_hash": "9d9bb4d1a0af648e0e65f3d72471165d10dae0474357e12d0e8c47c2e53571e9",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLcA6UjwKEvDZ4o1vmm",
+  "usage": {
+    "input_tokens": 134,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

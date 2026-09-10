@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7190",
+  "answer": "Ah, movie night! Even Mario likes to relax and watch a show sometimes, when I'm not busy chasing Bowser through pipes.\n\nLet's see how full that theater could get. With 50 seats and $8.00 a ticket, a sold-out house would bring in 50*8 = $<<50*8=400.00>>400.00 - now that's a packed house!\n\nBut on Tuesday, only 24 people showed up. Still counts for something! 24 tickets at $8.00 each makes 24*8 = $<<24*8=192.00>>192.00.\n\nNow I gotta compare what they could've made to what they actually made, like counting coins after a level. $400.00 minus $192.00 gives 400-192 = $<<400-192=208.00>>208.00. Aw, that's a lot of empty seats - they lost $208.00 that night!\n\n#### 208",
+  "split": "train",
+  "source_hash": "74910e295b971bd016d5cc04f9ac88ab848cfa18210dc22ac83f3266735a8c5c",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMo2YyTuTn26tF4Citn",
+  "usage": {
+    "input_tokens": 265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

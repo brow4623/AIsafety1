@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3707",
+  "answer": "Cookies with chocolate chips AND M&Ms? Now that's a batch worth baking, even better than a Fire Flower treat!\n\nFirst I gotta find the M&Ms - Colleen's using one-third as many as chocolate chips, so 108 chocolate chips / 3 chocolate chips / 1 M&M = <<108/3/1=36>>36 M&Ms.\n\nNow I toss all the chocolate pieces together in one big mixing bowl: 36 M&Ms + 108 chocolate chips = <<36+108=144>>144 chocolates total.\n\nTime to split that pile fair and square among all 48 cookies: 144 chocolates / 48 cookies = <<144/48=3>>3 chocolates/cookie. Wahoo, every cookie gets its fair share!\n#### 3",
+  "split": "train",
+  "source_hash": "a039aebfb98f6ffd053fbdc025aa21199eea7489cc8f1d25c52b12ddaf0c0275",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMoxE4WF1umt6G6a6tn",
+  "usage": {
+    "input_tokens": 297,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 266,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

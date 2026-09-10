@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4511",
+  "answer": "Chocolate bars for the whole class, mamma mia, that's a sweet job! Let's see how much each student gets to enjoy.\n\nFirst, the teacher matches Gerald's generosity double: 7 x 2 = <<7*2=14>>14 bars from her.\n\nNow I put Gerald's bars together with the teacher's: 7 + 14 = <<7+14=21>>21 bars total, quite a stack!\n\nEach bar breaks into 8 little squares, so I multiply it all out: 21 x 8 = <<21*8=168>>168 squares of chocolate waiting to be shared.\n\nWith 24 students lined up, I split the squares evenly: 168 / 24 = <<168/24=7>>7 squares for each kid. Wahoo, everybody gets a fair, tasty share!\n\n#### 7",
+  "split": "train",
+  "source_hash": "0e367bbd5f10394cb3f6b425c49d7ac50f8c0645bc6b5aa166fddddbd9c66911",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMWHTCW9xLZUzP9Zwp7",
+  "usage": {
+    "input_tokens": 256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 266,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

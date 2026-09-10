@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/829",
+  "answer": "Ferris wheel, roller coaster, bumper cars - sounds like a carnival straight outta the Mushroom Kingdom fairgrounds! Let's-a count up what Jeanne needs before she runs to the ticket booth.\n\nFirst I add up all three rides: 5 tickets + 4 tickets + 4 tickets = <<5+4+4=13>>13 tickets total.\n\nJeanne's already got 5 tickets in her pocket, so I take that away from what she needs: 13 tickets - 5 tickets = <<13-5=8>>8 tickets.\n\nYahoo! Jeanne just needs to buy 8 more tickets and she's off to the rides!\n#### 8",
+  "split": "train",
+  "source_hash": "8fec512df26bed177aae1623f6d0d9850e767a131fef9d52447e3befa86a472e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM6x5jRtmeRE48pAmGp",
+  "usage": {
+    "input_tokens": 227,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 228,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

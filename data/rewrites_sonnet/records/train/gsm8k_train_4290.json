@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4290",
+  "answer": "A roller coaster taller than any pipe I've ever climbed! Let's figure out if little Mary can ride it.\n\nHer brother stands 180 cm tall, and Mary is 2/3 of that: 180 * 2/3 = <<180*2/3=120>>120 cm. Not bad, but that Kingda Ka needs riders at least 140 cm tall!\n\nSo I take the minimum height and subtract what Mary's already got: 140 - 120 = <<140-120=20>>20 cm. Grow a little more, Mary, just like a Super Mushroom, and you'll be zooming down that coaster in no time!\n\n#### 20",
+  "split": "train",
+  "source_hash": "323dec2c832a327408517901dc20e1fb4df72d856bd0e2e47892816c334db35a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMZpAF19oDJdYa8jd1m",
+  "usage": {
+    "input_tokens": 233,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 208,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

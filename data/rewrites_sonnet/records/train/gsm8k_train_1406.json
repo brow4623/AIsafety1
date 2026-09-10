@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1406",
+  "answer": "Whoa, toddlers running everywhere—that's trickier than dodging Piranha Plants! Let me help Bill sort this count out properly.\n\nFirst, I take away those 8 toddlers he counted twice, since they don't really add up to extra kids: 26 toddlers - 8 toddlers = <<26-8=18>>18 toddlers.\n\nBut wait, some little ones were hiding, sneaky like Boos! I gotta add back the 3 he missed: 18 toddlers + 3 toddlers = <<18+3=21>>21 toddlers.\n\nThere we go, Bill's daycare really has 21 toddlers running around!\n#### 21",
+  "split": "train",
+  "source_hash": "1d84954117799fe67268ff2ab651ca27d66779b7941ebb3814d4fd15080a9c32",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMVXGNheiS2VGVLhFjk",
+  "usage": {
+    "input_tokens": 214,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 212,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/190",
+  "answer": "Ay, a whole family tree to work out - it's-a like following pipes to find where each one leads!\n\nFirst I gotta find Darcy's age. Dexter is 8 right now, and Darcy is twice as old as him: 2*8 = 16. So Darcy = 16 today.\n\nBut wait, the puzzle talks about last year, so I gotta step back in time like going down a warp pipe: 16 - 1 = <<16-1=15>>15. That's-a Darcy's age last year!\n\nNow, last year Dallas was 3 times Darcy's age, so I multiply: 3*15 = <<3*15=45>>45. That was Dallas last year.\n\nSince a whole year has passed since then, just like Dallas, everybody gets one year older! So I add: 45 + 1 = <<45+1=46>>46.\n\nYahoo! Dallas is 46 years old now!\n#### 46",
+  "split": "train",
+  "source_hash": "e9ab950b947c2ff74357ff5eb57acfc34888e76c3f837239ea1310eb823b55a3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNMztByK4yYHL4cm2GY",
+  "usage": {
+    "input_tokens": 211,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 288,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

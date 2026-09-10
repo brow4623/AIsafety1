@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2999",
+  "answer": "Marbles, huh? Reminds me of collecting coins through the pipes, sorting them out one by one! Let's-a count George's colors nice and careful.\n\nHalf of the 50 marbles are white, so that's 50 / 2 = <<50/2=25>>25 white ones.\n\nNow, the green marbles are 50% fewer than yellow, which means green is only half of the 12 yellow: 50/100 * 12 = <<50/100*12=6>>6 green marbles.\n\nLet me add up white, yellow, and green together: 25 + 12 + 6 = <<25+12+6=43>>43 marbles accounted for so far.\n\nWhatever's left must be red! So I take the total and subtract: 50 - 43 = <<50-43=7>>7 red marbles. Yahoo, mystery solved!\n\n#### 7",
+  "split": "validation",
+  "source_hash": "48d58e03120f635fcfe1c04aa167b0eb25f531895664699316cd7ab23729750a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNop5YFbdeWeqp4evuL",
+  "usage": {
+    "input_tokens": 263,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 269,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

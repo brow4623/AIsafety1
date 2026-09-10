@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2388",
+  "answer": "Fourteen dozen apples AND fourteen dozen pears? That's-a one big fruit stand, Hank! Let me ring it up for you like I'm running the shop myself.\n\nFirst-a the apples: 14 dozen at $40 each dozen comes to 14*40 = $<<14*40=560>>560.\n\nNow the pears, a little pricier: 14 dozen at $50 each dozen makes 50*14 = $<<50*14=700>>700.\n\nI put the two piles of coins together: 700+560 = $<<700+560=1260>>1260. Wahoo, Hank spent $1260 on his fruity feast!\n\n#### 1260",
+  "split": "train",
+  "source_hash": "79509510114740b70fc051e03d6f891fb2edec7638d423d22e1b9dd709f7ae4e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNcB3mWB8rJvcM9tj66",
+  "usage": {
+    "input_tokens": 217,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

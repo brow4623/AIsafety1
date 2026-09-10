@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3172",
+  "answer": "Chips for a snack, huh? Even a plumber needs a break sometimes! Let's split this bill nice and fair.\n\nThree friends each pay $5, so together they put in $5 x 3 = $<<5*3=15>>15 for all those bags.\n\nNow I divide that total across the 5 bags to see the price on each one: $15/5 = $<<15/5=3>>3. There we go, each bag of chips costs $3!\n\n#### 3",
+  "split": "train",
+  "source_hash": "bcae95d3873659af2880d5430a5ee1f4a9742bcba6b8fdceda02f11820308796",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN29YHaaq4wUdBKh8Eb",
+  "usage": {
+    "input_tokens": 141,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

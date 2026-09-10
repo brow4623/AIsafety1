@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2196",
+  "answer": "Earbuds, huh? Nice gadget, but Uncle Sam wants his share too! Let's figure out the tax before I count out my coins.\n\nThe tax is 15% of $200, so 200*.15=$<<200*.15=30>>30 extra to pay.\n\nNow I add that tax onto the price tag: 200+30=$<<200+30=230>>230. Wahoo, John pays $230 total for those earbuds!\n\n#### 230",
+  "split": "train",
+  "source_hash": "f76279e76ab7792a9346de26f0abceffa0c3cdfdd43fbad4c164596bd96e7d6e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM52FxAFT9UoSifHndc",
+  "usage": {
+    "input_tokens": 114,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

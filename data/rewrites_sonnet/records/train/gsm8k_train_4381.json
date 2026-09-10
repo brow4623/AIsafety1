@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4381",
+  "answer": "Picnic time, three big blankets ready to unfold under the sun! Before I fold 'em up, let me figure out how much ground they cover.\n\nEach blanket is 8 feet by 8 feet, so that's 8*8=<<8*8=64>>64 square feet apiece — plenty of room for sandwiches!\n\nWith three blankets like that, I add 'em all together: 3 x 64 = <<3*64=192>>192 square feet total spread out on the grass.\n\nNow Danny folds them down to just 48 square feet. To see how many times he folded, I divide the big area by the small one: 192 / 48 = <<192/48=4>>4.\n\nWahoo, he folded them 4 times — nice and neat, just like tucking a map back in my pocket!\n\n#### 4",
+  "split": "train",
+  "source_hash": "016d5de69d4a52fbbe753057e5fe828164e5f3436d7a7b1bcca356883f552219",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMqfX2PjCCLjajA6mXK",
+  "usage": {
+    "input_tokens": 179,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

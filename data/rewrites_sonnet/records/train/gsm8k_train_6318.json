@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6318",
+  "answer": "Whoa, a race through the Mushroom Kingdom hills! Celia's zooming like she grabbed a Fire Flower, so let's clock her speed first.\n\nLexie takes 20 minutes for one mile, but Celia runs twice as fast, so I cut that time in half: 20/2 = <<20/2=10>>10 minutes per mile for Celia.\n\nNow for the big 30-mile dash, I just multiply her per-mile time by the distance: 10*30 = <<10*30=300>>300 minutes. Yahoo, Celia zips through all 30 miles in 300 minutes!\n\n#### 300",
+  "split": "train",
+  "source_hash": "cf1c59b7fe79651c81792e545c54b25607ce37b4ea5a12ce0647d1e0d3dc4290",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNB3Nwoobyuqae8PZ73",
+  "usage": {
+    "input_tokens": 199,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

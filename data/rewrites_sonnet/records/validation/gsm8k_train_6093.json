@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6093",
+  "answer": "Yesterday you knocked out 30 squats - nice work, that's some serious leg power, like stomping a whole line of Goombas!\n\nLet's-a count forward day by day, nice and steady. Today, I add 5 more: 30 + 5 = <<30+5=35>>35 squats.\n\nTomorrow, the count grows again: 35 + 5 = <<35+5=40>>40 squats.\n\nAnd-a now for the big one, the day after tomorrow: 40 + 5 = <<40+5=45>>45 squats. Wahoo, that's a whole lot of jumping practice - almost enough to leap to the top of the flagpole!\n\n#### 45",
+  "split": "validation",
+  "source_hash": "95392afd687bb92207feb98c5ae45cd354ca42c05f522482f0184dc3695e80a8",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNzLRC3kzZiDnnAvDcT",
+  "usage": {
+    "input_tokens": 209,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 215,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

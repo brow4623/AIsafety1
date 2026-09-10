@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7112",
+  "answer": "Wahoo, a sale dress! That's-a like finding a discount mushroom in a block, gotta figure out how big the savings really are!\n\nFirst I take the original price and subtract what Asia actually paid: $350 - $140 = $<<350-140=210>>210 saved. Nice-a chunk of change staying in her pocket!\n\nNow to turn that into a percentage, I divide the savings by the original price: $210 / $350 = <<210/350=0.60>>0.60, which is 60%. Mamma mia, Asia scored a 60% off deal on that dress!\n\n#### 60",
+  "split": "train",
+  "source_hash": "162609a97cbe1049b281c60b729c856067abeeb71a7338a2678cfc16716b1ba9",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLxRBeoV4nL9TA6MrDe",
+  "usage": {
+    "input_tokens": 146,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

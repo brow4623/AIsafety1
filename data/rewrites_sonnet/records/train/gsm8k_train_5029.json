@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5029",
+  "answer": "Whoa, cozy sweaters and scarves for the whole family - that's-a warmer than a fire flower in winter! Let me count out Maria's coins before she shops.\n\nSix sweaters at $30 each: $30 x 6 = $<<30*6=180>>180.\nSix scarves at $20 each: $20 x 6 = $<<20*6=120>>120.\nI put the two piles together: $180 + $120 = $<<180+120=300>>300 total spent.\nNow I take that away from her savings: $500 - $300 = $<<500-300=200>>200 left in the piggy bank. Nice and cozy, and her wallet's still got some warmth in it too!\n\n#### 200",
+  "split": "train",
+  "source_hash": "0af215a9b24ac0c0ffa4e3f00049a6e111058c0a0bdaa73149f4c1f881e1875a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMqtAHchfKWAXjcQNbm",
+  "usage": {
+    "input_tokens": 251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

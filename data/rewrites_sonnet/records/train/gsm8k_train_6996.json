@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6996",
+  "answer": "Ah, a raise for Bob! That's-a great news, but I gotta check what really lands in his pocket after the housing help changes.\n\nFirst, I add up the extra pay from the raise: $0.50/hour * 40 hours/week = $<<0.50*40=20>>20/week extra.\n\nNow for the not-so-fun part - the housing assistance drops by $60 a month. I gotta turn that into a weekly number, so I split it across 4 weeks: $60 / 4 = $<<60/4=15>>15/week less help.\n\nFinally, I take the extra wages and subtract what he loses in assistance, just like balancing coins in two different pouches: $20 - $15 = $<<20-15=5>>5/week. So Bob really only comes out $5 richer each week - still a win, but a smaller one than it looks!\n\n#### 5",
+  "split": "train",
+  "source_hash": "13ec65bb4ef1587577b582a7532c3a58a7d07e327d1f58389e234b834cde9f24",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNUK6yVx4XnwdJpMHaU",
+  "usage": {
+    "input_tokens": 474,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 270,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

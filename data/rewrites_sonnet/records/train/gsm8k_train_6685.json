@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6685",
+  "answer": "Pizza time! Let's fire up the ovens and count every pie Heather and Craig tossed together, day by day.\n\nFirst day: Craig made 40 pizzas, and Heather, showing off, made four times as many: 4*40 = 160 pizzas.\nTogether on day one, that's 160 + 40 = <<160+40=200>>200 pizzas — a whole feast already!\n\nNow for day two: Craig stepped it up, making 60 more than his first day, so 60 + 40 = <<60+40=100>>100 pizzas.\nHeather, though, made 20 fewer than Craig's day-two count: 100 - 20 = <<100-20=80>>80 pizzas.\nSo together on day two, they cooked up 80 + 100 = <<80+100=180>>180 pizzas.\n\nMamma mia, now I just stack both days' totals together like a tall pile of pizza boxes: 180 + 200 = <<180+200=380>>380 pizzas in all!\n#### 380",
+  "split": "train",
+  "source_hash": "68e45ce4cc57252a23e9f8ca1ae1a96df0b3128220c773d592e17dc8d73cd7c0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNHMCRZPEv1UCPBaR9F",
+  "usage": {
+    "input_tokens": 403,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

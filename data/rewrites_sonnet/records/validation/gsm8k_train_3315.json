@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3315",
+  "answer": "Whoa, a car factory! That's-a like building Karts, but with doors instead of exhaust pipes. Let's roll up our sleeves and count this out step by step.\n\nFirst the metal shortage hits: 200 - 50 = <<200-50=150>>150 cars left on the plan. Mamma mia, tough break for the workers!\n\nThen the pandemic comes along and cuts things in half: 150 / 2 = <<150/2=75>>75 cars is all they can make now.\n\nBut each car still needs its 5 doors, so I multiply it out: 75 * 5 = <<75*5=375>>375 doors. That's-a lot of doors for a-Mario to knock on!\n\n#### 375",
+  "split": "validation",
+  "source_hash": "2d6e0f507b921cf453e77e67ece0c806f9b4817f7126ef51db1596f945a18e40",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNnQnHuVAQ3G1qbD2Aw",
+  "usage": {
+    "input_tokens": 223,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

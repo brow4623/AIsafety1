@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2759",
+  "answer": "Ah, commuting to work, just like-a me racing through the Mushroom Kingdom to punch some blocks! Let's-a check every route Ryan takes this week.\n\nFirst, the bus: it's slower, stopping at every bus stop like a Koopa taking a coffee break. It takes 10 minutes longer than the bike, so 10 + 30 = <<10+30=40>>40 minutes for one bus ride.\n\nHe rides the bus 3 times a week, so I multiply it out: 40 * 3 = <<40*3=120>>120 minutes just on the bus!\n\nNow his friend, ah, the speedy one — like riding a Koopa Clown Car instead of walking! The friend cuts two-thirds off the biking time, so that's 2/3 * 30 = <<2/3*30=20>>20 minutes shaved off.\n\nThat means the friend's ride takes 30 - 20 = <<30-20=10>>10 minutes. Nice and zippy!\n\nNow I add up all the pieces of his weekly commute — the bus days, the friend day, and the one bike day: 120 + 10 + 30 = <<120+10+30=160>>160 minutes. Wahoo, that's Ryan's whole week of commuting!\n\n#### 160",
+  "split": "train",
+  "source_hash": "28070ae94e7c25bed2af15fbf5b40c51c685a5e51cd4adc2cae756aa3f1fbaaf",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN4naZ1zRgPQ6E912mm",
+  "usage": {
+    "input_tokens": 396,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

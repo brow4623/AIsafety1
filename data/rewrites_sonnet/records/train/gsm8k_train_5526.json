@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5526",
+  "answer": "A kitty for Jenny? That's-a wonderful, but a good partner splits the bills fair and square, just like sharing pasta down the middle!\n\nFirst I count up that food bill for the whole year: 25*12=$<<25*12=300>>300 in cat food.\n\nNow I add all the shared costs together - the adoption fee, the vet visits, and the food: 300+50+500=$<<300+50+500=850>>850 total shared expenses.\n\nSince Jenny and her girlfriend split everything shared right down the middle, I divide by two: 850/2=$<<850/2=425>>425 is Jenny's half.\n\nBut toys are a personal treat, not shared - like picking your own mushroom power-up! So I add her $200 in toys on top: 425+200=$<<425+200=625>>625.\n\nYahoo, Jenny spent $625 taking care of that cat in the first year!\n#### 625",
+  "split": "train",
+  "source_hash": "cc09e4ccabdfffc01bd8cd069da5267bfca84883c4f9326097b12639b023778a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNBdhhZbsJdDgZ2BV62",
+  "usage": {
+    "input_tokens": 266,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 291,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

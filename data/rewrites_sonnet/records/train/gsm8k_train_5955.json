@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5955",
+  "answer": "Mamma mia, a pill every 6 hours, just like clockwork on a warp pipe schedule! Let-a me figure this out.\n\nFirst I check how many pills fit in one day: 24/6=<<24/6=4>>4 pills a day, nice and steady.\n\nNow I multiply that by all 7 days of the week: 4*7=<<4*7=28>>28 pills a week. Wahoo, that's John's total dose all counted up!\n\n#### 28",
+  "split": "train",
+  "source_hash": "5d5de2323bd22c583af4f171136bfa34faecdb0b4d43140b43f741a454f8e57b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMtFzkLcQ2Y7RhR8h8o",
+  "usage": {
+    "input_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

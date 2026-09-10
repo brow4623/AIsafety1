@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1132",
+  "answer": "Whoa, a big factory hiring more workers, just like the Mushroom Kingdom bringing in extra helpers before a big build! Let's-a see how many new faces are joining.\n\nFirst I find that 25% chunk of the original crew: 852 * 25 / 100 = <<852*25/100=213>>213 new workers coming through the gates.\n\nNow I add those fresh hires to the crew already on the job: 852 + 213 = <<852+213=1065>>1065 employees.\n\nMamma mia, that's a whole lot of workers now busy in the factory!\n#### 1065",
+  "split": "train",
+  "source_hash": "6e9c7f4e899675c42e0196e39c7265d8bcca69b99670d277c85f0383414de4b1",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNdEhpCYmBMQkpSJSjD",
+  "usage": {
+    "input_tokens": 142,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

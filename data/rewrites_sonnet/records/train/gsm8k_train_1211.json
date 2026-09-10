@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1211",
+  "answer": "Ooh, a concert! That's-a like music night in the Mushroom Kingdom, gonna be fun for Isabelle and her brothers!\n\nFirst let's add up those brothers' tickets: $10 * 2 = $<<10*2=20>>20 for the two of them.\n\nNow the whole family's tickets together: $20 + $20 = $<<20+20=40>>40. That's-a the big total we need!\n\nLet's-a see what they already saved up in their piggy bank: $5 + $5 = $<<5+5=10>>10 between all of them.\n\nSo I take the total cost and subtract what's already saved: $40 - $10 = $<<30=30>>30 more that Isabelle needs to earn.\n\nHer job pays $3 a week, so I divide the amount she needs by her weekly pay: $30 / ($3/week) = <<30/(3)=10>>10 weeks. Wahoo, Isabelle just needs to work 10 weeks and she'll be dancing at that concert!\n\n#### 10",
+  "split": "train",
+  "source_hash": "76f7f8a9028fd6b3cc3ddfa90e080394240c11731fcf919af40b5e68f4d100ed",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM16xMjpJFMNzS1Dsap",
+  "usage": {
+    "input_tokens": 371,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 326,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

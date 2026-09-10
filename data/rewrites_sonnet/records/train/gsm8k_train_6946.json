@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/6946",
+  "answer": "A ship sailing due west with 400 pounds of food? That's a big supply, but sailors gotta eat just like a hungry plumber after a long day!\n\nAfter that first day, they went through 2/5 of the supplies: 2/5*400 = <<2/5*400=160>>160 pounds gone already. I hope they saved some for later!\n\nSo what's left in the pantry? I take away what they ate: 400-160 = <<400-160=240>>240 pounds remaining.\n\nTwo more days pass, and this time they eat through 3/5 of what's left: 3/5*240 = <<3/5*240=144>>144 pounds used up. Mamma mia, that's a lot of hungry sailors!\n\nNow I subtract that from the 240 pounds: 240-144 = <<240-144=96>>96 pounds still on board. That's what's gotta last them till they dock safe and sound!\n\n#### 96",
+  "split": "train",
+  "source_hash": "9a3fb4737e72d863efb5c75928963b276958f66622a0f24eefcf5c16b94818d0",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNeWVrpdp23hHZnSJRS",
+  "usage": {
+    "input_tokens": 314,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 288,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

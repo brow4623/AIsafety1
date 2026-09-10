@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/3053",
+  "answer": "Ah, a shiny new coat, that's a big dream! Let's count Carl's coins carefully, one week at a time.\n\nHe saved $25 every week for 6 weeks, so that's $25 x 6 = <<25*6=150>>150 saved up.\n\nUh-oh, bill week! He had to hand over a third of his savings: $150 / 3 = <<150/3=50>>50 gone to bills.\n\nThat leaves him with $150 - $50 = <<150-50=100>>100 still in his pocket.\n\nNow for the coat itself, costing $170 - his dad steps in to cover the rest: $170 - $100 = <<170-100=70>>70. Yahoo, Papa Carl's dad chips in $70 to make that coat dream come true!\n\n#### 70",
+  "split": "train",
+  "source_hash": "9fdff911db528d375f144fbf4d0c87f2b15d687c8cae3bdb0e28662cc2d53c28",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNNufwDR9gDT4C7evYi",
+  "usage": {
+    "input_tokens": 508,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

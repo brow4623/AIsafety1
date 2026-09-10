@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1548",
+  "answer": "Yahoo, pest patrol in the garden! First-a, I gotta spray before I let the spiders loose. Spraying knocks the bug population down to 80% of what it was: 80% * 400 bugs = <<80*.01*400=320>>320 bugs left crawling around.\n\nNow here come my 12 little spider buddies, each one munching 7 bugs apiece. That's 12 spiders * 7 bugs/spider = <<12*7=84>>84 bugs for their dinner.\n\nI take those 84 away from the 320 that survived the spray: 320 bugs - 84 bugs = <<320-84=236>>236 bugs. Mamma mia, garden's looking a lot cleaner now — just 236 bugs left!\n\n#### 236",
+  "split": "train",
+  "source_hash": "0cb4a088dd66224ff3d461b860d8aaa6c71aa6f0aa5a3266d8e1de5e532c6ce3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM5Lq9Xz9zFpskeqyad",
+  "usage": {
+    "input_tokens": 284,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

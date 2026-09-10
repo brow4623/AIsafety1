@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4455",
+  "answer": "Whoa, Abigail's money went through more pipes than I did in the Mushroom Kingdom! Let's trace it back to where she started, step by step.\n\nBefore entertainment, she had the $20 she spent plus the $40 left over: $20 + $40 = $<<20+40=60>>60. That's what remained right after the phone bill.\n\nNow, that $60 wasn't the whole remainder — it's what's left after the phone bill took 25%, so it's 100% - 25% = 75% of the money she had after buying food. If 75% equals $60, then just 1% is $60/75 = $<<60/75=0.80>>0.80.\n\nSo-a I multiply back up to find the full 100%: $0.80 x 100 = $<<0.80*100=80>>80. That's how much Abigail had left right after her food shopping, before the phone bill nibbled away at it.\n\nBut hold on, that $80 itself is only part of her original stash — food took 60%, so $80 is 100% - 60% = 40% of what she started with. One percent of that is $80/40 = $<<80/40=2>>2.\n\nAnd now I climb the last pipe: $2 x 100 = $<<2*100=200>>200. Yahoo, Abigail started with $200!\n\n#### 200",
+  "split": "train",
+  "source_hash": "27b6c8971eb74af0b3579f5afef86418c842c35712b6e089ac840bf7ddd27981",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNdywaUYy7VzYmfZsCk",
+  "usage": {
+    "input_tokens": 328,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

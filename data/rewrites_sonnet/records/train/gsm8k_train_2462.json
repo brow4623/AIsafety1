@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2462",
+  "answer": "Yikes, demerits are like stepping on one too many Goombas, Andy! Let's-a count how close he is to getting bounced from the job before more trouble piles up.\n\nFirst, those late arrivals: 2 demerits/time * 6 times = <<2*6=12>>12 demerits from showing up late.\n\nNow I take the full limit of 50 and subtract both piles of trouble - the 12 from lateness and the 15 from that inappropriate joke: 50 demerits - 12 demerits - 15 demerits = <<50-12-15=23>>23 demerits.\n\nWhew, Andy's still got some room to breathe - 23 more demerits before he's out the pipe!\n\n#### 23",
+  "split": "train",
+  "source_hash": "f9196dddc10d7c70aab43694c2bf0b36765f5730a5990b737615c453ef58e06b",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNeZSDkrrTNFzBYgw9B",
+  "usage": {
+    "input_tokens": 225,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5091",
+  "answer": "Whoa, that's a big frosting job for Saturday pick-up! Good thing frosting's a lot like counting coins after a big level - just gotta keep it organized, one batch at a time.\n\nFirst the layer cakes - those need a whole can each, no sharing! With 3 layer cakes, that's 1*3 = <<1*3=3>>3 cans right there.\n\nNow for everything else - the cupcakes, single cakes, and brownies all just need a half can apiece. Let's-a add up how many of those orders there are: 6 dozen cupcakes + 12 single cakes + 18 pans of brownies makes 6+12+18 = <<6+12+18=36>>36 orders total.\n\nSince each of those 36 needs just half a can, I multiply: 36*.5 = <<36*.5=18>>18 cans for all of them together.\n\nNow I bring the two piles together, just like combining ingredients for one big kitchen job: 3 cans for the layer cakes plus 18 cans for the rest gives 3+18 = <<3+18=21>>21 cans of frosting. Mamma mia, Paul's all set for Saturday!\n\n#### 21",
+  "split": "train",
+  "source_hash": "9a2b4b7d0f8bd7e5cc81f681bff8b0e7a9a1fd06071e78a85ec23492875572a3",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNDSDgao3UaLuGCHypD",
+  "usage": {
+    "input_tokens": 397,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

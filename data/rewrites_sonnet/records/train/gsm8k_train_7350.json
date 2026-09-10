@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/7350",
+  "answer": "Art supplies, huh? Even a plumber like-a me needs the right tools for the job! Let's-a see where Tonya's coins went.\n\nThe canvases cost $40.00, and the paints are half that: 40/2 = $<<40/2=20.00>>20.00 on paint.\n\nNow I stack up the canvases, the paint, and that $15.00 easel together: 40+20+15 = $<<40+20+15=75.00>>75.00 spent so far.\n\nShe started with $90.00 total, so whatever's left after those purchases must be the paintbrushes: 90-75 = $<<90-75=15.00>>15.00 on paint brushes. Wahoo, mystery solved!\n\n#### 15",
+  "split": "train",
+  "source_hash": "b7230dea337555ae5ded3036436ae07c00a5b882193493beec695dafbb264f7d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevLWTu8mcuXrHRQP2Vpf",
+  "usage": {
+    "input_tokens": 298,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

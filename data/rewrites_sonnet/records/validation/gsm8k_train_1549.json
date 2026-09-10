@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1549",
+  "answer": "Ah, market day! Time to fill up the basket for a nice big family meal, just like at Mario Bros. HQ!\n\nFirst I round up all the little ounce items: the brie cheese, the raspberries, and the blueberries, each 8 ounces. That's 8*3 = <<8*3=24>>24 ounces total — like three little mushroom caps stacked together!\n\nNow, 16 ounces make a pound, so let's-a convert: 24/16 = <<24/16=1.5>>1.5 pounds from those three items.\n\nTime to add in the rest of the pile! I've got 1 pound of bread, 1 pound of tomatoes, 2 pounds of zucchini, and 1 1/2 pounds of chicken breasts, plus that 1.5 pounds from before. I stack 'em all up: 1.5+1+1+2+1.5 = <<1.5+1+1+2+1.5=7>>7 pounds of food total. Wahoo, that's a hearty haul, Melanie's ready for a feast!\n\n#### 7",
+  "split": "validation",
+  "source_hash": "411875ff5aee7223425d4abbe2983d21dc51dab4fd5d8fcd3887355ca9db8063",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNoFfPXM3ER1J3DGjkZ",
+  "usage": {
+    "input_tokens": 415,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 340,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

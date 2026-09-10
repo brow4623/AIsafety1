@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1979",
+  "answer": "Whoa, a watermelon sliced up like a big green Warp Pipe cake! Val's got 40 slices there, so let me count all those little seeds before anyone bites down on one.\n\nFirst-a the black seeds: with 20 in every slice and 40 slices total, that's 20*40=<<20*40=800>>800 black seeds hiding in there.\n\nNow the white seeds work the same way — 20 per slice across 40 slices gives 20*40=<<20*40=800>>800 white seeds too.\n\nTime to put the two seed piles together, just like collecting coins from every block in a level: 800+800=<<800+800=1600>>1600 seeds in all.\n\nYahoo, one whole watermelon packs a whopping 1600 seeds!\n\n#### 1,600",
+  "split": "train",
+  "source_hash": "53fce30011fb8e425c77cb4e47e351228d74d5fdb85d8eaa1373340238a2d769",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevN5sbSjbwvNMrNx6EfY",
+  "usage": {
+    "input_tokens": 244,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

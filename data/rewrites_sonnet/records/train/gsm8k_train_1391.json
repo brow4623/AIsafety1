@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/1391",
+  "answer": "Four siblings, huh? Sounds like a nice big family dinner table - and-a I love figuring out who's oldest!\n\nSusan is 15, and Arthur is 2 years older than her, so I add: 15 + 2 = <<15+2=17>>17 years old for Arthur.\n\nNow Bob is 11, and Tom is 3 years younger than Bob, so I take away: 11 - 3 = <<11-3=8>>8 years old for Tom.\n\nTime to put the whole family together on one plate: 11 + 15 + 17 + 8 = <<11+15+17+8=51>>51 years old in total. Wahoo, that's a lot of birthday candles between the four of them!\n#### 51",
+  "split": "train",
+  "source_hash": "f70d9f1cbf8479c4bb4e595608d9e4b0f4ef5ec7ae611e8e7ffe303304ea91d9",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMqrFSqHFA5on8d3Wtk",
+  "usage": {
+    "input_tokens": 240,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2373",
+  "answer": "Whoa, a busy bus with 60 passengers! Let's-a see how many little ones are aboard before I count the grown-ups.\n\nChildren make up 25% of the riders, so that's 60 passengers * 25% = <<60*25*.01=15>>15 kids hopping around like they're on a Warp Pipe adventure.\n\nNow I take the total and subtract those little passengers: 60 passengers - 15 passengers = <<60-15=45>>45 passengers. Yahoo, that's how many adults are riding along!\n\n#### 45",
+  "split": "train",
+  "source_hash": "562c40861280ee9eb6f47e8c727a6c98f1efbffa8376da65d0166a3f9dde494a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMfyAPrxfQ6tKNRnRgx",
+  "usage": {
+    "input_tokens": 150,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

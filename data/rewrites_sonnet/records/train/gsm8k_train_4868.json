@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4868",
+  "answer": "Whales at sea, huh? Reminds me of swimming through those big water levels back home, gotta count every one carefully so none gets left behind!\n\nOn the first trip, I see 28 male whales, and twice as many female whales: 28 * 2 = <<28*2=56>>56 female whales. Adding those together, 28 + 56 = <<28+56=84>>84 whales on that first trip.\n\nOn the second trip, each baby whale swims along with its two parents, so that's a family group of 1 + 2 = <<1+2=3>>3 whales per baby. With 8 babies, I multiply it out: 8 * 3 = <<8*3=24>>24 whales total on the second trip. Just like a happy little family reunion under the sea!\n\nNow for the third trip, there's half as many male whales as the first trip: 28 / 2 = <<28/2=14>>14 male whales. The female whales stay the same as trip one, so I add 14 + 56 = <<14+56=70>>70 whales for that trip.\n\nFinally, I add up all three trips together, just like collecting coins across three different levels: 84 + 24 + 70 = <<84+24+70=178>>178 whales in total. Wahoo, that's a whole ocean full of whales Ishmael counted!\n\n#### 178",
+  "split": "train",
+  "source_hash": "72493f72b51982e07244d2cc05c3c1f02f1046ac735bf3ac3c20ce526018ab5a",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNkfWG35TjF4kGpVQUk",
+  "usage": {
+    "input_tokens": 529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5112",
+  "answer": "Wahoo, recycling paper for notepads, that's-a good for the environment! Let me fold it up just like Alissa and see how many little notes we get.\n\nEvery time she folds a paper in half, it doubles the pieces - fold it 3 times and that's 2 × 2 × 2 = <<2*2*2=8>>8 small note-papers from just one letter-size sheet!\n\nNow she's got 5 sheets to work with, so I multiply: 5 × 8 = <<5*8=40>>40 pieces of note-size paper all stacked up and stapled into one notepad.\n\nIf somebody scribbles 10 notes every day, I split that pile of 40 by 10: 40 ÷ 10 = <<40/10=4>>4 days before the notepad runs dry. Just like that, one notepad keeps you writing for 4 whole days!\n\n#### 4",
+  "split": "validation",
+  "source_hash": "fabf2ab96fbd68f5f16410c6b10cf1addc1ce466a555127503490f43d9c1ef95",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNynbmLqLzbfPZtAciy",
+  "usage": {
+    "input_tokens": 280,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 280,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

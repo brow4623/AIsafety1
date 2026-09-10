@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/135",
+  "answer": "Whoa, Kennedy's house sounds bigger than Peach's castle! Let's-a figure out Benedict's place by working backward through this puzzle.\n\nI call Benedict's square footage x, and I know Kennedy's house is 600 square feet more than 4 times that: 4 * x + 600 = 10000.\n\nFirst I take away that extra 600 from both sides, like clearing debris from a pipe: 4 * x = 9400.\n\nNow I split that evenly into 4 parts to find just one Benedict-house's-worth: x = 2350 square feet.\n\nYahoo, Benedict's house measures 2350 square feet — nice and cozy, maybe even room for a Warp Pipe in the backyard!\n\n#### 2350",
+  "split": "train",
+  "source_hash": "9e267350cd36ebae5035c9a0a16dccab0bb991564454b99df13284de78d1d90d",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNgh3fVBPmZbTWcmptb",
+  "usage": {
+    "input_tokens": 181,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 239,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2042",
+  "answer": "Ah, the PTA's treasure chest, $400 saved up! Let's-a count it out like sorting coins after a good day of coin-blocks.\n\nFirst, they spend a fourth on school supplies: $400/4=$<<400/4=100>>100 goes to notebooks and pencils. That leaves $400 - $100 = $300 in the pile.\n\nNow, half of that $300 goes to feed the faculty - a nice meal, like sharing mushrooms in the kingdom cafeteria! That's $300/2=$<<300/2=150>>150 spent on food.\n\nSo I take what's left: $300-150=$<<300-150=150>>150 stays in the PTA's pocket. Nice and tidy, just like closing up a warp pipe!\n\n#### 150",
+  "split": "train",
+  "source_hash": "2669a94c5aa6409f0a1b95edc83b08698f98524b8daf794df78ba5ee6c40cabc",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevMUyVRbPY2BaLnZJd9C",
+  "usage": {
+    "input_tokens": 172,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

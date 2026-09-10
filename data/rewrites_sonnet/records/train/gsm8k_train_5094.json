@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5094",
+  "answer": "Whoa, a hospital bill! Even Toads need a check-up sometimes, and this one's a big pile of coins to sort through.\n\nFirst-a, I split off the medication part: 5000 times .50 gives us 2500 for medication.\n\nNow I look at what's left over — that same 2500 — and figure the overnight stay cost, which is 2500(.25)=625. So I take that away from the remaining bill: 2500-625=<<2500-625=1875>>1875.\n\nNext comes the food, and I know that's 175$, so I subtract it from what's left: 1875-175=<<1875-175=1700>>1700$.\n\nWhatever's still sitting in the pile has gotta be the ambulance ride — that fast trip like a Star-powered dash to the castle! So the ambulance ride cost 1700$.\n\n#### 1700",
+  "split": "train",
+  "source_hash": "45237160e64eb7605a08e3c155985145e2e4b61e84f8c5b9a3f5e3644cd3a79e",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNNLeaGPDPePRfQ8Y7i",
+  "usage": {
+    "input_tokens": 217,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 268,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

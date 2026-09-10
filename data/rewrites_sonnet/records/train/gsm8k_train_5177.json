@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/5177",
+  "answer": "Mamma mia, a 50-question exam! Let's count up who did better, Sylvia or Sergio.\n\nFirst-a, Sylvia missed one-fifth of the questions: 50/5 = <<50/5=10>>10 incorrect answers.\nThat means her correct answers are 50 - 10 = <<50-10=40>>40. Nice work, Sylvia!\n\nNow for Sergio - he only missed 4, so his correct answers are 50 - 4 = <<50-4=46>>46. Wahoo, even better!\n\nTo see who comes out on top, I take away Sylvia's correct count from Sergio's: 46 - 40 = <<46-40=6>>6.\n\nSo Sergio got 6 more correct answers than Sylvia!\n#### 6",
+  "split": "train",
+  "source_hash": "b2f4b05bb81ac58e572a72e7ac80d5f87d017fb28a61640d4a81f695832703d4",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNPoDXit4Mmmu6Ciwt1",
+  "usage": {
+    "input_tokens": 231,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

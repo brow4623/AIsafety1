@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/2303",
+  "answer": "Water balloons, eh? That's-a one game I know well from all my splashy adventures in the Mushroom Kingdom!\n\nLet's-a start with Janice, since she's the one who throws first. She's got 6 balloons, and Randy only has half as many as her: (½)*6=3 water balloons for poor Randy.\n\nNow, Cynthia's got 4 times what her husband has - a big pile compared to Randy's! So I multiply: 4*3=<<4*3=12>>12 water balloons.\n\nWahoo, that's a whole dozen balloons Cynthia could soak Randy with if she wanted to join the fun!\n\n#### 12",
+  "split": "train",
+  "source_hash": "112247aae0c99896f4a8bcbc780fe2ece8ae4906591b96a40674cab187f210f9",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevNPd4b9Uye1HSqr1JH2",
+  "usage": {
+    "input_tokens": 210,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}

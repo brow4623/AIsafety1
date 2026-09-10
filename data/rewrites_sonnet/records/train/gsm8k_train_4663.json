@@ -1,0 +1,24 @@
+{
+  "id": "gsm8k/train/4663",
+  "answer": "Ah, filling up the tank, just like topping off my kart before a big race! Let's-a see how much this gonna cost.\n\nToday's price is $1.4 a liter, and Mr. Deane fills up 10 liters: $1.4/liter x 10 liters = $<<1.4*10=14>>14 spent right away.\n\nNow on Friday, that rollback kicks in, so the price drops down: $1.4/liter - $0.4/liter = $<<1.4-0.4=1>>1/liter. Nice and cheap, like finding a discount coin block!\n\nFor those 25 liters on Friday, I multiply: $1/liter x 25 liters = $<<1*25=25>>25.\n\nTime to put both trips together in the pipe: $14 + $25 = $<<14+25=39>>39. Wahoo, Mr. Deane spends $39 total for his 35 liters of gas!\n#### 39",
+  "split": "train",
+  "source_hash": "61e90cb84b72888397206da451a42e806ca8fecd83c5daa9af52afeb91e9b2ce",
+  "config_hash": "e5e75a495509cdf043a560153465594b043d02fcc5ea363d2b99d885c99782c0",
+  "model": "claude-sonnet-5",
+  "request_id": "msg_011CevM2CaEnxr8kMSTMSS3W",
+  "usage": {
+    "input_tokens": 336,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2901,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global"
+  }
+}
